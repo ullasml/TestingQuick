@@ -1,6 +1,0 @@
-framework module Blindside {
-  umbrella header "Blindside.h"
-
-  export *
-  module * { export * }
-}

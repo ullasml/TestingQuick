@@ -1,0 +1,12 @@
+[submodule "Externals/Deferred"]
+	path = Externals/Deferred
+	url = git@github.com:kseebaldt/deferred.git
+[submodule "Externals/cedar"]
+	path = Externals/cedar
+	url = git@github.com:pivotal/cedar.git
+[submodule "Externals/Nimble"]
+	path = Externals/Nimble
+	url = git@github.com:Quick/Nimble.git
+[submodule "Externals/PivotalCoreKit"]
+	path = Externals/PivotalCoreKit
+	url = git@github.com:pivotal/PivotalCoreKit.git

@@ -1,9 +1,0 @@
-CREATE TABLE "user_task_types" (
-"name" VARCHAR NOT NULL,
-"uri" VARCHAR NOT NULL,
-"project_uri" VARCHAR NOT NULL,
-"start_date" DATE,
-"end_date" DATE,
-"user_uri" VARCHAR NOT NULL,
-PRIMARY KEY("uri")
-)

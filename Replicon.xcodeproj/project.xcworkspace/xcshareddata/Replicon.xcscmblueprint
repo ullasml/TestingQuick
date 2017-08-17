@@ -1,0 +1,50 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95438028B10BBB846574013D29F154A00556A9D1" : 9223372036854775807,
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : 9223372036854775807,
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : 9223372036854775807,
+    "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356" : 9223372036854775807,
+    "32BF6AB289A4E79447B902560BBC42C536922A7D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F2133FA9-2FFB-46AD-B57E-61EBC88A6489",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95438028B10BBB846574013D29F154A00556A9D1" : "Replicon\/Externals\/Nimble\/",
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : "Replicon\/Externals\/PivotalCoreKit\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "Replicon\/Externals\/cedar\/",
+    "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356" : "Replicon\/Externals\/Deferred\/",
+    "32BF6AB289A4E79447B902560BBC42C536922A7D" : "Replicon\/Externals\/Blindside\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Replicon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Replicon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kseebaldt\/deferred.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jbsf\/blindside.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32BF6AB289A4E79447B902560BBC42C536922A7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/PivotalCoreKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E3EABAC3DEB540C429B3EF995370DAC6D10823F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Quick\/Nimble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pivotal\/cedar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D"
+    }
+  ]
+}

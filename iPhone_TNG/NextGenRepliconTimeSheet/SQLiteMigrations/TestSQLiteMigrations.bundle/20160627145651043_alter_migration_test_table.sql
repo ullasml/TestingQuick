@@ -1,1 +1,0 @@
-ALTER TABLE "my_migration_test_table" ADD COLUMN "dummy_column_name" VARCHAR;

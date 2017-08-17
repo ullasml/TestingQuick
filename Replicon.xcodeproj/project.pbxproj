@@ -1,0 +1,1596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4709C41EBAEE0C005FB195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4709C31EBAEE0C005FB195 /* AppDelegate.swift */; };
+		1D4709CB1EBAEE0C005FB195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4709CA1EBAEE0C005FB195 /* Assets.xcassets */; };
+		1D4709CE1EBAEE0C005FB195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4709CC1EBAEE0C005FB195 /* LaunchScreen.storyboard */; };
+		1D470A0F1EBAEF6F005FB195 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4709F81EBAEF5B005FB195 /* libDeferred.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D470A141EBAEFE4005FB195 /* ObjectiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A121EBAEFE4005FB195 /* ObjectiveController.m */; };
+		1D470A151EBAEFE4005FB195 /* ObjectiveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D470A131EBAEFE4005FB195 /* ObjectiveController.xib */; };
+		1D470A191EBAF03C005FB195 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A161EBAF03C005FB195 /* RootController.swift */; };
+		1D470A1A1EBAF03C005FB195 /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D470A171EBAF03C005FB195 /* RootController.xib */; };
+		1D470A1B1EBAF03C005FB195 /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A181EBAF03C005FB195 /* URLSessionClient.swift */; };
+		1D470A1E1EBAF0C2005FB195 /* RootControllerObjCTestSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A1D1EBAF0C2005FB195 /* RootControllerObjCTestSpec.mm */; };
+		1D470A741EBAF1DB005FB195 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470A3E1EBAF160005FB195 /* libCedar.a */; };
+		1D470A751EBAF30F005FB195 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A161EBAF03C005FB195 /* RootController.swift */; };
+		1D470A761EBAF318005FB195 /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A181EBAF03C005FB195 /* URLSessionClient.swift */; };
+		1D470A881EBAF6D2005FB195 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470A871EBAF6D2005FB195 /* XCTest.framework */; };
+		1D470A8D1EBAF85E005FB195 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470A681EBAF16D005FB195 /* Nimble.framework */; };
+		1D470A911EBAFD66005FB195 /* URLSessionClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A901EBAFD66005FB195 /* URLSessionClientProtocol.swift */; };
+		1D470A9B1EBB0037005FB195 /* URLSessionClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A901EBAFD66005FB195 /* URLSessionClientProtocol.swift */; };
+		1D470A9D1EBB839B005FB195 /* RootControllerObjCProtocolTestSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D470A9C1EBB839B005FB195 /* RootControllerObjCProtocolTestSpec.mm */; };
+		1D470AC31EBB86A4005FB195 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470AB61EBB8647005FB195 /* libBlindside-StaticLib.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D470AC91EBB876E005FB195 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D470AC81EBB876E005FB195 /* InjectorProvider.m */; };
+		1D470ACC1EBB881F005FB195 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D470ACB1EBB881F005FB195 /* FoundationModule.m */; };
+		1D470B031EBB8EAC005FB195 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470AE51EBB8E59005FB195 /* libUIKit+PivotalSpecHelper-StaticLib.a */; };
+		1D470B071EBB8EF5005FB195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D470B061EBB8EF5005FB195 /* CoreGraphics.framework */; };
+		1D470B091EBB8FF8005FB195 /* RootControllerObjCBlindsideTestSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D470B081EBB8FF8005FB195 /* RootControllerObjCBlindsideTestSpec.mm */; };
+		1D470B221EBB9611005FB195 /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D470A171EBAF03C005FB195 /* RootController.xib */; };
+		1D470B801EBBCE8E005FB195 /* RootControllerSwiftTestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D470B7F1EBBCE8E005FB195 /* RootControllerSwiftTestSpec.swift */; };
+		1DC150F51F10955A001A913F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC150F41F10955A001A913F /* Presenter.swift */; };
+		1DC151321F109691001A913F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC150F41F10955A001A913F /* Presenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D4709D51EBAEE0C005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709B81EBAEE0C005FB195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4709BF1EBAEE0C005FB195;
+			remoteInfo = Replicon;
+		};
+		1D4709F71EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E18A7B1515674D9B0083D745;
+			remoteInfo = Deferred;
+		};
+		1D4709F91EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E18A7B3015674EC20083D745;
+			remoteInfo = "Deferred-OSX";
+		};
+		1D4709FB1EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34490E751BC7F7D50067BFD5;
+			remoteInfo = "Deferred-watchOS";
+		};
+		1D4709FD1EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34490E541BC7F4EB0067BFD5;
+			remoteInfo = "Deferred-tvOS";
+		};
+		1D4709FF1EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE48646A1B0668A2005DB302;
+			remoteInfo = "Deferred-iOS-Framework";
+		};
+		1D470A011EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864931B066A10005DB302;
+			remoteInfo = "Deferred-OSX-Framework";
+		};
+		1D470A031EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34490EA01BC828B90067BFD5;
+			remoteInfo = "Deferred-watchOS-Framework";
+		};
+		1D470A051EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34490E931BC8255D0067BFD5;
+			remoteInfo = "Deferred-tvOS-Framework";
+		};
+		1D470A071EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE68319B1A365DC600B1B815;
+			remoteInfo = "Deferred-iOSSpecs";
+		};
+		1D470A091EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE68316C1A365CF600B1B815;
+			remoteInfo = "Deferred-OSXSpecs";
+		};
+		1D470A0B1EBAEF5B005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34490ECA1BC82E920067BFD5;
+			remoteInfo = "Deferred-tvOSSpecs";
+		};
+		1D470A0D1EBAEF68005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E18A7B1415674D9B0083D745;
+			remoteInfo = Deferred;
+		};
+		1D470A351EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = "Cedar-OSX";
+		};
+		1D470A371EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864F81B067620005DB302;
+			remoteInfo = "Cedar-iOS";
+		};
+		1D470A391EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346261DF1B995239002CAEBD;
+			remoteInfo = "Cedar-watchOS";
+		};
+		1D470A3B1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34D7C3CA1BB9747400E8E523;
+			remoteInfo = "Cedar-tvOS";
+		};
+		1D470A3D1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-iOS StaticLib";
+		};
+		1D470A3F1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = "Cedar-OSX Specs";
+		};
+		1D470A411EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = "Cedar-OSX FocusedSpecs";
+		};
+		1D470A431EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE03FBE91B06C33B00013784;
+			remoteInfo = "Cedar-iOS Specs";
+		};
+		1D470A451EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = "Cedar-iOS StaticLib Specs";
+		};
+		1D470A471EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = "Cedar-iOS StaticFrameworkSpecs";
+		};
+		1D470A491EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248F9819DCD52500092C14;
+			remoteInfo = "Cedar-OSX HostApp";
+		};
+		1D470A4B1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = "Cedar-iOS HostApp";
+		};
+		1D470A4D1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34852D211BBE35FF0072D249;
+			remoteInfo = "Cedar-watchOS HostApp";
+		};
+		1D470A4F1EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248FAA19DCD52500092C14;
+			remoteInfo = "Cedar-OSX SpecBundle";
+		};
+		1D470A511EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = "Cedar-iOS SpecBundle";
+		};
+		1D470A531EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346262781B99C1DB002CAEBD;
+			remoteInfo = "Cedar-watchOS Specs";
+		};
+		1D470A551EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346262841B99C1DC002CAEBD;
+			remoteInfo = "Cedar-watchOS Specs Extension";
+		};
+		1D470A571EBAF160005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34D7C4691BB9B71600E8E523;
+			remoteInfo = "Cedar-tvOS SpecBundle";
+		};
+		1D470A631EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
+			remoteInfo = "Nimble-macOS";
+		};
+		1D470A651EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
+			remoteInfo = "Nimble-macOSTests";
+		};
+		1D470A671EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74291940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		1D470A691EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74341940169200FFFC47;
+			remoteInfo = "Nimble-iOSTests";
+		};
+		1D470A6B1EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF1551BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOS";
+		};
+		1D470A6D1EBAF16D005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF15E1BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOSTests";
+		};
+		1D470A721EBAF1D6005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-iOS StaticLib";
+		};
+		1D470A8B1EBAF856005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1A74281940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		1D470AAD1EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC6E4150292AD00731862;
+			remoteInfo = Blindside;
+		};
+		1D470AAF1EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864BD1B066F11005DB302;
+			remoteInfo = "Blindside-iOS";
+		};
+		1D470AB11EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34E710AB1B9F85210088AB71;
+			remoteInfo = "Blindside-watchOS";
+		};
+		1D470AB31EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343267161BAA2A9C005F2D7A;
+			remoteInfo = "Blindside-tvOS";
+		};
+		1D470AB51EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29997B471505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		1D470AB71EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC7001502932000731862;
+			remoteInfo = Specs;
+		};
+		1D470AB91EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE03FC1A1B0A57DD00013784;
+			remoteInfo = "Blindside-iOS BuildTest";
+		};
+		1D470ABB1EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BD31B9F887200A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest";
+		};
+		1D470ABD1EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BDF1B9F887300A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest Extension";
+		};
+		1D470ABF1EBB8647005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 344DA5171BAB042E004270AD;
+			remoteInfo = "Blindside-tvOS BuildTest";
+		};
+		1D470AC11EBB869E005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29997B461505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		1D470AE21EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC24168B999F0056EE83;
+			remoteInfo = "UIKit+PivotalCore-StaticLib";
+		};
+		1D470AE41EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC64168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+		1D470AE61EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEC40C89174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
+		1D470AE81EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE3F05A11BE81FDD002BA0DE;
+			remoteInfo = "UIKit+PivotalCore-iOS";
+		};
+		1D470AEA1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A6645D1BDFE6AD00EF0FEA;
+			remoteInfo = "UIKit+PivotalCore-tvOS";
+		};
+		1D470AEC1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE0D6A711BE941290095ACF3;
+			remoteInfo = "UIKit+PivotalSpecHelper-iOS";
+		};
+		1D470AEE1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A6646A1BDFE6D400EF0FEA;
+			remoteInfo = "UIKit+PivotalSpecHelper-tvOS";
+		};
+		1D470AF01EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE0D6A991BE942490095ACF3;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-iOS";
+		};
+		1D470AF21EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A664771BDFE6E500EF0FEA;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-tvOS";
+		};
+		1D470AF41EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC34168B99ED0056EE83;
+			remoteInfo = "UIKit-StaticLibSpec";
+		};
+		1D470AF61EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3466C0941B97A3C500CBAB59;
+			remoteInfo = "UIKit-StaticLibSpecBundle";
+		};
+		1D470AF81EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346B40E11BE06F4E002A390E;
+			remoteInfo = "UIKit-tvOS SpecHost";
+		};
+		1D470AFA1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A664CD1BE027B500EF0FEA;
+			remoteInfo = "UIKit-tvOS SpecBundle";
+		};
+		1D470AFC1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE0D6A451BE93CAD0095ACF3;
+			remoteInfo = "UIKit-iOS SpecHost";
+		};
+		1D470AFE1EBB8E59005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE3F05AA1BE81FDD002BA0DE;
+			remoteInfo = "UIKit-iOS SpecBundle";
+		};
+		1D470B041EBB8EB9005FB195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBCCC63168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D4709C01EBAEE0C005FB195 /* Replicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Replicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4709C31EBAEE0C005FB195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D4709CA1EBAEE0C005FB195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D4709CD1EBAEE0C005FB195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D4709CF1EBAEE0C005FB195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4709D41EBAEE0C005FB195 /* RepliconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepliconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4709DA1EBAEE0C005FB195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = Deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
+		1D470A101EBAEFE3005FB195 /* Replicon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Replicon-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D470A111EBAEFE4005FB195 /* ObjectiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveController.h; sourceTree = "<group>"; };
+		1D470A121EBAEFE4005FB195 /* ObjectiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveController.m; sourceTree = "<group>"; };
+		1D470A131EBAEFE4005FB195 /* ObjectiveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectiveController.xib; sourceTree = "<group>"; };
+		1D470A161EBAF03C005FB195 /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		1D470A171EBAF03C005FB195 /* RootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootController.xib; sourceTree = "<group>"; };
+		1D470A181EBAF03C005FB195 /* URLSessionClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
+		1D470A1C1EBAF0C2005FB195 /* RepliconTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RepliconTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D470A1D1EBAF0C2005FB195 /* RootControllerObjCTestSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootControllerObjCTestSpec.mm; sourceTree = "<group>"; };
+		1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		1D470A871EBAF6D2005FB195 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D470A901EBAFD66005FB195 /* URLSessionClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionClientProtocol.swift; sourceTree = "<group>"; };
+		1D470A9C1EBB839B005FB195 /* RootControllerObjCProtocolTestSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootControllerObjCProtocolTestSpec.mm; sourceTree = "<group>"; };
+		1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = Blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
+		1D470AC71EBB876E005FB195 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorProvider.h; sourceTree = "<group>"; };
+		1D470AC81EBB876E005FB195 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorProvider.m; sourceTree = "<group>"; };
+		1D470ACA1EBB881F005FB195 /* FoundationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationModule.h; sourceTree = "<group>"; };
+		1D470ACB1EBB881F005FB195 /* FoundationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationModule.m; sourceTree = "<group>"; };
+		1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = PivotalCoreKit/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
+		1D470B061EBB8EF5005FB195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D470B081EBB8FF8005FB195 /* RootControllerObjCBlindsideTestSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootControllerObjCBlindsideTestSpec.mm; sourceTree = "<group>"; };
+		1D470B7F1EBBCE8E005FB195 /* RootControllerSwiftTestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerSwiftTestSpec.swift; sourceTree = "<group>"; };
+		1DC150F41F10955A001A913F /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D4709BD1EBAEE0C005FB195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D470AC31EBB86A4005FB195 /* libBlindside-StaticLib.a in Frameworks */,
+				1D470A0F1EBAEF6F005FB195 /* libDeferred.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4709D11EBAEE0C005FB195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D470B071EBB8EF5005FB195 /* CoreGraphics.framework in Frameworks */,
+				1D470B031EBB8EAC005FB195 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */,
+				1D470A8D1EBAF85E005FB195 /* Nimble.framework in Frameworks */,
+				1D470A881EBAF6D2005FB195 /* XCTest.framework in Frameworks */,
+				1D470A741EBAF1DB005FB195 /* libCedar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4709B71EBAEE0C005FB195 = {
+			isa = PBXGroup;
+			children = (
+				1D4709E81EBAEF42005FB195 /* Externals */,
+				1D4709C21EBAEE0C005FB195 /* Replicon */,
+				1D4709D71EBAEE0C005FB195 /* RepliconTests */,
+				1D4709C11EBAEE0C005FB195 /* Products */,
+				1D470A861EBAF6D2005FB195 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D4709C11EBAEE0C005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4709C01EBAEE0C005FB195 /* Replicon.app */,
+				1D4709D41EBAEE0C005FB195 /* RepliconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D4709C21EBAEE0C005FB195 /* Replicon */ = {
+			isa = PBXGroup;
+			children = (
+				1D470ACA1EBB881F005FB195 /* FoundationModule.h */,
+				1D470ACB1EBB881F005FB195 /* FoundationModule.m */,
+				1D470AC71EBB876E005FB195 /* InjectorProvider.h */,
+				1D470AC81EBB876E005FB195 /* InjectorProvider.m */,
+				1D470A161EBAF03C005FB195 /* RootController.swift */,
+				1D470A171EBAF03C005FB195 /* RootController.xib */,
+				1D470A181EBAF03C005FB195 /* URLSessionClient.swift */,
+				1D4709C31EBAEE0C005FB195 /* AppDelegate.swift */,
+				1D4709CA1EBAEE0C005FB195 /* Assets.xcassets */,
+				1D4709CC1EBAEE0C005FB195 /* LaunchScreen.storyboard */,
+				1D4709CF1EBAEE0C005FB195 /* Info.plist */,
+				1D470A111EBAEFE4005FB195 /* ObjectiveController.h */,
+				1D470A121EBAEFE4005FB195 /* ObjectiveController.m */,
+				1D470A131EBAEFE4005FB195 /* ObjectiveController.xib */,
+				1D470A101EBAEFE3005FB195 /* Replicon-Bridging-Header.h */,
+				1D470A901EBAFD66005FB195 /* URLSessionClientProtocol.swift */,
+				1DC150F41F10955A001A913F /* Presenter.swift */,
+			);
+			path = Replicon;
+			sourceTree = "<group>";
+		};
+		1D4709D71EBAEE0C005FB195 /* RepliconTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D4709DA1EBAEE0C005FB195 /* Info.plist */,
+				1D470A1C1EBAF0C2005FB195 /* RepliconTests-Bridging-Header.h */,
+				1D470B081EBB8FF8005FB195 /* RootControllerObjCBlindsideTestSpec.mm */,
+				1D470A9C1EBB839B005FB195 /* RootControllerObjCProtocolTestSpec.mm */,
+				1D470A1D1EBAF0C2005FB195 /* RootControllerObjCTestSpec.mm */,
+				1D470B7F1EBBCE8E005FB195 /* RootControllerSwiftTestSpec.swift */,
+			);
+			path = RepliconTests;
+			sourceTree = "<group>";
+		};
+		1D4709E81EBAEF42005FB195 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */,
+				1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */,
+				1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */,
+				1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */,
+				1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		1D4709EA1EBAEF5B005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4709F81EBAEF5B005FB195 /* libDeferred.a */,
+				1D4709FA1EBAEF5B005FB195 /* libDeferred-OSX.a */,
+				1D4709FC1EBAEF5B005FB195 /* libDeferred-watchOS.a */,
+				1D4709FE1EBAEF5B005FB195 /* libDeferred-tvOS.a */,
+				1D470A001EBAEF5B005FB195 /* KSDeferred.framework */,
+				1D470A021EBAEF5B005FB195 /* KSDeferred.framework */,
+				1D470A041EBAEF5B005FB195 /* KSDeferred.framework */,
+				1D470A061EBAEF5B005FB195 /* KSDeferred.framework */,
+				1D470A081EBAEF5B005FB195 /* Deferred-iOSSpecs.xctest */,
+				1D470A0A1EBAEF5B005FB195 /* Deferred-OSXSpecs.xctest */,
+				1D470A0C1EBAEF5B005FB195 /* Deferred-tvOSSpecs.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D470A201EBAF160005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D470A361EBAF160005FB195 /* Cedar.framework */,
+				1D470A381EBAF160005FB195 /* Cedar.framework */,
+				1D470A3A1EBAF160005FB195 /* Cedar.framework */,
+				1D470A3C1EBAF160005FB195 /* Cedar.framework */,
+				1D470A3E1EBAF160005FB195 /* libCedar.a */,
+				1D470A401EBAF160005FB195 /* Cedar-OSX Specs */,
+				1D470A421EBAF160005FB195 /* Cedar-OSX FocusedSpecs */,
+				1D470A441EBAF160005FB195 /* Cedar-iOS Specs.app */,
+				1D470A461EBAF160005FB195 /* Cedar-iOS StaticLib Specs.app */,
+				1D470A481EBAF160005FB195 /* Cedar-iOS StaticFrameworkSpecs.app */,
+				1D470A4A1EBAF160005FB195 /* Cedar-OSX HostApp.app */,
+				1D470A4C1EBAF160005FB195 /* Cedar-iOS HostApp.app */,
+				1D470A4E1EBAF160005FB195 /* Cedar-watchOS HostApp.app */,
+				1D470A501EBAF160005FB195 /* Cedar-OSX SpecBundle.xctest */,
+				1D470A521EBAF160005FB195 /* Cedar-iOS SpecBundle.xctest */,
+				1D470A541EBAF160005FB195 /* Cedar-watchOS Specs.app */,
+				1D470A561EBAF160005FB195 /* Cedar-watchOS Specs Extension.appex */,
+				1D470A581EBAF160005FB195 /* Cedar-tvOS SpecBundle.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D470A5A1EBAF16D005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D470A641EBAF16D005FB195 /* Nimble.framework */,
+				1D470A661EBAF16D005FB195 /* NimbleTests.xctest */,
+				1D470A681EBAF16D005FB195 /* Nimble.framework */,
+				1D470A6A1EBAF16D005FB195 /* NimbleTests.xctest */,
+				1D470A6C1EBAF16D005FB195 /* Nimble.framework */,
+				1D470A6E1EBAF16D005FB195 /* NimbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D470A861EBAF6D2005FB195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D470B061EBB8EF5005FB195 /* CoreGraphics.framework */,
+				1D470A871EBAF6D2005FB195 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D470A9F1EBB8647005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D470AAE1EBB8647005FB195 /* Blindside.framework */,
+				1D470AB01EBB8647005FB195 /* Blindside.framework */,
+				1D470AB21EBB8647005FB195 /* Blindside.framework */,
+				1D470AB41EBB8647005FB195 /* Blindside.framework */,
+				1D470AB61EBB8647005FB195 /* libBlindside-StaticLib.a */,
+				1D470AB81EBB8647005FB195 /* Specs */,
+				1D470ABA1EBB8647005FB195 /* Blindside-iOS BuildTest.app */,
+				1D470ABC1EBB8647005FB195 /* Blindside-watchOS BuildTest.app */,
+				1D470ABE1EBB8647005FB195 /* Blindside-watchOS BuildTest Extension.appex */,
+				1D470AC01EBB8647005FB195 /* Blindside-tvOS BuildTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D470ACE1EBB8E59005FB195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D470AE31EBB8E59005FB195 /* libUIKit+PivotalCore-StaticLib.a */,
+				1D470AE51EBB8E59005FB195 /* libUIKit+PivotalSpecHelper-StaticLib.a */,
+				1D470AE71EBB8E59005FB195 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
+				1D470AE91EBB8E59005FB195 /* UIKit_PivotalCore.framework */,
+				1D470AEB1EBB8E59005FB195 /* UIKit_PivotalCore.framework */,
+				1D470AED1EBB8E59005FB195 /* UIKit_PivotalSpecHelper.framework */,
+				1D470AEF1EBB8E59005FB195 /* UIKit_PivotalSpecHelper.framework */,
+				1D470AF11EBB8E59005FB195 /* UIKit_PivotalSpecHelperStubs.framework */,
+				1D470AF31EBB8E59005FB195 /* UIKit_PivotalSpecHelperStubs.framework */,
+				1D470AF51EBB8E59005FB195 /* UIKit-StaticLibSpec.app */,
+				1D470AF71EBB8E59005FB195 /* UIKit-StaticLibSpecBundle.xctest */,
+				1D470AF91EBB8E59005FB195 /* UIKit-tvOS SpecHost.app */,
+				1D470AFB1EBB8E59005FB195 /* UIKit-tvOS SpecBundle.xctest */,
+				1D470AFD1EBB8E59005FB195 /* UIKit-iOS SpecHost.app */,
+				1D470AFF1EBB8E59005FB195 /* UIKit-iOS SpecBundle.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D4709BF1EBAEE0C005FB195 /* Replicon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4709DD1EBAEE0C005FB195 /* Build configuration list for PBXNativeTarget "Replicon" */;
+			buildPhases = (
+				1D4709BC1EBAEE0C005FB195 /* Sources */,
+				1D4709BD1EBAEE0C005FB195 /* Frameworks */,
+				1D4709BE1EBAEE0C005FB195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D470AC21EBB869E005FB195 /* PBXTargetDependency */,
+				1D470A0E1EBAEF68005FB195 /* PBXTargetDependency */,
+			);
+			name = Replicon;
+			productName = Replicon;
+			productReference = 1D4709C01EBAEE0C005FB195 /* Replicon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D4709D31EBAEE0C005FB195 /* RepliconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4709E01EBAEE0C005FB195 /* Build configuration list for PBXNativeTarget "RepliconTests" */;
+			buildPhases = (
+				1D4709D01EBAEE0C005FB195 /* Sources */,
+				1D4709D11EBAEE0C005FB195 /* Frameworks */,
+				1D4709D21EBAEE0C005FB195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D470B051EBB8EB9005FB195 /* PBXTargetDependency */,
+				1D470A8C1EBAF856005FB195 /* PBXTargetDependency */,
+				1D470A731EBAF1D6005FB195 /* PBXTargetDependency */,
+				1D4709D61EBAEE0C005FB195 /* PBXTargetDependency */,
+			);
+			name = RepliconTests;
+			productName = RepliconTests;
+			productReference = 1D4709D41EBAEE0C005FB195 /* RepliconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D4709B81EBAEE0C005FB195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ullas ML";
+				TargetAttributes = {
+					1D4709BF1EBAEE0C005FB195 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					1D4709D31EBAEE0C005FB195 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D4709BF1EBAEE0C005FB195;
+					};
+				};
+			};
+			buildConfigurationList = 1D4709BB1EBAEE0C005FB195 /* Build configuration list for PBXProject "Replicon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D4709B71EBAEE0C005FB195;
+			productRefGroup = 1D4709C11EBAEE0C005FB195 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1D470A9F1EBB8647005FB195 /* Products */;
+					ProjectRef = 1D470A9E1EBB8647005FB195 /* Blindside.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D470A201EBAF160005FB195 /* Products */;
+					ProjectRef = 1D470A1F1EBAF160005FB195 /* Cedar.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D4709EA1EBAEF5B005FB195 /* Products */;
+					ProjectRef = 1D4709E91EBAEF5B005FB195 /* Deferred.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D470A5A1EBAF16D005FB195 /* Products */;
+					ProjectRef = 1D470A591EBAF16D005FB195 /* Nimble.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D470ACE1EBB8E59005FB195 /* Products */;
+					ProjectRef = 1D470ACD1EBB8E59005FB195 /* UIKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D4709BF1EBAEE0C005FB195 /* Replicon */,
+				1D4709D31EBAEE0C005FB195 /* RepliconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1D4709F81EBAEF5B005FB195 /* libDeferred.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDeferred.a;
+			remoteRef = 1D4709F71EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D4709FA1EBAEF5B005FB195 /* libDeferred-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDeferred-OSX.a";
+			remoteRef = 1D4709F91EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D4709FC1EBAEF5B005FB195 /* libDeferred-watchOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDeferred-watchOS.a";
+			remoteRef = 1D4709FB1EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D4709FE1EBAEF5B005FB195 /* libDeferred-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDeferred-tvOS.a";
+			remoteRef = 1D4709FD1EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A001EBAEF5B005FB195 /* KSDeferred.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KSDeferred.framework;
+			remoteRef = 1D4709FF1EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A021EBAEF5B005FB195 /* KSDeferred.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KSDeferred.framework;
+			remoteRef = 1D470A011EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A041EBAEF5B005FB195 /* KSDeferred.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KSDeferred.framework;
+			remoteRef = 1D470A031EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A061EBAEF5B005FB195 /* KSDeferred.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KSDeferred.framework;
+			remoteRef = 1D470A051EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A081EBAEF5B005FB195 /* Deferred-iOSSpecs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Deferred-iOSSpecs.xctest";
+			remoteRef = 1D470A071EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A0A1EBAEF5B005FB195 /* Deferred-OSXSpecs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Deferred-OSXSpecs.xctest";
+			remoteRef = 1D470A091EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A0C1EBAEF5B005FB195 /* Deferred-tvOSSpecs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Deferred-tvOSSpecs.xctest";
+			remoteRef = 1D470A0B1EBAEF5B005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A361EBAF160005FB195 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 1D470A351EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A381EBAF160005FB195 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 1D470A371EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A3A1EBAF160005FB195 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 1D470A391EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A3C1EBAF160005FB195 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 1D470A3B1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A3E1EBAF160005FB195 /* libCedar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCedar.a;
+			remoteRef = 1D470A3D1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A401EBAF160005FB195 /* Cedar-OSX Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Cedar-OSX Specs";
+			remoteRef = 1D470A3F1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A421EBAF160005FB195 /* Cedar-OSX FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Cedar-OSX FocusedSpecs";
+			remoteRef = 1D470A411EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A441EBAF160005FB195 /* Cedar-iOS Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS Specs.app";
+			remoteRef = 1D470A431EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A461EBAF160005FB195 /* Cedar-iOS StaticLib Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS StaticLib Specs.app";
+			remoteRef = 1D470A451EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A481EBAF160005FB195 /* Cedar-iOS StaticFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS StaticFrameworkSpecs.app";
+			remoteRef = 1D470A471EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A4A1EBAF160005FB195 /* Cedar-OSX HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-OSX HostApp.app";
+			remoteRef = 1D470A491EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A4C1EBAF160005FB195 /* Cedar-iOS HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS HostApp.app";
+			remoteRef = 1D470A4B1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A4E1EBAF160005FB195 /* Cedar-watchOS HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-watchOS HostApp.app";
+			remoteRef = 1D470A4D1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A501EBAF160005FB195 /* Cedar-OSX SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-OSX SpecBundle.xctest";
+			remoteRef = 1D470A4F1EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A521EBAF160005FB195 /* Cedar-iOS SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-iOS SpecBundle.xctest";
+			remoteRef = 1D470A511EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A541EBAF160005FB195 /* Cedar-watchOS Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-watchOS Specs.app";
+			remoteRef = 1D470A531EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A561EBAF160005FB195 /* Cedar-watchOS Specs Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Cedar-watchOS Specs Extension.appex";
+			remoteRef = 1D470A551EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A581EBAF160005FB195 /* Cedar-tvOS SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-tvOS SpecBundle.xctest";
+			remoteRef = 1D470A571EBAF160005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A641EBAF16D005FB195 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 1D470A631EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A661EBAF16D005FB195 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 1D470A651EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A681EBAF16D005FB195 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 1D470A671EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A6A1EBAF16D005FB195 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 1D470A691EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A6C1EBAF16D005FB195 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 1D470A6B1EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470A6E1EBAF16D005FB195 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 1D470A6D1EBAF16D005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AAE1EBB8647005FB195 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 1D470AAD1EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AB01EBB8647005FB195 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 1D470AAF1EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AB21EBB8647005FB195 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 1D470AB11EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AB41EBB8647005FB195 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 1D470AB31EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AB61EBB8647005FB195 /* libBlindside-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBlindside-StaticLib.a";
+			remoteRef = 1D470AB51EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AB81EBB8647005FB195 /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 1D470AB71EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470ABA1EBB8647005FB195 /* Blindside-iOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-iOS BuildTest.app";
+			remoteRef = 1D470AB91EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470ABC1EBB8647005FB195 /* Blindside-watchOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-watchOS BuildTest.app";
+			remoteRef = 1D470ABB1EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470ABE1EBB8647005FB195 /* Blindside-watchOS BuildTest Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Blindside-watchOS BuildTest Extension.appex";
+			remoteRef = 1D470ABD1EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AC01EBB8647005FB195 /* Blindside-tvOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-tvOS BuildTest.app";
+			remoteRef = 1D470ABF1EBB8647005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AE31EBB8E59005FB195 /* libUIKit+PivotalCore-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalCore-StaticLib.a";
+			remoteRef = 1D470AE21EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AE51EBB8E59005FB195 /* libUIKit+PivotalSpecHelper-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelper-StaticLib.a";
+			remoteRef = 1D470AE41EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AE71EBB8E59005FB195 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelperStubs-StaticLib.a";
+			remoteRef = 1D470AE61EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AE91EBB8E59005FB195 /* UIKit_PivotalCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalCore.framework;
+			remoteRef = 1D470AE81EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AEB1EBB8E59005FB195 /* UIKit_PivotalCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalCore.framework;
+			remoteRef = 1D470AEA1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AED1EBB8E59005FB195 /* UIKit_PivotalSpecHelper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalSpecHelper.framework;
+			remoteRef = 1D470AEC1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AEF1EBB8E59005FB195 /* UIKit_PivotalSpecHelper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalSpecHelper.framework;
+			remoteRef = 1D470AEE1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AF11EBB8E59005FB195 /* UIKit_PivotalSpecHelperStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalSpecHelperStubs.framework;
+			remoteRef = 1D470AF01EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AF31EBB8E59005FB195 /* UIKit_PivotalSpecHelperStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit_PivotalSpecHelperStubs.framework;
+			remoteRef = 1D470AF21EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AF51EBB8E59005FB195 /* UIKit-StaticLibSpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-StaticLibSpec.app";
+			remoteRef = 1D470AF41EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AF71EBB8E59005FB195 /* UIKit-StaticLibSpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-StaticLibSpecBundle.xctest";
+			remoteRef = 1D470AF61EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AF91EBB8E59005FB195 /* UIKit-tvOS SpecHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-tvOS SpecHost.app";
+			remoteRef = 1D470AF81EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AFB1EBB8E59005FB195 /* UIKit-tvOS SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-tvOS SpecBundle.xctest";
+			remoteRef = 1D470AFA1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AFD1EBB8E59005FB195 /* UIKit-iOS SpecHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-iOS SpecHost.app";
+			remoteRef = 1D470AFC1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D470AFF1EBB8E59005FB195 /* UIKit-iOS SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-iOS SpecBundle.xctest";
+			remoteRef = 1D470AFE1EBB8E59005FB195 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D4709BE1EBAEE0C005FB195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4709CE1EBAEE0C005FB195 /* LaunchScreen.storyboard in Resources */,
+				1D4709CB1EBAEE0C005FB195 /* Assets.xcassets in Resources */,
+				1D470A151EBAEFE4005FB195 /* ObjectiveController.xib in Resources */,
+				1D470A1A1EBAF03C005FB195 /* RootController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4709D21EBAEE0C005FB195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D470B221EBB9611005FB195 /* RootController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D4709BC1EBAEE0C005FB195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D470A911EBAFD66005FB195 /* URLSessionClientProtocol.swift in Sources */,
+				1D4709C41EBAEE0C005FB195 /* AppDelegate.swift in Sources */,
+				1DC150F51F10955A001A913F /* Presenter.swift in Sources */,
+				1D470A141EBAEFE4005FB195 /* ObjectiveController.m in Sources */,
+				1D470A191EBAF03C005FB195 /* RootController.swift in Sources */,
+				1D470AC91EBB876E005FB195 /* InjectorProvider.m in Sources */,
+				1D470ACC1EBB881F005FB195 /* FoundationModule.m in Sources */,
+				1D470A1B1EBAF03C005FB195 /* URLSessionClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4709D01EBAEE0C005FB195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D470B091EBB8FF8005FB195 /* RootControllerObjCBlindsideTestSpec.mm in Sources */,
+				1D470A1E1EBAF0C2005FB195 /* RootControllerObjCTestSpec.mm in Sources */,
+				1DC151321F109691001A913F /* Presenter.swift in Sources */,
+				1D470A9D1EBB839B005FB195 /* RootControllerObjCProtocolTestSpec.mm in Sources */,
+				1D470A9B1EBB0037005FB195 /* URLSessionClientProtocol.swift in Sources */,
+				1D470A761EBAF318005FB195 /* URLSessionClient.swift in Sources */,
+				1D470B801EBBCE8E005FB195 /* RootControllerSwiftTestSpec.swift in Sources */,
+				1D470A751EBAF30F005FB195 /* RootController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D4709D61EBAEE0C005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D4709BF1EBAEE0C005FB195 /* Replicon */;
+			targetProxy = 1D4709D51EBAEE0C005FB195 /* PBXContainerItemProxy */;
+		};
+		1D470A0E1EBAEF68005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Deferred;
+			targetProxy = 1D470A0D1EBAEF68005FB195 /* PBXContainerItemProxy */;
+		};
+		1D470A731EBAF1D6005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cedar-iOS StaticLib";
+			targetProxy = 1D470A721EBAF1D6005FB195 /* PBXContainerItemProxy */;
+		};
+		1D470A8C1EBAF856005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Nimble-iOS";
+			targetProxy = 1D470A8B1EBAF856005FB195 /* PBXContainerItemProxy */;
+		};
+		1D470AC21EBB869E005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Blindside-StaticLib";
+			targetProxy = 1D470AC11EBB869E005FB195 /* PBXContainerItemProxy */;
+		};
+		1D470B051EBB8EB9005FB195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelper-StaticLib";
+			targetProxy = 1D470B041EBB8EB9005FB195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D4709CC1EBAEE0C005FB195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D4709CD1EBAEE0C005FB195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D4709DB1EBAEE0C005FB195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D4709DC1EBAEE0C005FB195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D4709DE1EBAEE0C005FB195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Externals/Deferred/Deferred/",
+					"$(SRCROOT)/Externals/Blindside/Headers/**",
+				);
+				INFOPLIST_FILE = Replicon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Replicon.Replicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Replicon/Replicon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D4709DF1EBAEE0C005FB195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Externals/Deferred/Deferred/",
+					"$(SRCROOT)/Externals/Blindside/Headers/**",
+				);
+				INFOPLIST_FILE = Replicon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Replicon.Replicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Replicon/Replicon-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1D4709E11EBAEE0C005FB195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+					"$(SRCROOT)/Externals/Deferred/Deferred/",
+					"$(SRCROOT)/Externals/Nimble/Sources/**",
+					"$(SRCROOT)/Externals/PivotalCoreKit/UIKit/**",
+					"$(SRCROOT)/Externals/Blindside/Headers/**",
+				);
+				INFOPLIST_FILE = RepliconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Replicon.RepliconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RepliconTests/RepliconTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Replicon.app/Replicon";
+			};
+			name = Debug;
+		};
+		1D4709E21EBAEE0C005FB195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+					"$(SRCROOT)/Externals/Deferred/Deferred/",
+					"$(SRCROOT)/Externals/Nimble/Sources/**",
+					"$(SRCROOT)/Externals/PivotalCoreKit/UIKit/**",
+					"$(SRCROOT)/Externals/Blindside/Headers/**",
+				);
+				INFOPLIST_FILE = RepliconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Replicon.RepliconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RepliconTests/RepliconTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Replicon.app/Replicon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D4709BB1EBAEE0C005FB195 /* Build configuration list for PBXProject "Replicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4709DB1EBAEE0C005FB195 /* Debug */,
+				1D4709DC1EBAEE0C005FB195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4709DD1EBAEE0C005FB195 /* Build configuration list for PBXNativeTarget "Replicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4709DE1EBAEE0C005FB195 /* Debug */,
+				1D4709DF1EBAEE0C005FB195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4709E01EBAEE0C005FB195 /* Build configuration list for PBXNativeTarget "RepliconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4709E11EBAEE0C005FB195 /* Debug */,
+				1D4709E21EBAEE0C005FB195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D4709B81EBAEE0C005FB195 /* Project object */;
+}

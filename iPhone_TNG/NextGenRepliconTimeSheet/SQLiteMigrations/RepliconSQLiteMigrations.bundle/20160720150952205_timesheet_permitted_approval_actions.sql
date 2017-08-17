@@ -1,1 +1,0 @@
-ALTER TABLE "TimesheetPermittedApprovalActions" ADD COLUMN "allowSplitTimeMidnightCrossEntry" NUMERIC;

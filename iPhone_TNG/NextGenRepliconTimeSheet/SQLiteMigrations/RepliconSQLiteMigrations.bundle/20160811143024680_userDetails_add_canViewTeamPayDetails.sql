@@ -1,1 +1,0 @@
-ALTER TABLE "userDetails" ADD COLUMN "canViewTeamPayDetails" NUMERIC;
