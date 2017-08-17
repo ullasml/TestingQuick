@@ -1,4 +1,4 @@
-# Replicon iOS Client
+## Replicon iOS Client
 
 ## Building the app and running the tests
 
