@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectionController">
+            <connections>
+                <outlet property="searchBar" destination="Cac-Hq-LJl" id="ZYy-ko-yYd"/>
+                <outlet property="tableView" destination="ele-9S-aX5" id="19I-Ro-cYL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ele-9S-aX5">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="scz-kU-NUs"/>
+                        <outlet property="delegate" destination="-1" id="oxM-8j-oZc"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" placeholder="Placeholder Text" translatesAutoresizingMaskIntoConstraints="NO" id="Cac-Hq-LJl">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="wkw-4F-ujm"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Cac-Hq-LJl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aN6-1x-6tO"/>
+                <constraint firstAttribute="bottom" secondItem="ele-9S-aX5" secondAttribute="bottom" id="bDX-sk-ipJ"/>
+                <constraint firstAttribute="trailing" secondItem="ele-9S-aX5" secondAttribute="trailing" id="iQJ-6r-SUo"/>
+                <constraint firstItem="Cac-Hq-LJl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kL6-IL-H7Z"/>
+                <constraint firstItem="ele-9S-aX5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uZj-Un-Rem"/>
+                <constraint firstItem="ele-9S-aX5" firstAttribute="top" secondItem="Cac-Hq-LJl" secondAttribute="bottom" id="v4f-dy-J5F"/>
+                <constraint firstAttribute="trailing" secondItem="Cac-Hq-LJl" secondAttribute="trailing" id="yvf-ZO-zA1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

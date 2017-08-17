@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ApprovalCommentsController">
+            <connections>
+                <outlet property="commentsTextView" destination="qes-H4-Cop" id="rgb-R2-D3E"/>
+                <outlet property="placeholderTextLabel" destination="gfV-uk-DDq" id="gqc-Gz-Eln"/>
+                <outlet property="textViewHeightConstraint" destination="JWR-j9-vgg" id="mcs-Gi-mhJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder label text" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="gfV-uk-DDq">
+                    <rect key="frame" x="16" y="16" width="568" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Zr7-FY-QJp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qes-H4-Cop">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="JWR-j9-vgg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="jxr-gv-5w7"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qes-H4-Cop" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1lD-3M-ztV"/>
+                <constraint firstItem="qes-H4-Cop" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2ht-ZH-9i1"/>
+                <constraint firstAttribute="bottomMargin" secondItem="qes-H4-Cop" secondAttribute="bottom" id="5MO-Rv-HOK"/>
+                <constraint firstAttribute="trailing" secondItem="qes-H4-Cop" secondAttribute="trailing" id="6m1-pj-zNV"/>
+                <constraint firstItem="gfV-uk-DDq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="V7Q-Hy-OOi"/>
+                <constraint firstAttribute="trailing" secondItem="gfV-uk-DDq" secondAttribute="trailing" constant="16" id="cEz-ZA-AEH"/>
+                <constraint firstItem="gfV-uk-DDq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="jIt-Yr-Nbv"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5MO-Rv-HOK"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

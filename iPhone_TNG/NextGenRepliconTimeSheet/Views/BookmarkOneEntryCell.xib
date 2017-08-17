@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="108" id="KGk-i7-Jjw" customClass="BookmarkOneEntryCell">
+            <rect key="frame" x="0.0" y="0.0" width="671" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="671" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yp1-nV-WfN">
+                        <rect key="frame" x="8" y="8" width="655" height="91"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZi-at-Lnw">
+                                <rect key="frame" x="10" y="10" width="615" height="71"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.20000000000000001" contentMode="center" misplaced="YES" image="icon_chevronDark.png" translatesAutoresizingMaskIntoConstraints="NO" id="4rD-kK-IeP">
+                                <rect key="frame" x="637" y="39" width="10" height="14"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bZi-at-Lnw" firstAttribute="leading" secondItem="yp1-nV-WfN" secondAttribute="leading" constant="10" id="5gq-AX-ioB"/>
+                            <constraint firstAttribute="trailing" secondItem="4rD-kK-IeP" secondAttribute="trailing" constant="8" id="CUg-AE-vUo"/>
+                            <constraint firstItem="4rD-kK-IeP" firstAttribute="centerY" secondItem="yp1-nV-WfN" secondAttribute="centerY" id="Juu-nM-pyl"/>
+                            <constraint firstAttribute="bottom" secondItem="bZi-at-Lnw" secondAttribute="bottom" constant="10" id="Ool-F6-NCy"/>
+                            <constraint firstItem="bZi-at-Lnw" firstAttribute="top" secondItem="yp1-nV-WfN" secondAttribute="top" constant="10" id="PTY-jI-BB9"/>
+                            <constraint firstAttribute="trailing" secondItem="bZi-at-Lnw" secondAttribute="trailing" constant="30" id="mTt-IS-Z7P"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="yp1-nV-WfN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="4AF-BL-LCQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yp1-nV-WfN" secondAttribute="trailing" id="F3a-ou-kJ4"/>
+                    <constraint firstItem="yp1-nV-WfN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Tbj-g8-EGH"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="yp1-nV-WfN" secondAttribute="bottom" id="hRH-Vj-vbN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="borderView" destination="yp1-nV-WfN" id="abE-fJ-AA5"/>
+                <outlet property="chevronImage" destination="4rD-kK-IeP" id="Zlv-Mm-ZSI"/>
+                <outlet property="firstEntryLabel" destination="bZi-at-Lnw" id="DLi-eD-lPU"/>
+            </connections>
+            <point key="canvasLocation" x="383.5" y="425"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_chevronDark.png" width="9" height="14"/>
+    </resources>
+</document>

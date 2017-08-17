@@ -1,0 +1,117 @@
+{
+    "d": [
+          {
+          "error": {
+          "notifications": [
+                            {
+                            "severityUri": "urn:replicon:severity:error",
+                            "failureUri": "urn:replicon:validation-failure:time-punch-activity-is-required",
+                            "displayText": "Oct 9 at 6:31PM: Punch could not be saved to server. Activity is required on time punch"
+                            }
+                            ],
+          "parameter": {
+          "audit": {
+          "auditImageProvisioningIntentUri": "urn:replicon:time-punch-audit-image-provisioning-intent:no-image",
+          "auditImage": null,
+          "geolocation": {
+          "address": "Dheeraj Enclave, Wadala West, Wadala, Mumbai, Maharashtra 400031, India",
+          "gps": {
+          "accuracyInMeters": 5,
+          "latitudeInDegrees": 19.017600000000002,
+          "longitudeInDegrees": 72.856200000000001
+          }
+          },
+          "timePunchAgent": null
+          },
+          "timePunch": {
+          "actionUri": "urn:replicon:time-punch-action:in",
+          "extensionFieldValues": null,
+          "target": {
+          "slug": null,
+          "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:eaf65f6e-ba44-4d8b-a226-f28d90f4174a",
+          "parameterCorrelationId": "a0c2f495-e5a9-456d-a7c0-b7f24748ece6"
+          },
+          "punchInAttributes": null,
+          "punchStartBreakAttributes": null,
+          "punchTime": {
+          "minute": 31,
+          "hour": 18,
+          "second": 1,
+          "day": 9,
+          "month": 10,
+          "year": 2016,
+          "timeZoneUri": "urn:replicon:time-zone:Etc/GMT"
+          },
+          "user": {
+          "uri": "urn:replicon-tenant:repliconiphone-2:user:874",
+          "loginName": null,
+          "parameterCorrelationId": null
+          }
+          },
+          "parameterCorrelationId": "a0c2f495-e5a9-456d-a7c0-b7f24748ece6"
+          },
+          "displayText": "Oct 9 at 6:31PM: Punch could not be saved to server. "
+          },
+          "punchReference": null,
+          "parameterCorrelationId": "a0c2f495-e5a9-456d-a7c0-b7f24748ece6"
+          },
+          {
+          "error": null,
+          "punchReference": {
+          "slug": "d03b8383-3b1a-4225-a394-38af249ab20a",
+          "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:d03b8383-3b1a-4225-a394-38af249ab20a",
+          "displayText": "d03b8383-3b1a-4225-a394-38af249ab20a"
+          },
+          "parameterCorrelationId": "220aef5f-02d4-4e16-82af-d550c75f4f8b"
+          },
+          {
+          "error": {
+          "notifications": null,
+          "parameter": {
+          "audit": {
+          "auditImageProvisioningIntentUri": "urn:replicon:time-punch-audit-image-provisioning-intent:no-image",
+          "auditImage": null,
+          "geolocation": {
+          "address": "Dheeraj Enclave, Wadala West, Wadala, Mumbai, Maharashtra 400031, India",
+          "gps": {
+          "accuracyInMeters": 5,
+          "latitudeInDegrees": 19.017600000000002,
+          "longitudeInDegrees": 72.856200000000001
+          }
+          },
+          "timePunchAgent": null
+          },
+          "timePunch": {
+          "actionUri": "urn:replicon:time-punch-action:start-break",
+          "extensionFieldValues": null,
+          "target": {
+          "slug": null,
+          "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:bf1f07ef-fc55-44df-abd2-9c0669fdeaac",
+          "parameterCorrelationId": "b4d7ffd2-ace1-49fc-abec-16ec44dbff91"
+          },
+          "punchInAttributes": null,
+          "punchStartBreakAttributes": null,
+          "punchTime": {
+          "minute": 33,
+          "hour": 18,
+          "second": 11,
+          "day": 9,
+          "month": 10,
+          "year": 2016,
+          "timeZoneUri": "urn:replicon:time-zone:Etc/GMT"
+          },
+          "user": {
+          "uri": "urn:replicon-tenant:repliconiphone-2:user:874",
+          "loginName": null,
+          "parameterCorrelationId": null
+          }
+          },
+          "parameterCorrelationId": "b4d7ffd2-ace1-49fc-abec-16ec44dbff91"
+          },
+          "displayText": "Oct 9 at 6:33PM: Punch could not be saved to server. Invalid TimePunchParameter. Start break attributes must be provided if time punch action is start-break."
+          },
+          "punchReference": null,
+          "parameterCorrelationId": "b4d7ffd2-ace1-49fc-abec-16ec44dbff91"
+          }
+          ]
+}

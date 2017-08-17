@@ -1,0 +1,1 @@
+ALTER TABLE "time_punch" ADD COLUMN "sync_with_server" BOOL DEFAULT 0;

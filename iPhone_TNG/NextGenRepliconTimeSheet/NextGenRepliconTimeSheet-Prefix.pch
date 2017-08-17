@@ -1,0 +1,51 @@
+//
+// Prefix header for all source files of the 'NextGenRepliconTimeSheet' target in the 'NextGenRepliconTimeSheet' project
+//
+
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import <Availability.h>
+#import "Util.h"
+#import "NSString+Double_Float.h"
+#import "NSNumber+Double_Float.h"
+#import "UIAlertView+Presenter.h"
+#import "UIAlertView+Dismiss.h"
+#import "AppPersistentStorage.h"
+#import "NextGenRepliconTimeSheet-Swift.h"
+#endif
+
+
+//#define _ENCRYPT_DB TRUE
+
+
+
+#if TARGET_IPHONE_SIMULATOR
+
+#define _ENCRYPT_DB FALSE
+
+#else
+
+#define _ENCRYPT_DB TRUE
+
+#endif
+
+
+
+//#define DEBUG = TRUE
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+// ALog always displays output regardless of the DEBUG setting
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#define RPLocalizedString(key, comment) [Util getLocalisedStringForKey:key]
+

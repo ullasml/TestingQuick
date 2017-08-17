@@ -1,0 +1,20 @@
+{
+    "timesheetFormat": "urn:replicon:policy:timesheet:timesheet-format:gen4-timesheet",
+    "widgets": [
+                "urn:replicon:policy:timesheet:widget-timesheet:time-pair-punch-entry",
+                "urn:replicon:policy:timesheet:widget-timesheet:payroll-summary"
+                ],
+    "timepunchCapabilities": {
+        "hasProjectAccess": false,
+        "hasClientAccess": false,
+        "hasActivityAccess": false,
+        "hasBreakAccess": true,
+        "activitySelectionRequired": false,
+        "projectTaskSelectionRequired": false
+    },
+    "permittedActions": {
+        "canOwnerViewPayrollSummary": true,
+        "displayPayAmount": true,
+        "displayPayTotals": true
+    }
+}

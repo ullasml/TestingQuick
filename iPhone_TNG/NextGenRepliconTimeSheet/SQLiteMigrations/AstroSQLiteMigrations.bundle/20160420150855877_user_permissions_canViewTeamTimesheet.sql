@@ -1,0 +1,1 @@
+ALTER TABLE "user_permissions" ADD COLUMN "canViewTeamTimesheet" BOOL ;

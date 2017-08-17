@@ -1,0 +1,1038 @@
+/* 
+  Localizable.strings
+  NextGenRepliconTimeSheet
+
+  Created by Ullas ML on 14/12/12.
+  Copyright (c) 2012 Replicon. All rights reserved.
+*/
+
+
+
+//Others
+
+"Your device is offline.  Please try again when your device is online."="Your device is offline.  Please try again when your device is online.";
+
+"Incorrect User Name"="Incorrect User Name";
+"Unknown Company.  Please check that it was entered correctly."="Unknown Company.  Please check that it was entered correctly.";
+"Please enter your User Name."="Please enter your User Name.";
+"Please enter your Company."="Please enter your Company.";
+"Your session has expired.  Please log in again."="Your session has expired.  Please log in again.";
+"Your company is subscribed to a Replicon product that this app does not support. Please get the right app to continue."="Your company is subscribed to a Replicon product that this app does not support. Please get the right app to continue.";
+"Incompatible App"="Incompatible App";
+"Get App"="Get App";
+"Later"="Later";
+"New Version Available"="New Version Available";
+"The new version includes performance enhancements and offers a more reliable experience"="The new version includes performance enhancements and offers a more reliable experience";
+"Please get the latest version for an accurate and reliable experience"="Please get the latest version for an accurate and reliable experience";
+"Update Now"="Update Now";
+"You must change your password before you can proceed. Please sign in to your Replicon web portal to change your password."="You must change your password before you can proceed. Please sign in to your Replicon web portal to change your password.";
+"Your company is using an older version of the Replicon Platform (Gen2). Please re-launch the Replicon app to login to the older Replicon Platform."="Your company is using an older version of the Replicon Platform (Gen2). Please re-launch the Replicon app to login to the older Replicon Platform.";
+
+//Common
+
+"OK"="OK";
+"Previous"="Previous";
+"Next"="Next";
+"Submit"="Submit";
+"Approved"="Approved";
+"Not Submitted"="Not Submitted";
+"Waiting for Approval"="Waiting for Approval";
+"Rejected"="Rejected";
+"Loading..."="Loading...";
+"Select"="Select";
+"Type"="Type";
+"Add"="Add";
+"Cancel"="Cancel";
+"Save"="Save";
+"Waiting"="Waiting";
+"Submit Timesheet"="Submit Timesheet";
+"Unsubmit Timesheet"="Unsubmit Timesheet";
+"Resubmit Timesheet"="Resubmit Timesheet";
+"Unsubmit"="Unsubmit";
+"Back"="Back";
+"Reopen"="Reopen";
+"We are experiencing technical difficulties. We are actively working on resolving the issue. Please retry a little later"="We are experiencing technical difficulties. We are actively working on resolving the issue. Please retry a little later";
+"Clear"="Clear";
+
+//companyViewController
+
+"Go"="Go";
+"Welcome to Replicon Mobile!"="Welcome to Replicon Mobile!";
+"Enter your company and user name to get started."="Enter your company and user name to get started.";
+
+//HomeViewController
+
+"Expenses"="Expenses";
+"Timesheets"="Timesheets";
+"Time Off"="Time Off";
+"Settings"="Settings";
+"Approvals"="Approvals";
+
+//LoginViewController
+"Company"="Company";
+"User Name"="User Name";
+"Password"="Password";
+"SIGN IN"="SIGN IN";
+"Signing In"="Signing In";
+"Incorrect Login or Password"="Incorrect Login or Password";
+"Please complete all fields"="Please complete all fields";
+"Remember Company and User Name"="Remember Company and User Name";
+
+
+//SamlWebviewController
+"Authentication Required"="Authentication Required";
+"You may briefly experience a blank screen during the authentication process."="You may briefly experience a blank screen during the authentication process.";
+
+//TimeSheetSummary
+"Add a project"="Add a project";
+"Timesheet Summary"="Timesheet Summary";
+"Projects This Period"="Projects This Period";
+"Payroll"="Payroll";
+"Billing"="Billing";
+"Approval History"="Approval History";
+"Add an activity"="Add an activity";
+"Activity"="Activity";
+"Summary"="Summary";
+"Period"="Period";
+"Select TimeOff Type"="Select TimeOff Type";
+"Total Hours"="Total Hours";
+"No Activity"="No Activity";
+"No Project"="No Project";
+"No Paycode"="No Paycode";
+"Not Billable"="Not Billable";
+"Total"="Total";
+"You do not have Project or\nActivity permission."="You do not have Project or\nActivity permission.";
+"Add Timesheet Row"="Add Timesheet Row";
+
+//Settings
+
+"Logout"="Logout";
+//TimeEntry
+"Add Entry"="Add Entry";
+"Client"="Client";
+"Project"="Project";
+"Task"="Task";
+"Billing"="Billing";
+"Activity"="Activity";
+"Project Selection"="Project Selection";
+"Activity Selection"="Activity Selection";
+"Add to Timesheet"="Add to Timesheet";
+"Billing Rate" = "Billing Rate";
+
+//Disclamer
+"Accept"="Accept";
+"Accepted"="Accepted";
+
+//Approvals
+
+"Approve"="Approve";
+"Reject"="Reject";
+
+"All timesheets approved\nNone pending"="All timesheets approved\nNone pending";
+"No timesheets approval\nhistory found"="No timesheets approval\nhistory found";
+"Pending Approvals"="Pending Approvals";
+"Previous Approvals"="Previous Approvals";
+"Approve Timesheets"="Approve Timesheets";
+"Approve Expenses"="Approve Expenses";
+"Approve Time Off"="Approve Time Off";
+"Previous Timesheets"="Previous Timesheets";
+"Previous Expenses"="Previous Expenses";
+"Previous Time Off"="Previous Time Off";
+"Meal"="Meal";
+"TO"="TO";
+"OT"="OT";
+"Reg"="Reg";
+"Approver Comments"="Approver Comments";
+"Please select a timesheet for approval or rejection."="Please select a timesheet for approval or rejection.";
+"Are you sure you want to approve"="Are you sure you want to approve";
+"timesheet?"="timesheet?";
+"Are you sure you want to reject"="Are you sure you want to reject";
+"You must enter comments when rejecting a timesheet."="You must enter comments when rejecting a timesheet.";
+"Are you sure you want to approve %d timesheets?"="Are you sure you want to approve %d timesheets?";
+"Are you sure you want to reject %d timesheets?"="Are you sure you want to reject %d timesheets?";
+"NO"="NO";
+"YES"="YES";
+
+"All expense sheets approved\nNone pending"="All expense sheets approved\nNone pending";
+"No expense sheets approval\nhistory found"="No expense sheets approval\nhistory found";
+"Please select a expense sheet for approval or rejection."="Please select an expense sheet for approval or rejection.";
+"Are you sure you want to approve"="Are you sure you want to approve";
+"expense sheet?"="expense sheet?";
+"Are you sure you want to reject"="Are you sure you want to reject";
+"You must enter comments when rejecting a expense sheet."="You must enter comments when rejecting an expense sheet.";
+"Are you sure you want to approve %d expense sheets?"="Are you sure you want to approve %d expense sheets?";
+"Are you sure you want to reject %d expense sheets?"="Are you sure you want to reject %d expense sheets?";
+
+"All time offs approved\nNone pending"="All time offs approved\nNone pending";
+"No time offs approval\nhistory found"="No time offs approval\nhistory found";
+"Please select a time off for approval or rejection."="Please select a time off for approval or rejection.";
+"Are you sure you want to approve"="Are you sure you want to approve";
+"time off?"="time off?";
+"Are you sure you want to reject"="Are you sure you want to reject";
+"You must enter comments when rejecting a time off."="You must enter comments when rejecting a time off.";
+"Are you sure you want to approve %d time offs?"="Are you sure you want to approve %d time offs?";
+"Are you sure you want to reject %d time off"="Are you sure you want to reject %d time off";
+"Timesheet(s) can not be approved"="Timesheet(s) can not be approved";
+"Expense Sheet(s) can not be approved"="Expense Sheet(s) can not be approved";
+"Time Off(s) can not be approved"="Time Off(s) can not be approved";
+"Timesheet(s) can not be rejected"="Timesheet(s) can not be rejected";
+"Expense Sheet(s) can not be rejected"="Expense Sheet(s) can not be rejected";
+"Time Off(s) can not be rejected"="Time Off(s) can not be rejected";
+
+//SearchScreen
+"Clients"="Clients";
+"Projects"="Projects";
+"Type a project or client name"="Type a project or client name";
+"Select a Project / Client"="Select a Project / Client";
+"Select a Project"="Select a Project";
+"Select a Task"="Select a Task";
+"Type a Project name"="Type a Project name";
+"Type a Task name"="Type a Task name";
+"None"="None";
+"Skip"="Skip";
+"No Results"="No Results";
+"Search Projects by name or code"="Search Projects by name or code";
+"Search Clients by name or code"="Search Clients by name or code";
+"Search Tasks by name or code"="Search Tasks by name or code";
+
+
+//BillingListScreen
+"start typing for a billing code"="start typing for a billing code";
+"Choose Billing Rate"="Choose Billing Rate";
+"No billing rate available for"="No billing rate available for";
+"No activity available"="No activity available";
+"Choose Activity"="Choose Activity";
+"start typing for an activity name"="start typing for an activity name";
+
+//TimeentryScrollview
+"Entry Details"="Entry Details";
+"Edit Entry"="Edit Entry";
+"View / Edit Row"="View / Edit Row";
+"Delete Row"="Delete Row";
+"Add Entry"="Add Entry";
+"View Entry"="View Entry";
+//CurrentTimesheetPeriod
+"Current Timesheet"="Current Timesheet";
+"Due - as of "="Due - as of ";
+"Submitted"="Submitted";
+//MultiInOutTimeentryScrollView
+"Please enter a valid time"="Please enter a valid time";
+"You have overlap in time entry"="You have overlap in time entry";
+"Save"="Save";
+
+//Submit Unsubmit
+
+"Comments:"="Comments:";
+
+//ListOfExpenseSheets
+"Expense Sheets"="Expense Sheets";
+
+//ExpensesEntriesViewController
+"Reimbursement"="Reimbursement";
+"Expense"="Expense";
+"Detail"="Detail";
+"New Expense Sheet"="New Expense Sheet";
+"Add Expense Entry"="Add Expense Entry";
+"Edit Expense Entry"="Edit Expense Entry";
+"View Expense Entry"="View Expense Entry";
+"Resubmit"="Resubmit";//implemented as per US7989
+"Unsubmit"="Unsubmit";
+"Delete"="Delete";
+"Done"="Done";
+"Add"="Add";
+"Select"="Select";
+"Yes"="Yes";
+"Project"="Project";
+"Type"="Type";
+"Currency"="Currency";
+"Amount"="Amount";
+"DATE"="DATE";
+"Description"="Description";
+"Bill Client"="Bill Client";
+"Receipt Photo"="Receipt Photo";
+"Reimburse"="Reimburse";
+"Payment Method"="Payment Method";
+"ImagePicker"="ImagePicker";
+"CheckMark"="CheckMark";
+"None"="None";
+"Total Incurred"="Total Incurred";
+"Rate"="Rate";
+"Pre-Tax Amount"="Pre-Tax Amount";
+"Taxes"="Taxes";
+"Please select a project"="Please select a project";
+"Please select a client"="Please select a client";
+"Please select a task"="Please select a task";
+"Please select a type"="Please select a type";
+"Please add a amount"="Please add an amount";
+"Are you sure you want to delete this expense entry?"="Are you sure you want to delete this expense entry?";
+
+//IMAGE PICKER
+
+"Permanently delete photo receipt?"="Permanently delete photo receipt?";
+"This receipt is too large to download or the connection speed is too slow. \n \nPlease log in to Replicon on a PC to view the receipt"="This receipt is too large to download or the connection speed is too slow. \n \nPlease log in to Replicon on a PC to view the receipt";
+"Take photo"="Take photo";
+"Choose from library"="Choose from library";
+
+
+
+
+//NEW EXPENSE SHEET
+
+"New Expense Sheet"="New Expense Sheet";
+"Please provide a description"="Please provide a description";
+"Reimbursement Currency"="Reimbursement Currency";
+"Expense Sheet Title"="Expense Sheet Title";
+"Please select a currency"="Please select a currency";
+"Tap the + button above to add expenses to this sheet."="Tap the + button above to add expenses to this sheet.";
+"Are you sure you want to delete this expense sheet?"="Are you sure you want to delete this expense sheet?";
+
+
+//BookedTimeOff
+"Time Off"="Time Off";
+"Bookings"="Bookings";
+"Calendar"="Calendar";
+"Time Off Balances"="Time Off Balances";
+"Time Available"="Time Available";
+"Time Taken"="Time Taken";
+"Time Untracked"="Untracked";
+"Choose Dates"="Choose Dates";
+"Set HRS:"="Set HRS:";
+"Are you sure you want to delete your vacation booking for "="Are you sure you want to delete your vacation booking for ";
+"FULL DAY"="FULL DAY";
+"HOUR"="HOUR";
+"PARTIAL DAY"="PARTIAL DAY";
+"1/4"="1/4";
+"1/2"="1/2";
+"3/4"="3/4";
+"Start At:"="Start At:";
+"End At:"="End At:";
+"START DATE"="START DATE";
+"END DATE"="END DATE";
+"Book Time Off"="Book Time Off";
+"Time Off Booking"="Time Off Booking";
+"TYPE:"="TYPE:";
+"Thanks for submitting a vacation request for "="Thanks for submitting a vacation request for ";
+"Edit"="Edit";
+"Waiting for Approval"="Waiting for Approval";
+"This request is pending your manager's approval."="This request is pending your manager's approval.";
+"This booking has been submitted and is pending your manager's approval."="This booking has been submitted and is pending your manager's approval.";
+"This booking has been approved by your manager."="This booking has been approved by your manager.";
+"Back"="Back";
+"More"="More";
+"Comments"="Comments";
+"Date"="Date";
+"Delete"="Delete";
+"Company Holidays"="Company Holidays";
+"Balances"="Balances";
+"Holidays"="Holidays";
+"Invalid value.Please edit the value"="Invalid value.Please edit the value";
+"Please enter comments"="Please enter comments";
+
+//Setting
+"App Control"="App Control";
+"Send Feedback"="Send Feedback";
+"Review this App"="Review this App";
+"Thank you! Your review will help us improve the app."="Thank you! Your review will help us improve the app.";
+"No Thanks"="No Thanks";
+"App Store"="App Store";
+"Feedback for Replicon Mobile 3 v" = "Feedback for Replicon Mobile 3 v";
+"This device is not configured for sending mail"="This device is not configured for sending mail";
+"Mail Log File"="Mail Log File";
+
+//Placeholders for 0 list data
+
+"You do not have any Timesheets. \nPlease contact your administrator \nif this is unexpected"="You do not have any Timesheets. \nPlease contact your administrator \nif this is unexpected";
+"Please tap the + button to create \na new Expense Sheet"="Please tap the + button to create \na new Expense Sheet";
+"Please tap the + button to \nrequest Time Off"="Please tap the + button to \nrequest Time Off";
+"You don't have any Adhoc Time Off's \nassigned to you. Please tap on the \nTime Off tab at the bottom of the \nscreen and create a new Booked \nTime Off request"="You don't have any Adhoc Time Off's \nassigned to you. Please tap on the \nTime Off tab at the bottom of the \nscreen and create a new Booked \nTime Off request";
+
+//Approvals in currenttimesheetView
+"Approver Comments"="Approver Comments";
+"This timeoff is no longer\n waiting for approval"="This timeoff is no longer\n waiting for approval";
+"This timesheet is no longer\n waiting for approval"="This timesheet is no longer\n waiting for approval";
+"This expense sheet is no longer\n waiting for approval"="This expense sheet is no longer\n waiting for approval";
+"Submitted on"="Submitted on";
+
+//Slider Title
+"My Replicon"="My Replicon";
+"Team"="Team";
+"Are you sure you want to logout?"="Are you sure you want to logout?";
+
+//LockedInOut
+"The application currently does not support punching in and out. A view-only version of the Timesheet is being displayed instead."="The application currently does not support punching in and out. A view-only version of the Timesheet is being displayed instead.";
+
+//No Relevant Permissions
+"You do not have the required permissions to use the Replicon Mobile application. Please contact your Replicon system administrator"="You do not have the required permissions to use the Replicon Mobile application. Please contact your Replicon system administrator";
+
+"Deleting this item will remove it from all the days in this timesheet period, along with any associated hours and comments. Do you want to proceed?"="Deleting this item will remove it from all the days in this timesheet period, along with any associated hours and comments. Do you want to proceed?";
+"Deleting this item will remove associated hours and comments. Do you want to proceed?"="Deleting this item will remove associated hours and comments. Do you want to proceed?";
+
+
+
+"Sorry! \nYour timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Sorry! \nYour timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store.";
+"Sorry! \nThis timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Sorry! \nThis timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store.";
+
+"Previous Entries"="Previous Entries";
+"Entry Details"="Entry Details";
+"to"="to";
+//Externalize remaining strings on the app
+"Reopened"="Reopened";
+"No"="No";
+"Please add an amount"="Please add an amount";
+"Total Amount"="Total Amount";
+"Untracked"="Untracked";
+"start typing for a project or client name"="start typing for a project or client name";
+"start typing for task name"="start typing for task name";
+"start typing for a project"="start typing for a project";
+"Are you sure you want to delete this time off booking?"="Are you sure you want to delete this time off booking?";
+"Suggestions Based on Previous Entries"="Suggestions Based on Previous Entries";
+"Entry Details"="Entry Details";
+"Delete Entry"="Delete Entry";
+
+//Break
+"Add Break Entry"="Add Break Entry";
+"Edit Break Entry"="Edit Break Entry";
+"Add Time"="Add Time";
+"Add Break"="Add Break";
+"Search Breaks"="Search Breaks";
+"Delete Break"="Delete Break";
+"Break Details"="Break Details";
+//US9109//Timeoff
+"Add Time Off"="Add Time Off";
+"Edit Time Off"="Edit Time Off";
+"Search Time Off Types"="Search Time Off Types";
+"There are overlapping time entries. Please fix these entries before submitting your timesheet."="There are overlapping time entries. Please fix these entries before submitting your timesheet.";
+"Time entry is overlapping."="Time entry is overlapping.";
+
+"Expense Type"="Expense Type";
+"Search Expense Type"="Search Expense Type";
+"Deleting this item will remove it from all days in this timesheet period,along with any associated hours and comments.Do you want to proceed?"="Deleting this item will remove it from all days in this timesheet period,along with any associated hours and comments.Do you want to proceed?";
+
+//US8906//Shift
+"No Shift Schedule"="No Shift Schedule";
+"Note from Shift Manager"="Note from Shift Manager";
+"No Note From Manager"="No Note From Manager";
+"Shift Details" ="Shift Details";
+"Shifts"= "Shifts";
+"No Shifts Scheduled" = "No Shifts Scheduled";
+"Schedule" = "Schedule";
+
+//Implementation forMobi-181//JUHI
+"None Selected"="None Selected";
+
+"No Project Selected"="No Project Selected";
+"No Activity Selected"="No Activity Selected";
+"End Break"="End Break";
+"Break"="Break";
+"Start New Task"="Start New Task";
+"Start New Activity"="Start New Activity";
+"Start"="Start";
+"Stop"="Stop";
+
+
+//ATTENDANCE
+"Attendance"="Attendance";
+
+"Take a Photo of Yourself"="Take a Photo of Yourself";
+"You are required to attach a photo with each time entry."="You are required to attach a photo with each time entry.";
+"Preview Photo"="Preview Photo";
+"Retake"="Retake";
+"Use"="Use";
+"Today's Entries"="Today's Entries";
+
+//Implementation For Mobi-190//Reset Password//JUHI
+"Save New Password"="Save New Password";
+"Old Password"="Old Password";
+"New Password"="New Password";
+"Confirm New Password"="Confirm New Password";
+"Reset Password"="Reset Password";
+"Please ensure your new passwords match"="Please ensure your new passwords match";
+"Your new password must be different than your current password"="Your new password must be different than your current password";
+
+"Clock"="Clock";
+"Track Time"="Track Time";
+"Tracking Time..."="Tracking Time...";
+"On Break"="On Break";
+"Clock In"="Clock In";
+"Clock Out"="Clock Out";
+"Location is not enabled. Go to \"Settings\" -> \"Privacy\" -> \"Location Services\" to enable location"="Location is not enabled. Go to \"Settings\" -> \"Privacy\" -> \"Location Services\" to enable location";
+"Yesterday"="Yesterday";
+
+"Location Unavailable"="Location Unavailable";
+"Clocking You Out..."="Clocking You Out...";
+"Clocking You In..."="Clocking You In...";
+
+"Punch History"="Punch History";
+
+//Punch
+"Add Punch"="Add Punch";
+"＋Add Missing Punch"="＋Add Missing Punch";
+"Add Missing Punch"="Add Missing Punch";
+"Edit Punch"="Edit Punch";
+"Clocked In"="Clocked In";
+"Clocked Out"="Clocked Out";
+"Are you sure you want to delete this Punch? This can not be undone." = "Are you sure you want to delete this Punch? This can not be undone.";
+"Select Break Type"="Select Break Type";
+"Select Activity"="Select Activity";
+"Started Break"="Started Break";
+"Transfer"="Transfer";
+"Transfered to"="Transfered to";
+"End Break"="End Break";
+"Post"="Post";
+"time punches could not be posted to timesheet."="time punches could not be posted to timesheet.";
+"Successfully posted to timesheet"="Successfully posted to timesheet";
+"Please select a Break Type"="Please select a Break Type";
+"Please select an Activity"="Please select an Activity";
+"Time"="Time";
+"Images"="Images";
+"Location"="Location";
+"Clock In or Out"="Clock In or Out";
+"Time Punches"="Time Punches";
+//"or Clock Out for the Day"="or Clock Out for the Day";
+"Resume Work"="Resume Work";
+"Activity: None"="Activity: None";
+"Continue"="Continue";
+"IN"="IN";
+"OUT"="OUT";
+"No time punches."= "No time punches.";
+
+//DCAA
+"Following changes were made to this timesheet:"="Following changes were made to this timesheet:";
+"Reason for Changes "="Reason for Changes ";
+"Please provide reasons for these changes."="Please provide reasons for these changes.";
+"Your timesheet cannot be submitted unless you provide a reason for the changes."="Your timesheet cannot be submitted unless you provide a reason for the changes.";
+"Add Comments"="Add Comments";
+
+"Timesheet Change History" = "Timesheet Change History";
+
+// Free Trial
+"Create Free Trial" = "Create Free Trial";
+//"Free Trial"= "Free Trial";
+"Sign In"= "Sign In";
+"Your Full Name"= "Your Full Name";
+"Company Name"= "Company Name";
+"Password"= "Password";
+"8 characters, at least 1 alphabetical and 1 numeric" = "8 characters, at least 1 alphabetical and 1 numeric";
+"Business Phone Number"= "Business Phone Number";
+"By registering you agree to Replicon's"= "By registering you agree to Replicon's";
+"Terms of Service" = "Terms of Service";
+"Sign Up"= "Sign Up";
+"Setting up your account"= "Setting up your account";
+"Enjoy full access to the following features for next 14 days. We are also creating sample data to help you see how everything works." = "Enjoy full access to the following features for next 14 days. We are also creating sample data to help you see how everything works.";
+"Setup Complete" = "Setup Complete";
+"Start Using Replicon"
+= "Start Using Replicon";
+"Email Address already exist."= "Email Address already exist.";
+"Email Address" = "Email Address";
+"8 characters,"= "8 characters,";
+"at least 1 alphabetical"= "at least 1 alphabetical";
+"and 1 numeric"= "and 1 numeric";
+"Enter project-based time with ease"="Enter project-based time with ease";
+"In/out time entry made quick and painless"="In/out time entry made quick and painless";
+"Field workers can clock-in from their worksite"="Field workers can clock-in from their worksite";
+"Track where employees clock-in using GPS"="Track where employees clock-in using GPS";
+"Take expense receipt photos and upload. Done!"="Take expense receipt photos and upload. Done!";
+"Approve timesheets, time off, expenses on the spot"="Approve timesheets, time off, expenses on the spot";
+"Quickly analyze projects and bill clients"="Quickly analyze projects and bill clients";
+"Overtime compliance and error free payroll"="Overtime compliance and error free payroll";
+"Hassle-free Time Tracking"="Hassle-free Time Tracking";
+
+
+
+//Removal Of Slider Timeoff
+"Leaving at"="Leaving at";
+"Returning at"="Returning at";
+"Select Time"="Select Time";
+
+//MISSING STRINGS
+"Filing Date"="Filing Date";
+"Current Time"="Current Time";
+"Search Activity by name or code"="Search Activity by name or code";
+"at"="at";
+"REQUESTED:"="REQUESTED:";
+"BALANCE:"="BALANCE:";
+"Data as of"="Data as of";
+"Current"="Current";
+"Future"="Future";
+"No Shifts Assigned"="No Shifts Assigned";
+"Search Billing by name"="Search Billing by name";
+"Login failed. Please check your login name and password and try again"="Login failed. Please check your login name and password and try again";
+"Pull to refresh..."="Pull to refresh...";
+"Release to refresh..."="Release to refresh...";
+"You have entered time that crosses into the next day."="You have entered time that crosses into the next day.";
+"will be entered on"="will be entered on";
+"Your Replicon language preference is set to"="Your Replicon language preference is set to";
+"To enable the same language as mobile on your preference please contact your administrator."="To enable the same language as mobile on your preference please contact your administrator.";
+"DropDown Option"="DropDown Option";
+"For"="For";
+"The company name that you have entered is not recognized. Please correct and try again"="The company name that you have entered is not recognized. Please correct and try again";
+"Your authentication type has been reset by your administrator. Please login again"="Your authentication type has been reset by your administrator. Please login again";
+"Your company has been disabled. Please contact your administrator"="Your company has been disabled. Please contact your administrator";
+"Your Replicon account has been disabled. Please contact your administrator"="Your Replicon account has been disabled. Please contact your administrator";
+"You must change your password before you can proceed."="You must change your password before you can proceed.";
+"days"="days";
+"day"="day";
+"HRS"="HRS";
+"Due"="Due";
+"NOW"="NOW";
+"to"="to";
+"Work"="Work";
+"View Punch"="View Punch";
+
+//Implementation for TOFF-166//JUHI
+"Three Quarter Day"="Three Quarter Day";
+"Half Day"="Half Day";
+"Quarter Day"="Quarter Day";
+"Hours"="Hours";
+"Full Day"="Full Day";
+"Partial Day"="Partial Day";
+
+//Implementation for MOBI-261//JUHI
+"Approval Details"="Approval Details";
+"on behalf of"="on behalf of";
+
+// Punch - 180
+"via" = "via";
+"Last Punch" = "Last Punch";
+"on" = "on";
+"Punch Location"="Punch Location";
+//Punch-112 Ullas M L
+
+"On"="On";
+"B"="B";
+"No Audit Trail Data Found"="No Audit Trail Data Found";
+"Audit Trail"="Audit Trail";
+"Audit History"="Audit History";
+"by"="by";
+"at"="at";
+"via"="via";
+"Cloud Clock"="Cloud Clock";
+"mobile"="mobile";
+"web"="web";
+"Deleted"="Deleted";
+"Edited"="Edited";
+"Added"="Added";
+"break"="break";
+"type"="type";
+"punch"="punch";
+"activity"="activity";
+"Original time"="Original time";
+
+
+//MOBI - 406
+"Please take a moment to rate the Replicon app."= "Please take a moment to rate the Replicon app.";
+"No, Thanks" = "No, Thanks";
+"Submit Rating"="Submit Rating";
+"Remind Me Later" = "Remind Me Later";
+"Provide Feedback"= "Provide Feedback";
+"Would you please take a moment to tell us how we can do better?"= "Would you please take a moment to tell us how we can do better?";
+"Feedback"= "Feedback";
+"Awesome, Thanks!"= "Awesome, Thanks!";
+"Would you please add your rating on the App Store as well?"= "Would you please add your rating on the App Store as well?";
+"App Store" = "App Store";
+"Star Rating for Replicon Mobile 3 v" = "Star Rating for Replicon Mobile 3 v";
+"Please select a star rating."="Please select a star rating.";
+"Add Break"="Add Break";
+
+//Implemetation for Punch-229//JUHI
+"Transferred In"="Transferred In";
+"Transferred Out"="Transferred Out";
+"For"="For";
+"Punch Details"="Punch Details";
+
+//MOBI- 434
+"Debug mode has been enabled. The app performance may be slower while the app is in debug mode." = "Debug mode has been enabled. The app performance may be slower while the app is in debug mode.";
+"Debug Mode is On"= "Debug Mode is On";
+"Debug Mode is Off"="Debug Mode is Off";
+"Please continue using the app and send us the log file when you encounter an issue."="Please continue using the app and send us the log file when you encounter an issue.";
+"Send Log File"="Send Log File";
+"Replicon is running in debug mode. Turn off debug mode?"="Replicon is running in debug mode. Turn off debug mode?";
+
+//MOBI- 314
+"Issues on" = "Issues on";
+"Errors" = "Errors";
+"Warnings" = "Warnings";
+"Error" = "Error";
+"Warning" = "Warning";
+"Information" = "Information";
+"Timesheet Level Errors" = "Timesheet Level Errors";
+
+"In/Out Time"="In/Out Time";
+"Break Hours"="Break Hours";
+"Add a Comment"="Add a Comment";
+"Time Off Hours"="Time Off Hours";
+"Work Hours"="Work Hours";
+"Your timesheet format is not supported on the mobile app."="Your timesheet format is not supported on the mobile app.";
+//SCHED - 114
+"Select a Date"="Select a Date";
+
+//HRTrial//JUHI
+"HR Tech 2014"="HR Tech 2014";
+"HR Tech 2014!"="HR Tech 2014!";
+"Visit us at our booth at HR Tech 2014 and get your special account."="Visit us at our booth at HR Tech 2014 and get your special account.";
+
+//MOBI-811
+"Please specify"="Please specify";
+
+//MOBI-814
+"Replicon server is unreachable at this time. Please try again later."="Replicon server is unreachable at this time. Please try again later.";
+"An unknown error occurred. Please try again. If the problem persists, please contact support."="An unknown error occurred. Please try again. If the problem persists, please contact support.";
+"The operation could not be completed."="The operation could not be completed.";
+"Server request timed out. Please ensure you have an internet connection and try again."="Server request timed out. Please ensure you have an internet connection and try again.";
+
+"Your session has timed out. Please sign in again."="Your session has timed out. Please sign in again.";
+"Holiday calendar has not been configured for your account. Please contact your Admin."="Holiday calendar has not been configured for your account. Please contact your Admin.";
+
+"Server request timed out."="Server request timed out.";
+
+//MOBI-782
+"Replicon is performing scheduled server maintenance from" = "Replicon is performing scheduled server maintenance from";
+"Please try again later."="Please try again later.";
+
+//MOBI-888
+
+"App update available. Would you like to update now?"="App update available. Would you like to update now?";
+"App update required."="App update required.";
+//MOBI-839
+"Please refresh your timesheet."="Please refresh your timesheet.";
+"Please refresh your time off data."="Please refresh your time off data.";
+"Please refresh your expense sheet."="Please refresh your expense sheet.";
+"Please refresh your pending timesheet data."="Please refresh your pending timesheet data.";
+"Please refresh your previous timesheet data."="Please refresh your previous timesheet data.";
+"Please refresh your pending expense sheet data."="Please refresh your pending expense sheet data.";
+"Please refresh your previous expense sheet data."="Please refresh your previous expense sheet data.";
+"Please refresh your pending time off data."="Please refresh your pending time off data.";
+"Please refresh your previous time off data."="Please refresh your previous time off data.";
+
+//MOBI-849
+"Allow access to your camera to start taking photos with the Replicon app.\n 1. Open your device Settings\n 2. Go to Privacy\n 3. Go to Camera\n 4. Turn Replicon ON"="Allow access to your camera to start taking photos with the Replicon app.\n 1. Open your device Settings\n 2. Go to Privacy\n 3. Go to Camera\n 4. Turn Replicon ON";
+
+//MOBI- 786
+"You do not have access to perform this operation. Please refresh your app data. If that does not resolve the issue, contact your Admin." = "You do not have access to perform this operation. Please refresh your app data. If that does not resolve the issue, contact your Admin.";
+"Refresh App Data" = "Refresh App Data";
+
+//MOBI-746
+"Program"="Program";
+"Programs"="Programs";
+"Search Programs by name or code"="Search Programs by name or code";
+
+//MOBI-238
+"Sorry, something went wrong. Please try again. If the problem persists, please contact Replicon support."  = "Sorry, something went wrong. Please try again. If the problem persists, please contact Replicon support." ;
+
+//MOBI-766
+"Sign In with Google" = "Sign In with Google";
+"OR" = "OR";
+"Authenticating..." = "Authenticating...";
+"Please enter your Company Name and User Name." = "Please enter your Company Name and User Name.";
+"Please enter your Company Name and Email Address." = "Please enter your Company Name and Email Address.";
+"Trouble Signing In?" = "Trouble Signing In?";
+"Forgot Password?" = "Forgot Password?";
+"Contact Support" = "Contact Support";
+"Enter your Company Name and Email Address to reset your password." = "Enter your Company Name and Email Address to reset your password.";
+"Instructions to reset your password have been emailed to you. Please check your email." = "Instructions to reset your password have been emailed to you. Please check your email.";
+"Invalid Email Address."= "Invalid Email Address.";
+"Signing In..." = "Signing In...";
+"Trouble Signing In? Contact Support" = "Trouble Signing In? Contact Support";
+
+//MOBI-236
+"Please enter your password."="Please enter your password.";
+"Please enter your user name and password."="Please enter your user name and password.";
+"Please enter your email address."="Please enter your email address.";
+
+//MOBI-1289
+
+"Trouble signing in - Replicon Mobile 3 v"="Trouble signing in - Replicon Mobile 3 v";
+
+
+"Pending Submission"="Pending Submission";
+"Submitted"="Submitted";
+"Conflicted"="Conflicted";
+"Clock Out"="Clock Out";
+"Clocked in since %@"="Clocked in since %@";
+"%@ since %@"="%@ since %@";
+"%dh : %02dm : %02ds"="%dh : %02dm : %02ds"; // Duration shown on punch out screen - "01h : 02m : 43s"
+"Getting location…"="Getting location…";
+"Address not available"="Address not available";
+"Regular"="Regular";
+"Break"="Break";
+"Take a Break"="Take a Break";
+"Resume Work"="Resume Work";
+"Select Break Type"="Select Break Type";
+
+"In"="In";
+"Not In"="Not In";
+"Break"="Break";
+
+// Timeline labels
+"Clocked In"="Clocked In";
+"Clocked Out"="Clocked Out";
+
+// Timesheet button
+"View My Timesheets"="View My Timesheets";
+
+// Timesheet details
+"Timesheet Periods" = "Timesheet Periods";
+"Current Period" = "Current Period";
+
+"Overtime"="Overtime";
+"%02lu:%02lu Hrs"="%02lu:%02lu Hrs";
+"at %@"="at %@";
+
+"Employees on overtime"="Employees on overtime";
+
+// Violations summary
+"Violations"="Violations";
+
+// Punch Details
+"Punch Details"="Punch Details";
+
+// Offline Banner
+"No Internet Connection."="No Internet Connection.";
+
+// Waiver
+"No Response"="No Response";
+"Change Waiver Response"="Change Waiver Response";
+
+//standard widget
+"Time Distribution"="Time Distribution";
+
+//PunchOverviewController
+"Are you sure you want to delete this punch?" = "Are you sure you want to delete this punch?";
+
+// Supervisor Dashboard
+"View Team Timesheets"="View Team Timesheets";
+
+// Gross Pay
+"Gross Pay"="Gross Pay";
+"Total Time"="Total Time";
+"Total Team Pay"="Total Team Pay";
+
+// Timesheet User Table
+"Without Violations or Overtime"="Without Violations or Overtime";
+"With Violations or Overtime"="With Violations or Overtime";
+"%@ Break"="%@ Break";
+"%@ OT"="%@ OT";
+
+// Supervisor Trend Chart
+"Employee Clock In Trend"="Employee Clock In Trend";
+
+//ApprovalCommentsController
+
+"Please add your comments here."="Please add your comments here.";
+"Some of your punch data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Some of your punch data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data.";
+
+//WelcomeScreens
+
+"Time Is An Enterprise Asset\nReplicon Helps You Manage it"= "Time Is An Enterprise Asset\nReplicon Helps You Manage it";
+"Automate workforce\nmanagement and ensure\nglobal labour law compliance"="Automate workforce\nmanagement and ensure\nglobal labour law compliance";
+"Manage projects efficiently in\nreal-time and ensure profitability"="Manage projects efficiently in\nreal-time and ensure profitability";
+"Reduce revenue leakage with\nstreamlined and accurate client billing"="Reduce revenue leakage with\nstreamlined and accurate client billing";
+
+//Missing String MI-478
+"Inbox"="Inbox";
+"No pending items"="No pending items";
+"Punch Team Status"="Punch Team Status";
+
+"Dashboard"="Dashboard";
+"Timesheets for Approval"="Timesheets for Approval";
+"Expenses for Approval"="Expenses for Approval";
+"Time Off Requests for Approval"="Time Off Requests for Approval";
+"Employees on Overtime"="Employees on Overtime";
+"Violations"="Violations";
+"Violation"="Violation";
+
+
+//MI-481
+"Total Worked"= "Total Worked";
+"My Timesheet"= "My Timesheet";
+"Team Timesheets"= "Team Timesheets";
+"Delete Punch" = "Delete Punch";
+"Select All" = "Select All";
+"Clear All" = "Clear All";
+
+"Total"="Total";
+"Payroll Summary"="Payroll Summary";
+"Delete Punch" = "Delete Punch";
+"Select All" = "Select All";
+"No Comments"="No Comments";
+
+"Please refresh your data and try again."="Please refresh your data and try again.";
+"View Previous Approvals" = "View Previous Approvals";
+
+//Previous Approvals
+
+"Timesheet Approvals"="Timesheet Approvals";
+"Expense Approvals"="Expense Approvals";
+"Time Off Approvals"="Time Off Approvals";
+
+"Having trouble signing in?"="Having trouble signing in?";
+"Password reset failed. Please try again"="Password reset failed. Please try again";
+"Please enter a valid email"="Please enter a valid email";
+"Please enter company name and email id"="Please enter company name and email id";
+"Enter your Company Name and Email Address to reset your password"="Enter your Company Name and Email Address to reset your password";
+//MI-749
+
+"Comments must be added before proceeding."="Comments must be added before proceeding.";
+
+"A timesheet template has not been assigned to your account. Please contact your Admin.\n​Once the issue is resolved, please refresh the app." = "A timesheet template has not been assigned to your account. Please contact your Admin.\n​Once the issue is resolved, please refresh the app.";
+"Refresh" = "Refresh";
+//EXTENDED IN OUT WIDGET
+
+"In/Out Times + Allocation"="In/Out Times + Allocation";
+
+"hour"="hour";
+"hours"="hours";
+"All Day" = "All Day";
+
+"See All"="See All";
+"Punch Cards"="Punch Cards";
+"Create Punch Card"="Create Punch Card";
+"Select a Client"="Select a Client";
+"Select a Project"="Select a Project";
+"Select a Task"="Select a Task";
+"Select an Activity"="Select an Activity";
+"Search Client"="Search Client";
+"Search Project"="Search Project";
+"Search Task"="Search Task";
+"Search Activity"="Search Activity";
+
+"Search Dropdown options"="Search Dropdown options";
+"a new card has been created" = "a new card has been created";
+"Search Dropdown options"="Search Dropdown options";
+
+//DAILY FIELD WIDGET
+
+"Daily Fields"="Daily Fields";
+"Enter text"="Enter text";
+"Enter numeric value"="Enter numeric value";
+
+//Attestation Message
+
+"Please accept the disclaimer."="Please accept the disclaimer.";
+
+"Time Capture for Attendance"= "Time Capture for Attendance";
+"Approvals for Time & Attendance" = "Approvals for Time & Attendance";
+"Time Capture for Client Billing"= "Time Capture for Client Billing";
+"Approvals for Client Billing" = "Approvals for Client Billing";
+"GPS enabled clock in & out from\nanywhere, anytime. Gain real-time access\nto your shifts and time off."="GPS enabled clock in & out from\nanywhere, anytime. Gain real-time access\nto your shifts and time off.";
+"Approve timesheets and time off at your convenience. Ensure compliance & insight into workforce productivity."="Approve timesheets and time off at your convenience. Ensure compliance & insight into workforce productivity.";
+"Track billable and non-billable hours by client, project and task. Request time off and capture expenses, even on-the-go."="Track billable and non-billable hours by client, project and task. Request time off and capture expenses, even on-the-go.";
+"Include project managers, supervisors, and clients for approvals. Track project progress, billing and client profitability in real-time."="Include project managers, supervisors, and clients for approvals. Track project progress, billing and client profitability in real-time.";
+
+"You do not have any time off types assigned. Please contact your Admin." = "You do not have any time off types assigned. Please contact your Admin.";
+"Your punch configuration is not supported." = "Your punch configuration is not supported.";
+
+//Email Body Phone Capture
+"Please enter your phone number. We may need to call you, if we have additional questions."="Please enter your phone number. We may need to call you, if we have additional questions.";
+"My Phone Number:"="My Phone Number:";
+
+///MutltiDay Timeoff not supported
+"Editing a multi day time off booking is not yet supported on the mobile app."="Editing a multi day time off booking is not yet supported on the mobile app.";
+
+//Sync Local Notification
+
+"Some of your data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Some of your data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data.";
+"You can enter time & submit timesheets while offline."= "You can enter time & submit timesheets while offline.";
+
+"Timesheet Error" = "Timesheet Error";
+"Timesheet Errors" = "Timesheet Errors";
+"There are no errors." = "There are no errors.";
+"You have" = "You have";
+"error" = "error";
+"errors" = "errors";
+"Tap to view." = "Tap to view.";
+"Are you sure you want to dismiss all notifications from this list?" ="Are you sure you want to dismiss all notifications from this list?";
+"Dismiss All" = "Dismiss All";
+"Dismiss" = "Dismiss";
+"Notification" = "Notification";
+"Notifications" = "Notifications";
+"Please enter a comment indicating the reason for rejection." = "Please enter a comment indicating the reason for rejection.";
+
+"Show Less"="Show Less";
+"Show More"="Show More";
+"Choose Break"="Choose Break";
+"Break Type" = "Break Type";
+"Please select a break type." = "Please select a break type.";
+
+"This field has been disabled. Contact your Administrator for more details." = "This field has been disabled. Contact your Administrator for more details.";
+
+"Search OEF Dropdown Options" = "Search OEF Dropdown Options";
+"Select OEF Dropdown Options" = "Select OEF Dropdown Options";
+
+"Punches With Errors" = "Punches With Errors";
+"The following punches were not \n saved to replicon due to reasons  \n specified below:" = "The following punches were not \n saved to replicon due to reasons  \n specified below:";
+"with" = "with";
+
+"Select From Bookmarks" = "Select From Bookmarks";
+"Create Bookmark" = "Create Bookmark";
+"You don't have any bookmarks.\nTap on the + button to add new bookmarks" = "You don't have any bookmarks.\nTap on the + button to add new bookmarks";
+"No Bookmarks Created" = "No Bookmarks Created";
+"Please select a client, project & task." = "Please select a client, project & task.";
+"Please select a project & task." = "Please select a project & task.";
+"Select from previous projects" = "Select from previous projects";
+
+"Please select an activity." = "Please select an activity.";
+"Please change your camera settings to \"Allow Camera\"." = "Please change your camera settings to \"Allow Camera\".";
+"Please change your location settings to \"Allow Location\"." = "Please change your location settings to \"Allow Location\".";
+"Image Capture is Required" = "Image Capture is Required";
+"Location is Required" = "Location is Required";
+
+"Any Client" = "Any Client";
+"No Client" = "No Client";
+
+"Enter Number" = "Enter Number";
+"Enter Text" = "Enter Text";
+
+"Please enter a value between %@ to %@." = "Please enter a value between -%@ to %@.";
+"You have reached the maximum character limit of %@." = "You have reached the maximum character limit of %@.";
+//MI-2067
+"Comments" = "Comments";
+"Enter %@ comments" = "Enter %@ comments";
+"Resubmit" = "Resubmit";
+"Reopen" = "Reopen";
+
+//MT-45
+"Invalid Project or Task" = "Invalid Project or Task";
+"Punches were not saved to Replicon server. Tap to retry." = "Punches were not saved to Replicon server. Tap to retry.";
+"A punch policy has to be assigned to your account. Please contact your Admin."="A punch policy has to be assigned to your account. Please contact your Admin.";
+
+"Validations" = "Validations" ;
+"Validation" = "Validation" ;
+"No Time Recorded" = "No Time Recorded";
+"It looks like you have no time punches recorded for this day" = "It looks like you have no time punches recorded for this day";
+"Missing Punch" = "Missing Punch";
+
+//MultiDay Timeoff
+
+"Start Date"="Start Date";
+"End Date"="End Date";
+"Requested"="Requested";
+"Balance"="Balance";
+
+
+"Expand Days"="Expand Days";
+"Collapse Days"="Collapse Days";
+"Scheduled Hours"="Scheduled Hours";
+"Scheduled Days"="Scheduled Days";
+"Book Hours"="Book Hours";
+"Book Days"="Book Days";
+"Starting At"="Starting At";
+"Returning At"="Returning At";
+"Ok"="Ok";
+
+"Unknown" = "Unknown";
+
+
+//TimeOff Times
+"Start Time"="Start Time";
+"End Time"="End Time";
+
+// Shift Summary and Shift Details
+"holiday"="holiday";
+"Notes from Shift Manager"="Notes from Shift Manager";
+
+"Attestation"="Attestation";
+"Notice"="Notice";
+"I Accept"="I Accept";
+"I don't Accept"="I don't Accept";
+

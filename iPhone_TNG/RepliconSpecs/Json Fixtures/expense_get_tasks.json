@@ -1,0 +1,38 @@
+{
+    "d":[
+         {
+         "task":{
+         "displayText":"Design",
+         "uri":"urn:replicon-tenant:repliconiphone-2:task:100"
+         },
+         "taskFullPath":"",
+         "taskTimeAndExpenseEntryType":{
+         "displayText":"Billable & Non-Billable",
+         "uri":"urn:replicon:time-and-expense-entry-type:billable-and-non-billable"
+         }
+         },
+         {
+         "task":{
+         "displayText":"Development",
+         "uri":"urn:replicon-tenant:repliconiphone-2:task:101"
+         },
+         "taskFullPath":"",
+         "taskTimeAndExpenseEntryType":{
+         "displayText":"Billable & Non-Billable",
+         "uri":"urn:replicon:time-and-expense-entry-type:billable-and-non-billable"
+         }
+         },
+         {
+         "task":{
+         "displayText":"QA",
+         "uri":"urn:replicon-tenant:repliconiphone-2:task:102"
+         },
+         "taskFullPath":"Product Mantaienance & Problems / ",
+         "taskTimeAndExpenseEntryType":{
+         "displayText":"Billable & Non-Billable",
+         "uri":"urn:replicon:time-and-expense-entry-type:billable-and-non-billable"
+         }
+         }
+         ]
+}
+

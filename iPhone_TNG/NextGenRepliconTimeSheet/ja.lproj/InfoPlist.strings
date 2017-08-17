@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+//MOBI - 477
+"Location is used for clock in or out feature."  =  "ロケーションは機能内外でクロック用に使用します。" ;
+"Photo capture is used for attaching expense receipts."  =  "写真によるキャプチャーは、費用受領書を添付するために使用します。" ;

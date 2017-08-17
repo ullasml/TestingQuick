@@ -1,0 +1,14 @@
+{
+    "d":[
+         {
+         "displayText":"Meal",
+         "slug":"meal",
+         "uri":"urn:replicon-tenant:astro:break-type:6c6af9ed-b4db-4507-a817-891b4605f993"
+         },
+         {
+         "displayText":"Rest",
+         "slug":"rest",
+         "uri":"urn:replicon-tenant:astro:break-type:90eeab6c-0e67-49cb-a9bc-32ab7deac3e0"
+         }
+         ]
+}

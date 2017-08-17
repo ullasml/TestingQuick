@@ -1,0 +1,128 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++07DB788",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "243A9BD899C43CCEBD046DF2B00599D40A82BC84+++54C271A" : 0,
+    "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++2E923B4" : 0,
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++24D945B" : 0,
+    "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356+++292067A" : 0,
+    "65E71B0513DBFB09F39CEEF3A8B769CB93E66994+++EDA67F4" : 0,
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D+++042E504" : 0,
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++9FDB930" : 0,
+    "5CA7C5C68EBD368708C4B6CC80230776B66D4052+++1C4B2BC" : 0,
+    "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++07DB788" : 0,
+    "32BF6AB289A4E79447B902560BBC42C536922A7D+++EF5B564" : 0,
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3+++153BECB" : 0,
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++328742B" : 0,
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F+++9F63D91" : 0,
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D+++C28FF82" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD35AB7A-E79C-44BB-81F4-74DEBD468F95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "243A9BD899C43CCEBD046DF2B00599D40A82BC84" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/",
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/sqlcipher\/",
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : "timesheet-ios\/iPhone_TNG\/Externals\/PivotalCoreKit\/",
+    "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356" : "timesheet-ios\/iPhone_TNG\/Externals\/deferred\/",
+    "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7" : "timesheet-ios\/",
+    "5CA7C5C68EBD368708C4B6CC80230776B66D4052" : "timesheet-ios\/iPhone_TNG\/Externals\/PivotalCoreKit\/Externals\/FakeHTTP\/",
+    "65E71B0513DBFB09F39CEEF3A8B769CB93E66994" : "timesheet-ios\/iPhone_TNG\/Externals\/ZipArchive\/",
+    "32BF6AB289A4E79447B902560BBC42C536922A7D" : "timesheet-ios\/iPhone_TNG\/Externals\/blindside\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "mi-1648_spike_offlineerror_localnotif\/iPhone_TNG\/Externals\/SwiftyJSON\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "timesheet-ios\/iPhone_TNG\/Externals\/cedar\/",
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : "mi-1948_cocoa_lumberjack\/iPhone_TNG\/Externals\/repliconkit\/repliconkit\/CocoaLumberjack\/"
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/repliconkit\/CocoaLumberjack\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "timesheet-ios\/iPhone_TNG\/Externals\/cedar\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "timesheet-ios\/iPhone_TNG\/Externals\/SwiftyJSON\/"
+    "243A9BD899C43CCEBD046DF2B00599D40A82BC84+++54C271A" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/",
+    "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++2E923B4" : "timesheet-ios\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++24D945B" : "timesheet-ios\/iPhone_TNG\/Externals\/cedar\/",
+    "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356+++292067A" : "timesheet-ios\/iPhone_TNG\/Externals\/deferred\/",
+    "65E71B0513DBFB09F39CEEF3A8B769CB93E66994+++EDA67F4" : "timesheet-ios\/iPhone_TNG\/Externals\/ZipArchive\/",
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D+++042E504" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/repliconkit\/CocoaLumberjack\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++9FDB930" : "timesheet-ios\/iPhone_TNG\/Externals\/PivotalCoreKit\/Externals\/Cedar\/",
+    "5CA7C5C68EBD368708C4B6CC80230776B66D4052+++1C4B2BC" : "timesheet-ios\/iPhone_TNG\/Externals\/PivotalCoreKit\/Externals\/FakeHTTP\/",
+    "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++07DB788" : "prasanna-build-test-ios\/",
+    "32BF6AB289A4E79447B902560BBC42C536922A7D+++EF5B564" : "timesheet-ios\/iPhone_TNG\/Externals\/blindside\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3+++153BECB" : "timesheet-ios\/iPhone_TNG\/Externals\/SwiftyJSON\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++328742B" : "timesheet-ios\/iPhone_TNG\/Externals\/cedar\/",
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F+++9F63D91" : "timesheet-ios\/iPhone_TNG\/Externals\/PivotalCoreKit\/",
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D+++C28FF82" : "timesheet-ios\/iPhone_TNG\/Externals\/repliconkit\/sqlcipher\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NextGenRepliconTimeSheet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iPhone_TNG\/NextGenRepliconTimeSheet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kseebaldt\/deferred.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CFA5E39000C9E0F1E45DC2809C41EAE90E73356+++292067A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:replicon\/timesheet-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++07DB788"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:replicon\/timesheet-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "209A1CE0DD96D5DDD13F006B09437BBA04C17AE7+++2E923B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:replicon\/common-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "243A9BD899C43CCEBD046DF2B00599D40A82BC84+++54C271A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jbsf\/blindside.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32BF6AB289A4E79447B902560BBC42C536922A7D+++EF5B564"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CocoaLumberjack\/CocoaLumberjack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D+++042E504"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sqlcipher\/sqlcipher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D+++C28FF82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/akitchen\/FakeHTTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CA7C5C68EBD368708C4B6CC80230776B66D4052+++1C4B2BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZipArchive\/ZipArchive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65E71B0513DBFB09F39CEEF3A8B769CB93E66994+++EDA67F4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pivotal\/PivotalCoreKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E3EABAC3DEB540C429B3EF995370DAC6D10823F+++9F63D91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/cedar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++24D945B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pivotal\/cedar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++328742B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/cedar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D+++9FDB930"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftyJSON\/SwiftyJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3+++153BECB"
+    }
+  ]
+}

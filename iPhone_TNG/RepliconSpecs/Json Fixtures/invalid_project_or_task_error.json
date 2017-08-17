@@ -1,0 +1,68 @@
+{
+  "d": [
+    {
+      "punchReference": null,
+      "error": {
+        "displayText": "The Project or Task selected is closed or you are no longer assigned to it.",
+        "failureUri": "urn:replicon:validation-failure-mobile:project-task-is-invalid",
+        "notifications": null,
+        "parameter": {
+          "parameterCorrelationId": "bc78f4dd-a6e2-4892-9953-78313f9946b9",
+          "timePunch": {
+            "punchTime": {
+              "minute": 40,
+              "hour": 11,
+              "second": 20,
+              "day": 19,
+              "month": 6,
+              "year": 2017,
+              "timeZoneUri": "urn:replicon:time-zone:Etc/GMT"
+            },
+            "punchInAttributes": {
+              "project": {
+                "uri": "urn:replicon-tenant:repliconiphone-2:project:19",
+                "displayText": "Sales Enablement"
+              },
+              "task": {
+                "uri": "urn:replicon-tenant:repliconiphone-2:task:92",
+                "displayText": "Design"
+              }
+            },
+            "extensionFieldValues": [
+              {
+                "definition": {
+                  "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:c20a4252-b2fb-4ce9-a621-bd8f66e26b8f"
+                },
+                "numericValue": "24"
+              }
+            ],
+            "actionUri": "urn:replicon:time-punch-action:in",
+            "target": {
+              "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:d9e66646-79cb-4283-8b5f-4de5adc81a12",
+              "parameterCorrelationId": "bc78f4dd-a6e2-4892-9953-78313f9946b9"
+            },
+            "user": {
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:603"
+            }
+          },
+          "deviceConnectivityStatusUri": "urn:replicon:device-connectivity-status:online",
+          "isAuthenticTimePunch": false,
+          "audit": {
+            "auditImageProvisioningIntentUri": "urn:replicon:time-punch-audit-image-provisioning-intent:no-image",
+            "auditImage": null,
+            "timePunchAgent": null,
+            "geolocation": {
+              "gps": {
+                "latitudeInDegrees": 12.9336,
+                "longitudeInDegrees": 77.6835,
+                "accuracyInMeters": 65
+              },
+              "address": "Kariammana Agrahara Road, Kariyammana Agrahara, Bellandur, Bengaluru, Karnataka 560103, India"
+            }
+          }
+        }
+      },
+      "parameterCorrelationId": "bc78f4dd-a6e2-4892-9953-78313f9946b9"
+    }
+  ]
+}

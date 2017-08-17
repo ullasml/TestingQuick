@@ -1,0 +1,3 @@
+ALTER TABLE "TimesheetDaySummary" ADD COLUMN "isDayOff" NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE "PendingApprovalTimesheetDaySummary" ADD COLUMN "isDayOff" NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE "PreviousApprovalTimesheetDaySummary" ADD COLUMN "isDayOff" NUMERIC NOT NULL DEFAULT 0;

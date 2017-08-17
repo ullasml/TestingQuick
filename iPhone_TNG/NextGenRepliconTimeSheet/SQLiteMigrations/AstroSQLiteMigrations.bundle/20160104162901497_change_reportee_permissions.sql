@@ -1,0 +1,1 @@
+ALTER TABLE "reportee_permissions" ADD COLUMN "isPunchIntoProjectsUser" BOOL;

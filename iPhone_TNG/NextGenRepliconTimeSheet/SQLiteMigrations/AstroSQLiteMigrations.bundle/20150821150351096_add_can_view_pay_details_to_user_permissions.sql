@@ -1,0 +1,1 @@
+ALTER TABLE "user_permissions" ADD COLUMN "can_view_pay_details" BOOL;

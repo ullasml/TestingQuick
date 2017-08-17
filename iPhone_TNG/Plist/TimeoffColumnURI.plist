@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Time Off Approval Status</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:approval-status</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Associated Timesheet</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:associated-timesheet</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Waiting On Approver</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:currently-waiting-on-approver</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Department of Time Off Owner</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:department-of-time-off-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>End Date</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:end-date</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>End Day Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:end-day-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>End Day End Time</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:end-day-end-time</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>End Day Duration Type</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:end-day-relative-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Last Action Time (in UTC)</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:last-modified-date-time</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Start Date</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:start-date</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Start Day Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:start-day-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Start Day Duration Type</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:start-day-relative-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Start Day Start Time</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:start-day-start-time</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Supervisor Of Time Off Owner</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:supervisor-of-time-off-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:time-off</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off Owner</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:time-off-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off Type</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:time-off-type</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Total Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:total-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Approval Due Date</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:approval-due-date</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off Owner</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:time-off-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off Type Display Format</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:time-off-display-format</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Total Effective Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:total-effective-hours</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Total Effective Workdays</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:total-effective-workdays</string>
+	</dict>
+</array>
+</plist>

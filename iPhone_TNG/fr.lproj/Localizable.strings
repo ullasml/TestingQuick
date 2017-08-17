@@ -1,0 +1,1033 @@
+/*
+ Localizable.strings
+ NextGenRepliconTimeSheet
+ 
+ Created by Ullas ML on 14/12/12.
+ Copyright (c) 2012 Replicon. All rights reserved.
+ */
+
+
+
+//Others
+
+"Your device is offline.  Please try again when your device is online."="Votre appareil est hors ligne.  Veuillez réessayer lorsque votre appareil est en ligne.";
+
+"Incorrect User Name"="Nom d'utilisateur incorrect";
+"Unknown Company.  Please check that it was entered correctly."="Société inconnue.  Veuillez vous assurer que ça a été entré correctement.";
+"Please enter your User Name."="Veuillez entrer votre nom d'utilisateur.";
+"Please enter your Company."="Entrez votre entreprise.";
+"Your session has expired.  Please log in again."="Votre session a expiré.  Veuillez rouvrir une session.";
+"Your company is subscribed to a Replicon product that this app does not support. Please get the right app to continue."="Votre entreprise est enregistrée à un produit Replicon qui n'est pas prise en charge par cette application. Veuillez obtenir la bonne application pour continuer.";
+"Incompatible App"="Application incompatible";
+"Get App"="Obtenir l'application";
+"Later"="Plus tard";
+"New Version Available"="Nouvelle version disponible";
+"The new version includes performance enhancements and offers a more reliable experience"="La nouvelle version comprend des améliorations de performances et offre une expérience plus fiable";
+"Please get the latest version for an accurate and reliable experience"="Obtenir la dernière version pour une expérience précise et fiable";
+"Update Now"="Mettre à jour maintenant";
+"You must change your password before you can proceed. Please sign in to your Replicon web portal to change your password."="Vous devez modifier votre mot de passe avant de continuer. Veuillez vous connecter à votre portail Web Replicon pour modifier votre mot de passe.";
+"Your company is using an older version of the Replicon Platform (Gen2). Please re-launch the Replicon app to login to the older Replicon Platform."="Votre entreprise utilise une ancienne version de Replicon Platform (Gen2). Veuillez re-lancer l'application Replicon pour vous connecter à l'ancienne plate-forme Replicon.";
+
+//Common
+
+"OK"="OK";
+"Previous"="Précédent";
+"Next"="Prochain";
+"Submit"="Soumettre";
+"Approved"="Approuvé";
+"Not Submitted"="Non soumis";
+"Waiting for Approval"="En attente d'une Approbation";
+"Rejected"="Refusé";
+"Loading..."="Chargement en cours...";
+"Select"="Sélectionner";
+"Type"="Type";
+"Add"="Ajouter";
+"Cancel"="Annuler";
+"Save"="Enregistrer";
+"Waiting"="En attente";
+"Submit Timesheet"="Soumettre la feuille de temps";
+"Unsubmit Timesheet"="Annuler la soumission de la feuille de temps";
+"Resubmit Timesheet"="Resoumettre la feuille de temps";
+"Unsubmit"="Annuler la soumission";
+"Back"="Précédent";
+"Reopen"="Rouvrir";
+"We are experiencing technical difficulties. We are actively working on resolving the issue. Please retry a little later"="Nous rencontrons des difficultés techniques. Nous travaillons activement à résoudre le problème. Veuillez réessayer un peu plus tard";
+"Clear"="Effacer";
+
+//companyViewController
+
+"Go"="Allez-y";
+"Welcome to Replicon Mobile!"="Bienvenue chez Replicon Mobile !";
+"Enter your company and user name to get started."="Entrez votre entreprise et votre nom d'utilisateur pour commencer.";
+
+//HomeViewController
+
+"Expenses"="Les Dépenses";
+"Timesheets"="Feuilles de temps";
+"Time Off"="Congés";
+"Settings"="Paramètres";
+"Approvals"="Approbations";
+
+//LoginViewController
+"Company"="Société";
+"User Name"="Nom d'utilisateur";
+"Password"="Mot de passe";
+"SIGN IN"="SE CONNECTER";
+"Signing In"="Connexion";
+"Incorrect Login or Password"="Identifiant ou mot de passe incorrect";
+"Please complete all fields"="Veuillez remplir tous les champs";
+"Remember Company and User Name"="Mémoriser l'entreprise et le nom d'utilisateur";
+
+
+//SamlWebviewController
+"Authentication Required"="Authentification requise";
+"You may briefly experience a blank screen during the authentication process."="Vous pouvez avoir momentanément un écran blanc pendant la procédure d'authentification.";
+
+//TimeSheetSummary
+"Add a project"="Ajouter un projet";
+"Timesheet Summary"="Résumé de feuille de temps";
+"Projects This Period"="Projets de cette période";
+"Payroll"="Paie";
+"Billing"="Facturation";
+"Approval History"="Historique des approbations";
+"Add an activity"="Ajouter une activité";
+"Activity"="Activité";
+"Summary"="Résumé";
+"Period"="Période";
+"Select TimeOff Type"="Sélectionner un type de TimeOff";
+"Total Hours"="Total des heures";
+"No Activity"="Aucune activité";
+"No Project"="Aucun projet";
+"No Paycode"="Aucun code de paiement";
+"Not Billable"="Non facturable";
+"Total"="Total";
+"You do not have Project or\nActivity permission."="Vous n'avez pas d'autorisation pour le Projet ou\nl'Activité.";
+"Add Timesheet Row"="Ajouter une rangée de feuilles de présence";
+
+//Settings
+
+"Logout"="Déconnexion";
+//TimeEntry
+"Add Entry"="Ajouter une entrée";
+"Client"="Client";
+"Project"="Projet";
+"Task"="Tâche";
+"Billing"="Facturation";
+"Activity"="Activité";
+"Project Selection"="Sélection du projet";
+"Activity Selection"="Sélection de l'activité";
+"Add to Timesheet"="Ajouter à la feuille de présence";
+"Billing Rate" = "Billing Rate";
+
+//Disclamer
+"Accept"="Accepter";
+"Accepted"="Accepté";
+
+//Approvals
+
+"Approve"="Approuver";
+"Reject"="Refuser";
+
+"All timesheets approved\nNone pending"="Toutes les feuilles de présence ont été approuvées\nAucune en attente";
+"No timesheets approval\nhistory found"="Aucune approbation\nhistorique de feuilles de présence trouvée.";
+"Pending Approvals"="En attente d'approbation";
+"Previous Approvals"="Approbations précédentes";
+"Approve Timesheets"="Approuver les feuilles de temps";
+"Approve Expenses"="Approuver les dépenses";
+"Approve Time Off"="Approuver les congés";
+"Previous Timesheets"="Feuilles de présence précédentes";
+"Previous Expenses"="Dépenses antérieures";
+"Previous Time Off"="Congé précédent";
+"Meal"="Repas";
+"TO"="TO";
+"OT"="OT";
+"Reg"="Reg";
+"Approver Comments"="Commentaires de l'approbateur";
+"Please select a timesheet for approval or rejection."="Veuillez sélectionner une feuille de présence pour approbation ou rejet.";
+"Are you sure you want to approve"="Êtes-vous sûr de vouloir approuver";
+"timesheet?"="feuille de présence ?";
+"Are you sure you want to reject"="Êtes-vous sûr de vouloir rejeter ?";
+"You must enter comments when rejecting a timesheet."="Vous devez entrer des commentaires lors du rejet d'une feuille de présence.";
+"Are you sure you want to approve %d timesheets?"="Êtes-vous sûr de vouloir approuver les feuilles de présence %d ?";
+"Are you sure you want to reject %d timesheets?"="Êtes-vous sûr de vouloir rejeter les feuilles de présence %d ?";
+"NO"="NON";
+"YES"="OUI";
+
+
+"All expense sheets approved\nNone pending"="Toutes les notes de dépenses ont été approuvées\nAucune en attente";
+"No expense sheets approval\nhistory found"="Aucune approbation\nhistorique des notes de dépenses trouvée";
+"Please select a expense sheet for approval or rejection."="Veuillez sélectionner une note de dépenses pour approbation ou rejet.";
+"Are you sure you want to approve"="Êtes-vous sûr de vouloir approuver";
+"expense sheet?"="note de dépenses ?";
+"Are you sure you want to reject"="Êtes-vous sûr de vouloir rejeter ?";
+"You must enter comments when rejecting a expense sheet."="Vous devez entrer des commentaires lors du rejet d'une note de dépenses.";
+"Are you sure you want to approve %d expense sheets?"="Êtes-vous sûr de vouloir approuver les notes de dépenses %d ?";
+"Are you sure you want to reject %d expense sheets?"="Êtes-vous sûr de vouloir rejeter les notes de dépenses %d ?";
+
+"All time offs approved\nNone pending"="Tous les congés ont été approuvés\nAucun en attente";
+"No time offs approval\nhistory found"="Aucune approbation\nhistorique de congé trouvée";
+"Please select a time off for approval or rejection."="Veuillez sélectionner un congé pour approbation ou rejet.";
+"Are you sure you want to approve"="Êtes-vous sûr de vouloir approuver";
+"time off?"="Congé ?";
+"Are you sure you want to reject"="Êtes-vous sûr de vouloir rejeter ?";
+"You must enter comments when rejecting a time off."="Vous devez entrer des commentaires lorsque vous rejetez un congé.";
+"Are you sure you want to approve %d time offs?"="Êtes-vous sûr de vouloir approuver les congés %d ?";
+"Are you sure you want to reject %d time off"="Êtes-vous sûr de vouloir rejeter le congé %d ?";
+"Timesheet(s) can not be approved"="Les feuilles de présence ne peuvent pas être approuvées";
+"Expense Sheet(s) can not be approved"="Les notes de dépenses ne peuvent être approuvées";
+"Time Off(s) can not be approved"="Les congés ne peuvent pas être approuvés";
+"Timesheet(s) can not be rejected"="Les feuilles de présence ne peuvent pas être rejetées";
+"Expense Sheet(s) can not be rejected"="Les notes de dépenses ne peuvent pas être rejetées";
+"Time Off(s) can not be rejected"="Les congés ne peuvent pas être rejetés";
+
+//SearchScreen
+"Clients"="Clients";
+"Projects"="Projets";
+"Type a project or client name"="Entrer un projet ou un nom de client";
+"Select a Project / Client"="Sélectionner un projet/client";
+"Select a Project"="Sélectionner un projet";
+"Select a Task"="Choisir une tâche";
+"Type a Project name"="Taper un nom de projet";
+"Type a Task name"="Taper un nom de tâche";
+"None"="Aucun";
+"Skip"="Ignorer";
+"No Results"="Pas de résultats";
+"Search Projects by name or code"="Rechercher des projets par nom ou code";
+"Search Clients by name or code"="Rechercher des clients par nom ou par code";
+"Search Tasks by name or code"="Rechercher des tâches par nom ou par code";
+
+
+//BillingListScreen
+"start typing for a billing code"="Commencer à taper pour rechercher un code de facturation";
+"Choose Billing Rate"="Choisir le taux de facturation";
+"No billing rate available for"="Aucun taux de facturation disponible pour";
+"No activity available"="Aucune activité disponible";
+"Choose Activity"="Choisir une activité";
+"start typing for an activity name"="Commencer à taper pour rechercher un nom d'activité";
+
+//TimeentryScrollview
+"Entry Details"="Détails de l'entrée";
+"Edit Entry"="Modifier l'entrée";
+"View / Edit Row"="Afficher/Modifier la ligne";
+"Delete Row"="Supprimer la rangée";
+"Add Entry"="Ajouter une entrée";
+"View Entry"="Afficher l'entrée";
+//CurrentTimesheetPeriod
+"Current Timesheet"="Feuille de temps actuelle";
+"Due - as of"="Échéance - à partir de";
+"Submitted"="Soumis";
+//MultiInOutTimeentryScrollView
+"Please enter a valid time"="Veuillez entrer une heure valide";
+"You have overlap in time entry"="Vous avez un chevauchement dans l'entrée de l'heure";
+"Save"="Enregistrer";
+
+//Submit Unsubmit
+
+"Comments:"="Commentaires :";
+
+//ListOfExpenseSheets
+"Expense Sheets"="Notes de frais";
+
+//ExpensesEntriesViewController
+"Reimbursement"="Remboursement";
+"Expense"="Dépense";
+"Detail"="Détail";
+"New Expense Sheet"="Nouvelle note de frais";
+"Add Expense Entry"="Ajouter une entrée de dépenses";
+"Edit Expense Entry"="Modifier l'entrée des dépenses";
+"View Expense Entry"="Afficher l'entrée des dépenses";
+"Resubmit"="Resoumettre";//implemented as per US7989
+"Unsubmit"="Annuler la soumission";
+"Delete"="Supprimer";
+"Done"="Terminé";
+"Add"="Ajouter";
+"Select"="Sélectionner";
+"Yes"="Oui";
+"Project"="Projet";
+"Type"="Type";
+"Currency"="Devise";
+"Amount"="Montant";
+"Date"="Date";
+"DATE"="DATE";
+"Description"="Description";
+"Bill Client"="Facturer le client";
+"Receipt Photo"="Réception photo";
+"Reimburse"="Rembourser";
+"Payment Method"="Méthode de paiement";
+"ImagePicker"="ImagePicker";
+"CheckMark"="CheckMark";
+"None"="Aucun";
+"Total Incurred"="Total encouru";
+"Rate"="Taux";
+"Pre-Tax Amount"="Montant avant impôts";
+"Taxes"="Impôts";
+"Please select a project"="Veuillez sélectionner un projet";
+"Please select a client"="Veuillez sélectionner un client";
+"Please select a task"="Veuillez sélectionner une tâche";
+"Please select a type"="Merci de choisir un type";
+"Please add a amount"="Veuillez ajouter un montant";
+"Are you sure you want to delete this expense entry?"="Êtes-vous sûr de vouloir supprimer cette entrée de dépenses ?";
+
+//IMAGE PICKER
+
+"Permanently delete photo receipt?"="Supprimer définitivement la photo du reçu ?";
+"This receipt is too large to download or the connection speed is too slow. \n \nPlease log in to Replicon on a PC to view the receipt"="Ce reçu est trop important pour télécharger ou la vitesse de connexion est trop lente. \n \nVeuillez vous connecter à Replicon sur un PC pour afficher le reçu";
+"Take photo"="Prendre une photo";
+"Choose from library"="Choisir à partir de la bibliothèque";
+
+
+
+
+//NEW EXPENSE SHEET
+
+"New Expense Sheet"="Nouvelle note de frais";
+"Please provide a description"="Veuillez donner une description";
+"Reimbursement Currency"="Devise de remboursement";
+"Expense Sheet Title"="Titre de la note de frais";
+"Please select a currency"="Veuillez sélectionner une devise";
+"Tap the + button above to add expenses to this sheet."="Appuyer sur le bouton + ci-dessus pour ajouter des dépenses à cette note.";
+"Are you sure you want to delete this expense sheet?"="Êtes-vous sûr de vouloir supprimer cette note de frais ?";
+
+
+//BookedTimeOff
+"Time Off"="Congés";
+"Bookings"="Réservations";
+"Calendar"="Calendrier";
+"Time Off Balances"="Soldes des congés";
+"Time Available"="Temps disponible";
+"Time Taken"="Montrer le temps pris";
+"Time Untracked"="Non renseigné";
+"Choose Dates"="Choisir des dates";
+"Set HRS:"="Régler HRS";
+"Are you sure you want to delete your vacation booking for"="Êtes-vous sûr de vouloir supprimer votre réservation de vacances pour";
+"FULL DAY"="JOURNÉE COMPLÈTE";
+"HOUR"="HEURE";
+"PARTIAL DAY"="JOURNÉE PARTIELLE";
+"1/4"="1/4";
+"1/2"="1/2";
+"3/4"="3/4";
+"Start At:"="Début à :";
+"End At:"="Fin à :";
+"START DATE"="DATE DE DÉBUT";
+"END DATE"="DATE DE FIN";
+"Book Time Off"="Réserver un congé";
+"Time Off Booking"="Réservation de congé";
+"TYPE:"="TYPE :";
+"Thanks for submitting a vacation request for"="Merci d'avoir déposé une demande de vacances pour";
+"Edit"="Éditer";
+"Waiting for Approval"="En attente d'une Approbation";
+//"Waiting for Approval"="En attente d'une approbation";
+"This request is pending your manager's approval."="Cette demande est en attente de l'approbation de votre manager.";
+"This booking has been submitted and is pending your manager's approval."="Cette réservation a été soumise et est en attente de l'approbation de votre manager.";
+"This booking has been approved by your manager."="Cette réservation a été approuvée par votre manager.";
+"Back"="Précédent";
+"More"="Plus";
+"Comments"="Commentaires";
+"Date"="Date";
+"Delete"="Supprimer";
+"Company Holidays"="Jours fériés de la société";
+"Balances"="Soldes";
+"Holidays"="Jours fériés";
+"Invalid value.Please edit the value"="Valeur non valide. Veuillez modifier la valeur";
+"Please enter comments"="Veuillez entrer les commentaires";
+
+//Setting
+"App Control"="App Control";
+"Send Feedback"="Envoyer les commentaires";
+"Review this App"="Évaluer cette application";
+"Thank you! Your review will help us improve the app."="Merci ! Votre avis nous aidera à améliorer l'application.";
+"No Thanks"="Non merci";
+"App Store"="App Store";
+"Feedback for Replicon Mobile 3 v"="Commentaires pour Replicon Mobile 3 v";
+"This device is not configured for sending mail"="Cet appareil n'est pas configuré pour envoyer un courrier";
+"Mail Log File"="Fichier de journal des messages";
+
+//Placeholders for 0 list data
+
+"You do not have any Timesheets. \nPlease contact your administrator \nif this is unexpected"="Vous n'avez aucune feuille de présence. \nVeuillez contacter votre administrateur\nsi cet évènement est inattendu";
+"Please tap the + button to create \na new Expense Sheet"="Veuillez taper sur le bouton + pour créer\nune nouvelle note de dépenses";
+"Please tap the + button to \nrequest Time Off"="Veuillez taper sur le bouton + pour\ndemander un congé";
+"You don't have any Adhoc Time Off's \nassigned to you. Please tap on the \nTime Off tab at the bottom of the \nscreen and create a new Booked \nTime Off request"="Aucun congé Ad hoc ne vous est\nassigné. Veuillez taper sur l'onglet \nCongé en bas de \nl'écran et créez une nouvelle demande de réservation de \nCongé";
+
+//Approvals in currenttimesheetView
+"Approver Comments"="Commentaires de l'approbateur";
+"This timeoff is no longer\n waiting for approval"="Ce congé n'est plus\n en attente d'une approbation";
+"This timesheet is no longer\n waiting for approval"="Cette feuille de temps n'est plus\n en attente d'une approbation";
+"This expense sheet is no longer\n waiting for approval"="Cette note de dépenses n'est plus\n en attente d'approbation";
+"Submitted on"="Soumis le";
+
+//Slider Title
+"My Replicon"="Mon Replicon";
+"Team"="Équipe";
+"Are you sure you want to logout?"="Êtes-vous sûr de vouloir vous déconnecter ?";
+
+//LockedInOut
+"The application currently does not support punching in and out. A view-only version of the Timesheet is being displayed instead."="L'application ne prend pas en charge les pointages à l'intérieur et à l'extérieur. Seule une version de la feuille de présence en lecture seule est affichée à la place.";
+
+//No Relevant Permissions
+"You do not have the required permissions to use the Replicon Mobile application. Please contact your Replicon system administrator"="Vous n'avez pas les autorisations requises pour utiliser l'application Replicon Mobile. Veuillez contacter votre administrateur système Replicon";
+
+"Deleting this item will remove it from all the days in this timesheet period, along with any associated hours and comments. Do you want to proceed?"="La suppression de cet élément l'éliminera de tous les jours de cette période, ainsi que les heures et les commentaires associés. Voulez-vous procéder ?";
+"Deleting this item will remove associated hours and comments. Do you want to proceed?"="La suppression de cet élément supprimera les heures et les commentaires associés. Voulez-vous procéder ?";
+
+
+
+"Sorry! \nYour timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Désolé! \nLe format de votre feuille de présence n'est pas encore pris en charge par Replicon Mobile. Nous travaillons dur pour ajouter cette fonctionnalité. Consulter régulièrement l'App Store pour des mises à jour.";
+"Sorry! \nThis timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Désolé! \nLe format de cette feuille de présence n'est pas encore pris en charge par Replicon Mobile. Nous travaillons dur pour ajouter cette fonctionnalité. Consulter régulièrement l'App Store pour des mises à jour.";
+
+"Previous Entries"="Entrées précédentes";
+"Entry Details"="Détails de l'entrée";
+"to"="à";
+//Externalize remaining strings on the app
+"Reopened"="Rouvert";
+"No"="Non";
+"Please add an amount"="Veuillez ajouter un montant";
+"Total Amount"="Montant total";
+"Untracked"="Non renseigné";
+"start typing for a project or client name"="commencer à taper pour rechercher un nom de projet ou de client";
+"start typing for task name"="commencer à taper pour rechercher le nom d'une tâche";
+"start typing for a project"="commencer à taper pour rechercher un projet";
+"Are you sure you want to delete this time off booking?"="Êtes-vous sûr de vouloir supprimer cette réservation de congé ?";
+"Suggestions Based on Previous Entries"="Suggestions basées sur des entrées antérieures";
+"Entry Details"="Détails de l'entrée";
+"Delete Entry"="Supprimer l'entrée";
+
+//Break
+"Add Break Entry"="Ajouter une entrée de pause";
+"Edit Break Entry"="Modifier une entrée de la pause";
+"Add Time"="Ajouter le temps";
+"Add Break"="Ajouter une pause";
+"Search Breaks"="Rechercher des pauses";
+"Delete Break"="Supprimer la pause";
+"Break Details"="Détails de la pause";
+//US9109//Timeoff
+"Add Time Off"="Ajouter un congé";
+"Edit Time Off"="Modifier le congé";
+"Search Time Off Types"="Rechercher des types de congés";
+"There are overlapping time entries. Please fix these entries before submitting your timesheet."="Des entrées de temps chevauchent. Veuillez corriger ces entrées avant de soumettre votre feuille de présence.";
+"Time entry is overlapping."="L'entrée de temps chevauche.";
+
+"Expense Type"="Type de dépense";
+"Search Expense Type"="Rechercher le type de dépenses";
+"Deleting this item will remove it from all days in this timesheet period,along with any associated hours and comments.Do you want to proceed?"="La suppression de cet élément le supprimera tous les jours de cette période de feuille de présence, ainsi que les heures et commentaires associés. Voulez-vous continuer ?";
+
+//US8906//Shift
+"No Shift Schedule"="Pas d'horaire de quarts";
+"Note from Shift Manager"="Note du gestionnaire de quarts";
+"No Note From Manager"="Aucune note du manager";
+"Shift Details "="Détails du quart";
+"Shifts"="Quarts";
+"No Shifts Scheduled"="Aucun quart prévu";
+"Schedule"="Calendrier";
+
+//Implementation forMobi-181//JUHI
+"None Selected"="Aucun sélectionné";
+
+"No Project Selected"="Aucun projet sélectionné";
+"No Activity Selected"="Aucune activité sélectionnée";
+"End Break"="Fin de la pause";
+"Break"="Pause";
+"Start New Task"="Démarrer une nouvelle tâche";
+"Start New Activity"="Démarrer une nouvelle activité";
+"Start"="Début";
+"Stop"="Arrêter";
+
+
+//ATTENDANCE
+"Attendance"="Présences";
+
+"Take a Photo of Yourself"="Prendre une photo de vous-mêmes";
+"You are required to attach a photo with each time entry."="Vous devez joindre une photo à chaque saisie.";
+"Preview Photo"="Aperçu de la photo";
+"Retake"="Reprendre";
+"Use"="Utiliser";
+"Today's Entries"="Entrées du jour";
+
+//Implementation For Mobi-190//Reset Password//JUHI
+"Save New Password"="Enregistrer le nouveau mot de passe";
+"Old Password"="Ancien mot de passe";
+"New Password"="Nouveau mot de passe";
+"Confirm New Password"="Confirmer le nouveau mot de passe";
+"Reset Password"="Réinitialiser le mot de passe";
+"Please ensure your new passwords match"="Veuillez s.v.p vous assurer que vos nouveaux mots de passe correspondent.";
+"Your new password must be different than your current password"="Votre nouveau mot de passe doit être différent de votre mot de passe actuel.";
+
+"Clock"="Horloge";
+"Track Time"="Temps de passage";
+"Tracking Time..."="Suivi du temps...";
+"On Break"="En pause";
+"Clock In"="Pointage d'arrivée";
+"Clock Out"="Pointage de départ";
+"Location is not enabled. Go to \"Settings\" -> \"Privacy\" -> \"Location Services\" to enable location"="L'emplacement n'est pas activé. Aller à \"Paramètres\"-> \"Confidentialité\" -> \"Services de localisation\" pour activer l'emplacement";
+"Yesterday"="Hier";
+
+"Location Unavailable"="Emplacement indisponible";
+"Clocking You Out..."="Pointage sortie...";
+"Clocking You In..."="Pointage entrée...";
+
+"Punch History"="Historique des pointages";
+
+//Punch
+"Add Punch"="Ajouter un pointage";
+"＋Add Missing Punch"="＋Ajouter pointage manquant";
+"Add Missing Punch"="Ajouter pointage manquant";
+"Edit Punch"="Modifier le pointage";
+"Clocked In"="a pointé son entrée";
+"Clocked Out"="a pointé son départ";
+"Are you sure you want to delete this Punch? This can not be undone."="Êtes-vous sûr de vouloir supprimer ce pointage? Cette action ne peut pas être annulée.";
+"Select Break Type"="Sélectionner le type de pause";
+"Select Activity"="Sélectionner l'Activité";
+"Started Break"="Pause commencée";
+"Transfer"="Transfert";
+"Transfered to"="Transféré à";
+"End Break"="Fin de la pause";
+"Post"="Publier";
+"time punches could not be posted to timesheet."="Les pointages de temps ne pouvaient pas être affichés sur la feuille de présence.";
+"Successfully posted to timesheet"="Affiché avec succès à la feuille de  présence";
+"Please select a Break Type"="Veuillez choisir un type de pause";
+"Please select an Activity"="Veuillez sélectionner une activité";
+"Time"="Temps";
+"Images"="Images";
+"Location"="Emplacement";
+"Clock In or Out"="Pointage d'arrivée ou de départ";
+"Time Punches"="Pointages";
+//"or Clock Out for the Day"="ou pointez votre départ pour la journée";
+"Resume Work"="Se remettre au travail";
+"Activity: None"="Activité: Aucun";
+"Continue"="Continuer";
+"IN"="ENTREE";
+"OUT"="SORTIE";
+"No time punches."="Aucun pointage.";
+
+//DCAA
+"Following changes were made to this timesheet:"="Les modifications suivantes ont été apportées à cette feuille de présence :";
+"Reason for Changes"="Raison des changements";
+"Please provide reasons for these changes."="Veuillez fournir les motifs de ces changements.";
+"Your timesheet cannot be submitted unless you provide a reason for the changes."="Votre feuille de présence ne peut être soumise que si vous fournissez un motif pour les modifications.";
+"Add Comments"="Ajouter des commentaires";
+
+"Timesheet Change History "="Historique des changements de feuille de présence";
+
+
+// Free Trial
+"Create Free Trial "="Créer un essai gratuit";
+//"Free Trial"="Essai gratuit";
+"Sign In"="Se connecter";
+"Your Full Name"="Nom complet";
+"Company Name"=" Nom de la société";
+"Password"=" Mot de passe";
+"8 characters, at least 1 alphabetical and 1 numeric"="8 caractères, au moins 1 alphabétique et 1 numérique";
+"Business Phone Number"="Numéro de téléphone professionnel";
+"By registering you agree to Replicon's"="En vous enregistrant, vous acceptez Replicon";
+"Terms of Service"="Conditions d'utilisation";
+"Sign Up"="S'inscrire";
+"Setting up your account"="Configuration de votre compte";
+"Enjoy full access to the following features for next 14 days. We are also creating sample data to help you see how everything works."="Profiter d'un accès complet aux fonctionnalités suivantes pendant les 14 prochains jours. Nous créons également des exemples de données pour vous aider à voir comment tout fonctionne.";
+"Setup Complete"="Installation terminée";
+"Start Using Replicon"
+= "Commencer à utiliser Replicon";
+"Email Address already exist."="L'adresse e-mail existe déjà.";
+"Email Address "="Adresse de courrier électronique";
+"8 characters,"="8 caractères,";
+"at least 1 alphabetical"="dont au moins 1 alphabétique";
+"and 1 numeric"="et 1 numérique";
+"Enter project-based time with ease"="Entrez une heure en fonction du projet avec facilité";
+"In/out time entry made quick and painless"="La saisie de l'heure d'entrée/sortie est rapide et simple";
+"Field workers can clock-in from their worksite"="Les travailleurs sur le terrain peuvent pointer dans leur lieu de travail";
+"Track where employees clock-in using GPS"="Suivre les employés qui utilisent le GPS pour le pointage";
+"Take expense receipt photos and upload. Done!"="Prenez et téléchargez des photos de justificatifs de frais. Terminé!";
+"Approve timesheets, time off, expenses on the spot"="Approuver les feuilles de temps, les congés, les dépenses sur place";
+"Quickly analyze projects and bill clients"="Analyser rapidement les projets et facturer les clients";
+"Overtime compliance and error free payroll"="Conformité aux heures supplémentaires et rémunération sans erreur";
+"Hassle-free Time Tracking"="Suivi du temps sans tracas";
+
+
+
+//Removal Of Slider Timeoff
+"Leaving at"="En partant de";
+"Returning at"="Retour à";
+"Select Time"="Sélectionner l'heure";
+
+
+//MISSING STRINGS
+"Filing Date"="Date de dépôt";
+"Current Time"="Heure actuelle";
+"Search Activity by name or code"="Activité de recherche par nom ou par code";
+"at"="à";
+"REQUESTED:"="DEMANDÉ:";
+"BALANCE:"="SOLDE:";
+"Current"="Actuel";
+"Future"="Futur";
+"No Shifts Assigned"="Aucun quart assigné";
+"Search Billing by name"="Rechercher facturation par nom";
+"Login failed. Please check your login name and password and try again"="Échec de la connexion. Veuillez vérifier votre identifiant et votre mot de passe et réessayez";
+"Pull to refresh..."="Tirer pour rafraîchir...";
+"Release to refresh..."="Relâcher pour rafraîchir...";
+"You have entered time that crosses into the next day."="Vous avez entré une période qui va jusqu'au lendemain.";
+"will be entered on"="sera inscrit sur";
+"Your Replicon language preference is set to"="Votre préférence de langue dans Replicon est définie sur";
+"To enable the same language as mobile on your preference please contact your administrator."="Pour activer la même langue que sur le mobile dans vos préférences, veuillez contacter votre administrateur.";
+"DropDown Option"="Option DropDown";
+"For"="Pour";
+"The company name that you have entered is not recognized. Please correct and try again"="Le nom de la société que vous avez entré n'est pas reconnu. Veuillez corriger et réessayez";
+"Your authentication type has been reset by your administrator. Please login again"="Votre type d'authentification a été réinitialisé par votre administrateur. Veuillez vous connecter à nouveau";
+"Your company has been disabled. Please contact your administrator"="Votre entreprise a été désactivée. Veuillez contacter votre administrateur";
+"Your Replicon account has been disabled. Please contact your administrator"="Votre compte Replicon a été désactivé. Veuillez contacter votre administrateur";
+"You must change your password before you can proceed."="Vous devez modifier votre mot de passe avant de continuer.";
+"days"="jours";
+"day"="jour";
+"HRS"="HRS";
+"Due"="Échu";
+"NOW"="MAINTENANT";
+"to"="à";
+"Work"="Travail";
+"View Punch"="Afficher Pointage";
+
+//Implementation for TOFF-166//JUHI
+"Three Quarter Day"="Trois quarts de jour";
+"Half Day"="Demi-journée";
+"Quarter Day"="Quart de journée";
+"Hours"="Heures";
+"Full Day"="Journée complète";
+"Partial Day"="Journée partielle";
+
+//Implementation for MOBI-261//JUHI
+"Approval Details"="Détails de l'approbation";
+"on behalf of"="au nom de";
+
+
+// Punch - 180
+"via"="via";
+"Last Punch"="Dernier pointage";
+"on"="sur";
+"Punch Location"="Emplacement de l'horloge de pointage";
+//Punch-112 Ullas M L
+
+"On"="Le";
+"B"="B";
+"No Audit Trail Data Found"="Aucune donnée sur la piste d'audit n'a été trouvée";
+"Audit Trail"="Piste d'audit";
+"Audit History"="Historique des audits";
+"by"="par";
+"at"="à";
+"via"="via";
+"Cloud Clock"="Horloge cloud";
+"mobile"="mobile";
+"web"="web";
+"Deleted"="Supprimé";
+"Edited"="Édité";
+"Added"="Ajouté";
+"break"="pause";
+"type"="type";
+"punch"="pointage";
+"activity"="activité";
+"Original time"="Délai initial";
+
+//MOBI - 406
+"Please take a moment to rate the Replicon app."="Veuillez prendre un moment pour évaluer l'application Replicon.";
+"No, Thanks "="Non merci";
+"Submit Rating"="Soumettre l'évaluation";
+"Remind Me Later"="Rappelez-moi plus tard";
+"Provide Feedback"="Fournir un feedback";
+"Would you please take a moment to tell us how we can do better?"="Voulez-vous prendre un moment pour nous dire comment nous pouvons améliorer notre service ?";
+"Feedback"="Commentaires";
+"Awesome, Thanks!"="Génial, Merci !";
+"Would you please add your rating on the App Store as well?"="Souhaitez-vous aussi ajouter votre note sur l'App Store ?";
+"App Store "="App Store";
+"Star Rating for Replicon Mobile 3 v"="Nombre d'étoiles pour Replicon Mobile 3 v";
+"Please select a star rating."="Veuillez sélectionner un classement par étoiles.";
+"Add Break"="Ajouter une pause";
+
+//Implemetation for Punch-229//JUHI
+"Transferred In"="Transféré en";
+"Transferred Out"="Transféré hors";
+"For"="Pour";
+"Punch Details"="Détails de perforation";
+
+//MOBI- 434
+"Debug mode has been enabled. The app performance may be slower while the app is in debug mode."="Le mode de débogage a été activé. La performance de l'application peut être plus lente lorsque l'application est en mode débogage.";
+"Debug Mode is On"="Le mode de débogage est activé";
+"Debug Mode is Off"="Le mode de débogage est désactivé";
+"Please continue using the app and send us the log file when you encounter an issue."="Veuillez continuer à utiliser l'application et nous envoyer le fichier journal lorsque vous rencontrez un problème.";
+"Send Log File"="Envoyer un fichier journal";
+"Replicon is running in debug mode. Turn off debug mode?"="Replicon s'exécute en mode débogage. Désactiver le mode de débogage ?";
+
+//MOBI- 314
+"Issues on"="Questions sur";
+"Errors"="Erreurs";
+"Warnings"="Alertes";
+"Error"="Erreur";
+"Warning"="Avertissement";
+"Information"="Informations";
+"Timesheet Level Errors"="Erreurs de niveau de feuille de présence";
+
+"In/Out Time"="Heure d'entrée/sortie";
+"Break Hours"="Heures de pause";
+"Add a Comment"="Ajouter un commentaire";
+"Time Off Hours"="Heures de congé";
+"Work Hours"="Heures de travail";
+"Your timesheet format is not supported on the mobile app."="Votre format de feuille de présence n'est pas pris en charge sur l'application mobile.";
+//SCHED - 114
+"Select a Date"="Sélectionner une date";
+
+//HRTrial//JUHI
+"HR Tech 2014"="HR Tech 2014";
+"HR Tech 2014!"="HR Tech 2014!";
+"Visit us at our booth at HR Tech 2014 and get your special account."="Visiter notre stand chez HR Tech 2014 et obtenir votre compte spécial.";
+
+//MOBI-811
+"Please specify"="Veuillez préciser";
+
+//MOBI-814
+"Replicon server is unreachable at this time. Please try again later."="Le serveur de Réplicon est inaccessible pour le moment. Veuillez essayer plus tard.";
+"An unknown error occurred. Please try again. If the problem persists, please contact support."="Une erreur inconnue est survenue. Veuillez essayer de nouveau. Si le problème persiste,veuillez contacter le service d'assistance.";
+"The operation could not be completed."="La tâche n'a pas pu être terminée.";
+"Server request timed out. Please ensure you have an internet connection and try again."="La demande du serveur a expiré. Veuillez vous assurer d'avoir une connexion Internet et réessayez.";
+
+"Your session has timed out. Please sign in again."="Expiration de votre session. Veuillez vous connecter à nouveau,";
+"Holiday calendar has not been configured for your account. Please contact your Admin."="Le calendrier des vacances n'a pas été configuré pour votre compte. Veuillez contacter votre administrateur.";
+
+"Server request timed out."="La demande du serveur a expiré.";
+
+//MOBI-782
+"Replicon is performing scheduled server maintenance from"="Replicon effectue la maintenance du serveur prévue de";
+"Please try again later."="Veuillez essayer plus tard.";
+
+//MOBI-888
+
+"App update available. Would you like to update now?"="Mise à jour de l'application disponible. Voulez-vous mettre à jour maintenant ?";
+"App update required."="Mise à jour de l'application requise.";
+//MOBI-839
+"Please refresh your timesheet."="Veuillez actualiser votre feuille de présence.";
+"Please refresh your time off data."="Veuillez actualiser vos données de congé.";
+"Please refresh your expense sheet."="Veuillez actualiser votre note de dépenses.";
+"Please refresh your pending timesheet data."="Veuillez actualiser vos données de feuille de présence en attente.";
+"Please refresh your previous timesheet data."="Veuillez actualiser vos données de feuille de présence précédentes.";
+"Please refresh your pending expense sheet data."="Veuillez actualiser vos données de notes de dépenses en attente.";
+"Please refresh your previous expense sheet data."="Veuillez actualiser vos données de notes de dépenses précédentes.";
+"Please refresh your pending time off data."="Veuillez actualiser vos données de congé en attente.";
+"Please refresh your previous time off data."="Veuillez actualiser vos données de congé précédentes.";
+
+//MOBI-849
+"Allow access to your camera to start taking photos with the Replicon app.\n 1. Open your device Settings\n 2. Go to Privacy\n 3. Go to Camera\n 4. Turn Replicon ON"="Autoriser l'accès à votre appareil photo pour commencer à prendre des photos avec l'application Replicon.\n 1. Ouvrir les paramètres de votre appareil \n 2. Aller à Privé\n 3. Aller à Appareil photo\n 4. Mettre Replicon sur ON";
+
+//MOBI- 786
+"You do not have access to perform this operation. Please refresh your app data. If that does not resolve the issue, contact your Admin. "=" Vous n'avez pas accès à cette opération. Veuillez actualiser les données de votre application. Si cela ne résout pas le problème, contactez votre administrateur.";
+"Refresh App Data"="Actualiser les données de l'application";
+
+//MOBI-746
+"Program"="Programme";
+"Programs"="Programmes";
+"Search Programs by name or code"="Rechercher des programmes par nom ou par code";
+
+//MOBI-238
+"Sorry, something went wrong. Please try again. If the problem persists, please contact Replicon support."="Désolé, quelque chose s'est mal passé. Veuillez essayer de nouveau. Si le problème persiste, veuillez contacter le support Replicon.";
+
+//MOBI-766
+"Sign In with Google"="Se connecter avec Google";
+"OR"="OU";
+"Authenticating..."="Authentification...";
+"Please enter your Company Name and User Name."="Veuillez entrer le nom de votre entreprise et votre nom d'utilisateur.";
+"Please enter your Company Name and Email Address."="Veuillez entrer le nom de votre entreprise et votre adresse électronique.";
+"Trouble Signing In?"="Trouble de connexion?";
+"Forgot Password?"="Mot de passe oublié ?";
+"Contact Support"="Contacter le support";
+"Enter your Company Name and Email Address to reset your password."="Entrez votre nom et votre adresse de Société pour réinitialiser votre mot de passe.";
+"Instructions to reset your password have been emailed to you. Please check your email."="Les instructions pour réinitialiser votre mot de passe vous ont été envoyés par email. Veuillez vérifier votre email.";
+"Invalid Email Address."="Adresse de courrier électronique non valide.";
+"Signing In..."="Connectez-vous...";
+"Trouble Signing In? Contact Support"="Trouble de connexion? Contacter le support";
+
+
+//MOBI-236
+"Please enter your password."="Veuillez entrer votre mot de passe.";
+"Please enter your user name and password."="Veuillez entrer votre nom d'utilisateur et votre mot de passe.";
+"Please enter your email address."="Veuillez entrer votre adresse e-mail.";
+
+//MOBI-1289
+
+"Trouble signing in - Replicon Mobile 3 v"="Problème de connexion - Replicon Mobile 3 v";
+
+//Astro strings
+"Pending Submission"="Soumission en attente";
+"Submitted"="Soumis";
+"Conflicted"="Conflit";
+"Clock Out"="Pointage de départ";
+"Clocked in since %@"="A pointé à l'arrivée depuis %@";
+"%@ since %@"="%@ depuis %@";
+"%dh : %02dm : %02ds"="%dh : % 02dm : % 02ds"; // Durée affichée sur l'écran de pointage au départ - "01h : 02m : 43s"
+"Getting location…"="Obtention de l'emplacement ...";
+"Address not available"="Adresse non disponible";
+"Regular"="Régulier";
+"Take a Break"="Prendre une pause";
+"Resume Work"="Se remettre au travail";
+"Select Break Type"="Sélectionner le type de pause";
+
+"In"="Arrivée";
+"Not In"="Pas dans";
+"Break"="Pause";
+
+
+// Timesheet button
+"View My Timesheets"="Afficher mes feuilles de présence";
+"View Timesheet Period"="Voir la période de la feuille de temps";
+
+// Timesheet details
+"Timesheet Periods "=" Périodes de feuille de temps";
+"Current Period "=" Période actuelle";
+
+"Overtime"="Heures supplémentaires";
+"%02lu:%02lu Hrs"="%02lu:%02lu Hrs";
+"at %@"="at %@";
+
+"Employees on overtime"="Employés en heures supplémentaires";
+
+// Offline Banner
+"No Internet Connection."="Pas de connexion Internet.";
+
+// Waiver
+"No Response"="Pas de réponse";
+"Change Waiver Response"="Modifier la réponse de renonciation";
+
+//standard widget
+"Time Distribution"="Distribution du temps";
+
+//PunchOverviewController
+"Are you sure you want to delete this punch?"="Êtes-vous sûr de vouloir supprimer ce pointage?";
+
+// Supervisor Dashboard
+"View Team Timesheets"="Afficher les feuilles de présence de l'équipe";
+
+// Gross Pay
+"Gross Pay"="Salaire brut";
+"Total Time"="Temps total";
+"Total Team Pay"="Paiement total de l'équipe";
+
+// Timesheet User Table
+"Without Violations or Overtime"="Sans violations ou heures supplémentaires";
+"With Violations or Overtime"="Avec violations ou heures supplémentaires";
+"%@ Break"="%@ Pause";
+"%@ OT"="%@ OT";
+
+// Supervisor Trend Chart
+"Employee Clock In Trend"="Tendance de pointage à l'entrée pour l'employé";
+
+//ApprovalCommentsController
+"Please add your comments here."="Veuillez ajouter vos commentaires ici.";
+"Some of your punch data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Certaines de vos données de pointage n'ont pas été enregistrées sur le serveur Replicon.  Veuillez vous assurer que votre appareil dispose d'une connexion Internet pour synchroniser les données.";
+
+//WelcomeScreens
+
+
+"Time Is An Enterprise Asset\nReplicon Helps You Manage it"="Le temps est un atout en entreprise\nReplicon vous aide à le gérer";
+"Automate workforce\nmanagement and ensure\nglobal labour law compliance"="Automatiser la \ngestion du personnel et assurer la conformité au droit international du travail";
+"Manage projects efficiently in\nreal-time and ensure profitability"="Gérer efficacement les projets en\n temps réel et assurer la rentabilité";
+"Reduce revenue leakage with\nstreamlined and accurate client billing"="Réduire les pertes de revenus avec une\n facturation exacte et précise du client";
+
+//Missing String MI-478
+"Inbox"="Boîte de reception";
+"No pending items"="Pas d'éléments en attente";
+"Punch Team Status"="Statut équipe Pointage";
+
+"Dashboard"="Tableau de bord";
+"Timesheets for Approval"="Feuilles de temps en attente d'approbation";
+"Expenses for Approval"="Dépenses à approuver";
+"Time Off Requests for Approval"="Temps écoulé Demandes d'approbation";
+"Employees on Overtime"="Employés en heures supplémentaires";
+"Violations"="Violations";
+"Violation"="Violation";
+
+//MI-481
+"Total Worked"="Total travaillé";
+"My Timesheet"="Mes feuilles de temps";
+"Team Timesheets"="Feuilles de temps de l'équipe";
+" Work"=" Work";
+" Break"=" Break";
+
+
+"Total"="Total";
+"Payroll Summary"="Résumé de la paie";
+"No Comments"="No Comments";
+"Please refresh your data and try again."="Veuillez réactualiser vos données et réessayer";
+"Delete Punch"="Supprimer Pointage";
+"Select All"="Sélectionner tous";
+"No Comments"="Aucun commentaire";
+"View Previous Approvals"="Afficher approbations précédentes";
+"Clear All" = "Clear All";
+
+//Previous Approvals
+
+"Timesheet Approvals"="Approbations Feuiles de présence";
+"Expense Approvals"="Approbations Dépenses";
+"Time Off Approvals"="Approbations Période de congé";
+
+"Having trouble signing in?"="Des difficultés à vous inscrire ?";
+"Password reset failed. Please try again"="Echec réinitialisation du mot de passe. Veuillez essayer de nouveau";
+"Please enter a valid email"="Veuillez entrer une adresse email valide";
+"Please enter company name and email id"="Veuillez entrer le nom de la sociéré et l'id de l'email";
+"Enter your Company Name and Email Address to reset your password"="Entrez votre nom et votre adresse de Société pour réinitialiser votre mot de passe";
+//MI-749
+
+"Comments must be added before proceeding."="Les commentaires doivent être ajoutés avant de continuer.";
+
+"A timesheet template has not been assigned to your account. Please contact your Admin.\n​Once the issue is resolved, please refresh the app."="Aucun échantillon de feuille de présence n'a été assigné à votre compte. Veuillez contacter votre administrateur,\nUne fois le problème résolu, veuillez actualiser l'application.";
+"Refresh"="Actualiser";
+//EXTENDED IN OUT WIDGET
+
+"In/Out Times + Allocation"="Temps d'entrée/de sortie + Allocation";
+
+"hour"="Heure";
+"hours"="heures";
+"All Day"="Toute la journée";
+
+"See All"="Voir tout";
+"Punch Cards"="Cartes Pointages";
+"Create Punch Card"="Créer une carte de pointage";
+"Select a Client"="Sélectionner un client";
+"Select a Project"="Sélectionner un projet";
+"Select a Task"="Choisir une tâche";
+"Select an Activity"="Sélectionnez une activité";
+"Search Client"="Chercher un client";
+"Search Project"="Chercher Projet";
+"Search Task"="Chercher Tâche";
+"Search Activity"="Chercher Activité";
+
+"Search Dropdown options"="Chercher les options du menu déroulant";
+"a new card has been created"="une nouvelle carte a été créée";
+"Search Dropdown options"="Chercher les options du menu déroulant";
+
+//DAILY FIELD WIDGET
+
+"Daily Fields"="Champs quotidiens";
+"Enter text"="Entrer texte";
+"Enter numeric value"="Entrer une valeur numérique";
+
+//Attestation Message
+
+"Please accept the disclaimer."="Veuillez accepter la décharge.";
+
+"Time Capture for Attendance"="Saisie de l'heure pour la présence";
+"Approvals for Time & Attendance"="Approbations pour Heure & Présence";
+"Time Capture for Client Billing"="Saisie de l'heure pour la facturation du client";
+"Approvals for Client Billing "="Approbations pour Facturation du client";
+"GPS enabled clock in & out from\nanywhere, anytime. Gain real-time access\nto your shifts and time off."="Acrivation par GPS Entrée&Sortie \npartout, à tout moment. Obtenez un accès\nen temps réel à vos quarts et congé.";
+"Approve timesheets and time off at your convenience. Ensure compliance & insight into workforce productivity."="Approuvez les feuilles de présence et les congés à votre convenance. Assurer la conformité  & aperçu du rendement des effectifs.";
+"Track billable and non-billable hours by client, project and task. Request time off and capture expenses, even on-the-go."="Suivi heures facturables et non facturables par client, par projet et par tâche. Demande de congé et saisie des dépenses, même en déplacement.";
+"Include project managers, supervisors, and clients for approvals. Track project progress, billing and client profitability in real-time."="Y compris les gestionnaires du projet, les superviseurs et les clients pour les approbations. Suivi de l'avancée du projet, de la facturation et la rentabilité du client en temps réel.";
+
+"You do not have any time off types assigned. Please contact your Admin."="Vous n'avez pas de types de congé assignés. Veuillez contacter votre administrateur.";
+"Your punch configuration is not supported."="La configuration de votre pointage n'est pas prise en charge.";
+
+//Email Body Phone Capture
+"Please enter your phone number. We may need to call you, if we have additional questions."="Veuillez entrer votre numéro de téléphone. Nous vous contacterons, si nous avons des questions supplémentaires.";
+"My Phone Number:"="Mon numéro de téléphone:";
+
+
+///MutltiDay Timeoff not supported
+"Editing a multi day time off booking is not yet supported on the mobile app."="La modification de la comptabilisation de temps libre de plusieurs jours n'est pas encore prise en charge sur l'application mobile.";
+
+//Sync Local Notification
+
+"Some of your data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Certaines de vos données n'ont pas été enregistrées sur le serveur Replicon.  Veuillez vous assurer que votre appareil dispose d'une connexion Internet pour synchroniser les données.";
+"You can enter time & submit timesheets while offline."="Vous pouvez entrer l'heure & soumettre les feuilles de présence en étant hors connexion.";
+
+"Timesheet Error"="Erreur feuille de temps";
+"Timesheet Errors"="Erreurs Fiche de présence";
+"There are no errors."="Il n'y a pas d'erreur.";
+"You have"="Vous avez";
+"error"="erreur";
+"errors"="erreurs";
+"Tap to view."="Tapez pour afficher.";
+"Are you sure you want to dismiss all notifications from this list?"="Êtes-vous sûr de vouloir rejeter toutes les notifications de cette liste ?";
+"Dismiss All "="Rejeter la totalité";
+"Dismiss"="Renvoyer";
+"Notification"="Notification";
+"Notifications"="Notifications";
+"Please enter a comment indicating the reason for rejection."="Veuillez entrer un commentaire indiquant le motif du rejet.";
+"Total Time"="Total Time";
+"Show Less"="Afficher moins";
+"Show More"="Afficher plus";
+"Choose Break"="Choisir la pause";
+"Break Type"="Type de pause";
+"Please select a break type."="Veuillez choisir un type de pause.";
+
+"This field has been disabled. Contact your Administrator for more details."="Ce champ a été désactivé. Contactez votre administrateur pour plus de détails.";
+
+"Search OEF Dropdown Options"="Rechercher les options déroulantes OEF";
+"Select OEF Dropdown Options"="Sélectionner les options déroulantes OEF";
+
+"Punches With Errors"="Pointages avec des erreurs";
+"The following punches were not saved to replicon due to reasons specified below:"="Les pointages suivants n'ont pas été sauvegardés dans replicon en raison des motifs indiqués ci-dessous:";
+"with"="ayant";
+
+"Select From Bookmarks"="Sélectionner parmi les favoris";
+"Create Bookmark"="Créer un favori";
+"You don't have any bookmarks.\nTap on the + button to add new bookmarks"="Vous n'avez aucun favori.\nTélécharger le bouton + pour ajouter de nouveaux favoris";
+"No Bookmarks Created"="Aucun favori créé";
+"Please select a client, project & task."="Veuillez sélectionner un client, un projet et une tâche.";
+"Please select a project & task."="Veuillez sélectionner un projet et une tâche.";
+"Select from previous projects"="Sélectionner parmi les projets précédents";
+
+"Please select an activity."="Veuillez sélectionner une activité.";
+"Please change your camera settings to \"Allow Camera\"."="Modifier les paramètres de votre appareil photo sur \« Autoriser l'appareil photo\ ».";
+"Please change your location settings to \"Allow Location\"."="Modifier les paramètres de votre emplacement sur \« Autoriser l'emplacement\ ».";
+"Image Capture is Required"="La capture d'image est requise";
+"Location is Required"="L'emplacement est requis";
+
+"Any Client"="Un client";
+"No Client"="Aucun client";
+
+"Enter Number"="Entrer un nombre";
+"Enter Text"="Entrer texte";
+
+"Please enter a value between %@ to %@."="Veuillez entrer une valeur entre -%@ et %@.";
+"You have reached the maximum character limit of %@."="Vous avez atteint la limite maximale de caractères %@.";
+//MI-2067
+"Comments"="Commentaires";
+"Enter %@ comments"="Entrer les commentaires pour %@";
+"Resubmit"="Resoumettre";
+"Reopen"="Rouvrir";
+
+//MT-45
+"Invalid Project or Task"="Projet ou tâche non valide";
+"Punches were not saved to Replicon server. Tap to retry."="Les pointages n'ont pas été enregistrés sur le serveur Replicon. Tapez pour réessayer.";
+"A punch policy has to be assigned to your account. Please contact your Admin."="Une politique de pointage doit être affectée à votre compte. Veuillez contacter votre administrateur.";
+
+"Validations" = "Validations" ;
+"Validation" = "Validation" ;
+"No Time Recorded" = "No Time Recorded";
+"It looks like you have no time punches recorded for this day" = "It looks like you have no time punches recorded for this day";
+"Missing Punch" = "Missing Punch";
+
+//MultiDay Timeoff
+
+"Start Date"="Start Date";
+"End Date"="End Date";
+"Requested"="Requested";
+"Balance"="Balance";
+
+
+"Expand Days"="Expand Days";
+"Collapse Days"="Collapse Days";
+"Scheduled Hours"="Scheduled Hours";
+"Scheduled Days"="Scheduled Days";
+"Book Hours"="Book Hours";
+"Book Days"="Book Days";
+"Starting At"="Starting At";
+"Returning At"="Returning At";
+"Ok"="Ok";
+"Unknown" = "Unknown";
+
+
+//TimeOff Times
+"Start Time"="Start Time";
+"End Time"="End Time";
+
+// Shift Summary and Shift Details
+"holiday"="holiday";
+"Notes from Shift Manager"="Notes from Shift Manager";
+
+"Attestation"="Attestation";
+"Notice"="Notice";
+"I Accept"="I Accept";
+"I don't Accept"="I don't Accept";

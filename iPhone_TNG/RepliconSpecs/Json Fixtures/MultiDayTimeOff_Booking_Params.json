@@ -1,0 +1,87 @@
+{
+	  "d": {
+		"scheduleInfoByDate": [
+		  {
+			"date": {
+			  "day": 13,
+			  "month": 4,
+			  "year": 2017
+			},
+			"scheduleDuration": 1
+		  },
+		  {
+			"date": {
+			  "day": 14,
+			  "month": 4,
+			  "year": 2017
+			},
+			"scheduleDuration": 1
+		  },
+		],
+		"bookingOptionsByScheduleDuration": [
+		  {
+			"scheduleDuration": 1,
+			"bookingOptions": [
+			  {
+				"displayText": "Full Day",
+				"uri": "urn:replicon:time-off-relative-duration:full-day",
+				"duration": 1
+			  },
+			  {
+				"displayText": "3/4 Day",
+				"uri": "urn:replicon:time-off-relative-duration:three-quarter-day",
+				"duration": 0.75
+			  },
+			  {
+				"displayText": "1/2 Day",
+				"uri": "urn:replicon:time-off-relative-duration:half-day",
+				"duration": 0.50
+			  },
+			  {
+				"displayText": "1/4 Day",
+				"uri": "urn:replicon:time-off-relative-duration:quarter-day",
+				"duration": 0.25
+			  },
+			  {
+				"displayText": "None",
+				"uri": "urn:replicon:time-off-relative-duration:none",
+				"duration": 0
+			  }
+			]
+		  },
+		  {
+			"scheduleDuration": 0,
+			"bookingOptions": [
+			  {
+				"displayText": "None",
+				"uri": "urn:replicon:time-off-relative-duration:none",
+				"duration": 0
+			  },
+			  {
+				"displayText": "Full Day",
+				"uri": "urn:replicon:time-off-relative-duration:full-day",
+				"duration": 1
+			  }
+			]
+		  }
+		],
+		"timeOffTypeDetails": {
+		  "description": null,
+		  "displayText": "DayQuatDay",
+		  "enabled": true,
+		  "isHolidayTimeOffType": false,
+		  "measurementUnitUri": "urn:replicon:time-off-measurement-unit:work-days",
+		  "minimumTimeOffIncrementPolicyUri": "urn:replicon:policy:time-off:minimum-increment:quarter-day",
+		  "payCode": {
+			"displayText": "Time Off",
+			"name": "Time Off",
+			"uri": "urn:replicon-tenant:fb76e6f6e48a45f4bbd4145c6e36eb29:pay-code:3"
+		  },
+		  "slug": "day-quat-day",
+		  "startEndTimeSpecificationRequirementUri": "urn:replicon:policy:time-off:start-end-time-specification-requirement:require-start-end-time-for-partial-days",
+		  "timeOffBalanceTrackingOptionUri": "urn:replicon:time-off-balance-tracking-option:track-time-remaining",
+		  "timeOffDisplayFormatUri": "urn:replicon:time-off-measurement-unit:work-days",
+		  "uri": "urn:replicon-tenant:fb76e6f6e48a45f4bbd4145c6e36eb29:time-off-type:12"
+		}
+	  }
+	}

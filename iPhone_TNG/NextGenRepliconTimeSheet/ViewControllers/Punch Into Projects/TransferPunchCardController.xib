@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransferPunchCardController">
+            <connections>
+                <outlet property="tableView" destination="F7z-Go-LvZ" id="gKj-Q4-ygh"/>
+                <outlet property="transferPunchCardButton" destination="5S2-eA-gwT" id="LdL-Ek-NpR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="jz7-1J-CW3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="665" height="394"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5S2-eA-gwT">
+                    <rect key="frame" x="30" y="339" width="605" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.4096728509" blue="0.13085835009999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9Ri-hy-5Kd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Transfer Punch Card">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didIntendToTranferPunch:" destination="-1" eventType="touchUpInside" id="Pgb-Lf-xsy"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="F7z-Go-LvZ">
+                    <rect key="frame" x="0.0" y="0.0" width="665" height="324"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="5zx-vp-X6J"/>
+                        <constraint firstAttribute="height" constant="150" id="DDV-kA-dkS"/>
+                        <constraint firstAttribute="height" constant="210" id="Jaf-aB-CLr"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="d9o-4D-c0b"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5zx-vp-X6J"/>
+                            <exclude reference="DDV-kA-dkS"/>
+                            <exclude reference="Jaf-aB-CLr"/>
+                            <exclude reference="d9o-4D-c0b"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="HXG-Ms-28W"/>
+                        <outlet property="delegate" destination="-1" id="fPL-Dh-u1A"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5S2-eA-gwT" secondAttribute="bottom" constant="15" id="4uK-Vc-9Aq"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="13" id="5cz-6Z-nuR"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="8ax-Xy-xvg"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9tc-As-6BE"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BYP-pM-iK7"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EMX-ig-p1q"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="I8r-NT-2CZ"/>
+                <constraint firstAttribute="trailing" secondItem="F7z-Go-LvZ" secondAttribute="trailing" id="I9e-AV-oZK"/>
+                <constraint firstItem="5S2-eA-gwT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Kei-HD-WgP"/>
+                <constraint firstItem="F7z-Go-LvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="13" id="NSY-G4-ys9"/>
+                <constraint firstItem="5S2-eA-gwT" firstAttribute="top" secondItem="F7z-Go-LvZ" secondAttribute="bottom" constant="15" id="TFE-Pq-iXZ"/>
+                <constraint firstAttribute="trailing" secondItem="5S2-eA-gwT" secondAttribute="trailing" constant="30" id="anv-DB-P7j"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5cz-6Z-nuR"/>
+                    <exclude reference="8ax-Xy-xvg"/>
+                    <exclude reference="9tc-As-6BE"/>
+                    <exclude reference="I8r-NT-2CZ"/>
+                    <exclude reference="NSY-G4-ys9"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="348.5" y="88"/>
+        </view>
+    </objects>
+</document>

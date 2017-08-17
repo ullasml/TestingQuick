@@ -1,0 +1,42 @@
+{  
+  "d":{  
+    "validationMessages":[  
+      {  
+        "displayText":"Error validation",
+        "keyValues":[  
+
+        ],
+        "objectUris":[  
+          "urn:replicon-tenant:astro:time-punch:00740695-50fe-4803-a5c0-d172032b3fda"
+        ],
+        "severity":"urn:replicon:severity:error",
+        "uri":"urn:replicon-tenant:astro:validation-message:e0bd81dd-448e-4a55-8150-e6ee65b8b60f",
+        "waiver":{  
+          "displayText":"To waive this violation, click the button below. Employees waives violation pay for this day.",
+          "options":[  
+            {  
+              "displayText":"Waive Meal Penalty",
+              "value":"accept"
+            },
+            {  
+              "displayText":"Do not Waive",
+              "value":"reject"
+            }
+          ],
+          "primaryOptionValue":"accept",
+          "selectedOption":null,
+          "uri":"urn:replicon-tenant:astro:validation-waiver:a8cf3ab6-2bae-4c95-9529-f4dbc7f7a517"
+        }
+      }
+    ],
+    "validationTime":{  
+      "day":29,
+      "hour":17,
+      "millisecond":985,
+      "minute":7,
+      "month":5,
+      "second":0,
+      "year":2015
+    }
+  }
+}

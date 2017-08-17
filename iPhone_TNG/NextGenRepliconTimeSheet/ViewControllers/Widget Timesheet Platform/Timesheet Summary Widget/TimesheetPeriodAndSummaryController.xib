@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimesheetPeriodAndSummaryController" customModule="NextGenRepliconTimeSheet" customModuleProvider="target">
+            <connections>
+                <outlet property="currentPeriodLabel" destination="urt-4l-ik5" id="TBB-2K-apz"/>
+                <outlet property="dateRangeLabel" destination="OyV-hm-GM0" id="1JK-C6-5Qk"/>
+                <outlet property="nextTimesheetButton" destination="r3Q-CC-KDE" id="6OE-tE-Hmw"/>
+                <outlet property="previousTimesheetButton" destination="Knm-Fp-dXH" id="k0G-lg-aeH"/>
+                <outlet property="scrollView" destination="aW4-Gf-h0a" id="f2Y-Bv-9jl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="widthConstraint" destination="EGw-r5-Akd" id="nWK-iy-Rnj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aW4-Gf-h0a">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILj-mG-yyU">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urt-4l-ik5">
+                                    <rect key="frame" x="139" y="5" width="42" height="25"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Toq-w6-2gq"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyV-hm-GM0">
+                                    <rect key="frame" x="139" y="40" width="42" height="22"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3Q-CC-KDE">
+                                    <rect key="frame" x="181" y="40" width="21" height="22"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" image="right-arrow-active"/>
+                                    <connections>
+                                        <action selector="nextTimesheetButtonTapped:" destination="-1" eventType="touchUpInside" id="DS7-dq-nzE"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Knm-Fp-dXH">
+                                    <rect key="frame" x="118" y="40" width="21" height="22"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" image="left-arrow-active"/>
+                                    <connections>
+                                        <action selector="previousTimesheetButtonTapped:" destination="-1" eventType="touchUpInside" id="8c4-0R-PcT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="r3Q-CC-KDE" firstAttribute="bottom" secondItem="OyV-hm-GM0" secondAttribute="bottom" id="1ev-Yv-JWk"/>
+                                <constraint firstItem="OyV-hm-GM0" firstAttribute="top" secondItem="ILj-mG-yyU" secondAttribute="top" priority="750" constant="10" id="A77-T7-gpf"/>
+                                <constraint firstItem="urt-4l-ik5" firstAttribute="centerX" secondItem="ILj-mG-yyU" secondAttribute="centerX" id="Dyl-Pd-a0E"/>
+                                <constraint firstAttribute="width" constant="320" id="EGw-r5-Akd"/>
+                                <constraint firstAttribute="bottom" secondItem="OyV-hm-GM0" secondAttribute="bottom" constant="10" id="MBS-Qo-NLc"/>
+                                <constraint firstItem="r3Q-CC-KDE" firstAttribute="leading" secondItem="OyV-hm-GM0" secondAttribute="trailing" id="NHc-On-kLE"/>
+                                <constraint firstItem="OyV-hm-GM0" firstAttribute="top" secondItem="urt-4l-ik5" secondAttribute="bottom" constant="10" id="Nmw-pV-1Pd"/>
+                                <constraint firstItem="Knm-Fp-dXH" firstAttribute="top" secondItem="OyV-hm-GM0" secondAttribute="top" id="OGu-Ms-hbF"/>
+                                <constraint firstItem="OyV-hm-GM0" firstAttribute="centerX" secondItem="ILj-mG-yyU" secondAttribute="centerX" id="OS5-e1-N1f"/>
+                                <constraint firstItem="urt-4l-ik5" firstAttribute="top" secondItem="ILj-mG-yyU" secondAttribute="top" constant="5" id="PRH-X7-PlH"/>
+                                <constraint firstItem="r3Q-CC-KDE" firstAttribute="top" secondItem="OyV-hm-GM0" secondAttribute="top" id="R0w-RC-APy"/>
+                                <constraint firstItem="OyV-hm-GM0" firstAttribute="leading" secondItem="Knm-Fp-dXH" secondAttribute="trailing" id="hGR-d5-zBY"/>
+                                <constraint firstItem="Knm-Fp-dXH" firstAttribute="bottom" secondItem="OyV-hm-GM0" secondAttribute="bottom" id="rGu-65-wIa"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ILj-mG-yyU" secondAttribute="trailing" id="2zA-w9-xvZ"/>
+                        <constraint firstItem="ILj-mG-yyU" firstAttribute="top" secondItem="aW4-Gf-h0a" secondAttribute="top" id="YmG-IL-mMX"/>
+                        <constraint firstItem="ILj-mG-yyU" firstAttribute="leading" secondItem="aW4-Gf-h0a" secondAttribute="leading" id="dEc-of-kb2"/>
+                        <constraint firstAttribute="bottom" secondItem="ILj-mG-yyU" secondAttribute="bottom" id="k3A-PP-AWU"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aW4-Gf-h0a" secondAttribute="trailing" id="7Up-7u-Phh"/>
+                <constraint firstItem="aW4-Gf-h0a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WUD-zp-Xih"/>
+                <constraint firstItem="aW4-Gf-h0a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kUM-iY-ylB"/>
+                <constraint firstAttribute="bottom" secondItem="aW4-Gf-h0a" secondAttribute="bottom" id="uUg-Vo-Rhc"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="120.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="left-arrow-active" width="11" height="19"/>
+        <image name="right-arrow-active" width="11" height="19"/>
+    </resources>
+</document>

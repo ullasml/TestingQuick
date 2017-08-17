@@ -1,0 +1,676 @@
+{
+    "d": {
+        "totalPayablePay": {
+            "baseCurrencyValueAsOfDate": {
+                "day": 1,
+                "month": 9,
+                "year": 2016
+            },
+            "multiCurrencyValue": [
+                                   {
+                                   "amount": 0,
+                                   "currency": {
+                                   "symbol": "$",
+                                   "displayText": "$",
+                                   "name": "US Dollar",
+                                   "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                   }
+                                   }
+                                   ],
+            "baseCurrencyValue": {
+                "amount": 0,
+                "currency": {
+                    "symbol": "CAD$",
+                    "displayText": "CAD$",
+                    "name": "Canadian Dollar",
+                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                }
+            }
+        },
+        "approvalStatus": {
+            "uri": "urn:replicon:approval-status:waiting",
+            "displayText": "Waiting for Approval"
+        },
+        "displayPayAmount": true,
+        "nonBillableTimeDuration": {
+            "hours": 51,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "hasClientsAvailableForTimeAllocation": true,
+        "timesheetStatus": {
+            "uri": "urn:replicon:timesheet-status:waiting",
+            "displayText": "Waiting For Approval"
+        },
+        "dueDate": {
+            "day": 3,
+            "month": 9,
+            "year": 2016
+        },
+        "displayPayTotals": false,
+        "overtimeDuration": {
+            "hours": 41,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "totalTimeDuration": {
+            "hours": 51,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "attestationStatusUri": "urn:replicon:attestation-status:unattested",
+        "timesheetDaysOff": {
+            "nonScheduledDays": [
+                                 {
+                                 "day": 28,
+                                 "month": 8,
+                                 "year": 2016
+                                 },
+                                 {
+                                 "day": 3,
+                                 "month": 9,
+                                 "year": 2016
+                                 }
+                                 ],
+            "holidays": [
+                         {
+                         "uri": "urn:replicon-tenant:repliconiphone-2:holiday:2539",
+                         "isHalfDay": false,
+                         "name": "jituholiday",
+                         "date": {
+                         "day": 22,
+                         "month": 6,
+                         "year": 2017
+                         }
+                         }
+                         ],
+            "timesheet": {
+                "displayText": ".mike/2015-4-6",
+                "slug": ".mike/2015-4-6",
+                "uri": "urn:replicon-tenant:astro:timesheet:03fdbc8c-d721-435a-890f-6b483dae0e80"
+            }
+        },
+        "actualsByActivity": [
+                              {
+                              "activity": {
+                              "name": "Hiring",
+                              "uri": "urn:replicon-tenant:repliconiphone-2:activity:3",
+                              "displayText": "Hiring"
+                              },
+                              "totalTimeDuration": {
+                              "hours": 15,
+                              "minutes": 0,
+                              "seconds": 0
+                              }
+                              },
+                              {
+                              "activity": {
+                              "name": "Training",
+                              "uri": "urn:replicon-tenant:repliconiphone-2:activity:4",
+                              "displayText": "Training"
+                              },
+                              "totalTimeDuration": {
+                              "hours": 36,
+                              "minutes": 0,
+                              "seconds": 0
+                              }
+                              }
+                              ],
+        "actualsByBillingRate": [
+                                 {
+                                 "billingRate": null,
+                                 "totalTimeDuration": {
+                                 "hours": 51,
+                                 "minutes": 0,
+                                 "seconds": 0
+                                 }
+                                 }
+                                 ],
+        "actualsByDate": [
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": true,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 15,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 15,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 28,
+                          "month": 8,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": false,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 22,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 22,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 29,
+                          "month": 8,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": false,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 14,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 14,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 30,
+                          "month": 8,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": false,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 31,
+                          "month": 8,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": false,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 1,
+                          "month": 9,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": false,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 2,
+                          "month": 9,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          },
+                          {
+                          "hasComments": false,
+                          "isWeeklyDayOff": true,
+                          "timeOffDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "workingTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "totalTimeDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          },
+                          "date": {
+                          "day": 3,
+                          "month": 9,
+                          "year": 2016
+                          },
+                          "isHolidayDayOff": false,
+                          "breakDuration": {
+                          "hours": 0,
+                          "minutes": 0,
+                          "seconds": 0
+                          }
+                          }
+                          ],
+        "actualPayableTimeCalculationStatus": "urn:replicon:actual-payable-time-calculation-status:valid",
+        "billableTimeDuration": {
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "actualsByProject": [
+                             {
+                             "project": null,
+                             "totalTimeDuration": {
+                             "hours": 51,
+                             "minutes": 0,
+                             "seconds": 0
+                             }
+                             }
+                             ],
+        "canOwnerViewPayrollSummary": true,
+        "actualsByPaycode": [
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             },
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             },
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             },
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             },
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             },
+                             {
+                             "payCodeMultiplier": 1,
+                             "totalTimeDuration": {
+                             "hours": 24,
+                             "minutes": 0,
+                             "seconds": 0
+                             },
+                             "payCode": {
+                             "name": "Regular Time",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:pay-code:4",
+                             "displayText": "Regular Time"
+                             },
+                             "moneyValue": {
+                             "baseCurrencyValueAsOfDate": {
+                             "day": 1,
+                             "month": 9,
+                             "year": 2016
+                             },
+                             "multiCurrencyValue": [
+                                                    {
+                                                    "amount": 0,
+                                                    "currency": {
+                                                    "symbol": "$",
+                                                    "displayText": "$",
+                                                    "name": "US Dollar",
+                                                    "uri": "urn:replicon-tenant:repliconiphone-2:currency:1"
+                                                    }
+                                                    }
+                                                    ],
+                             "baseCurrencyValue": {
+                             "amount": 0,
+                             "currency": {
+                             "symbol": "CAD$",
+                             "displayText": "CAD$",
+                             "name": "Canadian Dollar",
+                             "uri": "urn:replicon-tenant:repliconiphone-2:currency:2"
+                             }
+                             }
+                             }
+                             }
+                             ],
+        "totalPayableTimeDuration": {
+            "hours": 72,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "workingTimeDuration": {
+            "hours": 51,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "bankedTimeDuration": {
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "timeOffTimeDuration": {
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "scriptCalculationStatus": {
+            "timesheet": {
+                "slug": ".nastro111/2016-8-28",
+                "uri": "urn:replicon-tenant:repliconiphone-2:timesheet:b6f0c15e-0cc8-4c8c-b0d0-488a3a7b290e",
+                "displayText": ".nastro111/2016-8-28"
+            },
+            "lastSuccessfulAttempt": {
+                "minute": 7,
+                "hour": 1,
+                "second": 34,
+                "timeZone": {
+                    "uri": "urn:replicon:time-zone:america-new-york",
+                    "displayText": "(UTC-5:00) Eastern Standard Time"
+                },
+                "day": 1,
+                "month": 9,
+                "year": 2016,
+                "valueInUtc": {
+                    "minute": 7,
+                    "hour": 5,
+                    "second": 34,
+                    "day": 1,
+                    "month": 9,
+                    "millisecond": 875,
+                    "year": 2016
+                }
+            },
+            "lastDataModification": {
+                "minute": 7,
+                "hour": 1,
+                "second": 34,
+                "timeZone": {
+                    "uri": "urn:replicon:time-zone:america-new-york",
+                    "displayText": "(UTC-5:00) Eastern Standard Time"
+                },
+                "day": 1,
+                "month": 9,
+                "year": 2016,
+                "valueInUtc": {
+                    "minute": 7,
+                    "hour": 5,
+                    "second": 34,
+                    "day": 1,
+                    "month": 9,
+                    "millisecond": 413,
+                    "year": 2016
+                }
+            },
+            "lastFailedAttempt": null
+        },
+        "breakDuration": {
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+        }
+    }
+}

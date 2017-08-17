@@ -1,0 +1,216 @@
+{
+  "d": {
+    "header": [
+      {
+        "displayName": "Timesheet Period",
+        "uri": "urn:replicon:timesheet-list-column:timesheet-period"
+      },
+      {
+        "displayName": "Regular Hours",
+        "uri": "urn:replicon:timesheet-list-column:regular-time-duration"
+      },
+      {
+        "displayName": "Overtime Hours",
+        "uri": "urn:replicon:timesheet-list-column:overtime-duration"
+      },
+      {
+        "displayName": "Time Off Hours",
+        "uri": "urn:replicon:timesheet-list-column:time-off-duration"
+      },
+      {
+        "displayName": "Total Hours",
+        "uri": "urn:replicon:timesheet-list-column:total-duration"
+      },
+      {
+        "displayName": "Due Date",
+        "uri": "urn:replicon:timesheet-list-column:due-date"
+      },
+      {
+        "displayName": "Approval Status",
+        "uri": "urn:replicon:timesheet-list-column:approval-status"
+      },
+      {
+        "displayName": "Timesheet",
+        "uri": "urn:replicon:timesheet-list-column:timesheet"
+      },
+      {
+        "displayName": "Total Payable Hours",
+        "uri": "urn:replicon:timesheet-list-column:total-payable-duration"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "dataType": "urn:replicon:list-type:date-range",
+            "dateRangeValue": {
+              "endDate": {
+                "day": 12,
+                "month": 4,
+                "year": 2015
+              },
+              "startDate": {
+                "day": 6,
+                "month": 4,
+                "year": 2015
+              }
+            },
+            "textValue": "Apr 6, 2015 - Apr 12, 2015"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 13,
+              "seconds": 5
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.22"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.00"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.00"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 13,
+              "seconds": 5
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.22"
+          },
+          {
+            "dataType": "urn:replicon:list-type:date",
+            "dateValue": {
+              "day": 12,
+              "month": 4,
+              "year": 2015
+            },
+            "textValue": "Apr 12, 2015"
+          },
+          {
+            "dataType": "urn:replicon:list-type:object",
+            "objectType": "urn:replicon:object-type:approval-status",
+            "textValue": "Waiting for Approval",
+            "uri": "urn:replicon:approval-status:waiting"
+          },
+          {
+            "dataType": "urn:replicon:list-type:object",
+            "objectType": "urn:replicon:object-type:timesheet",
+            "slug": ".mike/2015-4-6",
+            "uri": "urn:replicon-tenant:astro:timesheet:timesheet-a-uri"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 13,
+              "seconds": 5
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.22"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "dataType": "urn:replicon:list-type:date-range",
+            "dateRangeValue": {
+              "endDate": {
+                "day": 5,
+                "month": 4,
+                "year": 2015
+              },
+              "startDate": {
+                "day": 30,
+                "month": 3,
+                "year": 2015
+              }
+            },
+            "textValue": "Mar 30, 2015 - Apr 5, 2015"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 13,
+              "seconds": 5
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.25"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.01"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.02"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 13,
+              "seconds": 5
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.21"
+          },
+          {
+            "dataType": "urn:replicon:list-type:date",
+            "dateValue": {
+              "day": 5,
+              "month": 4,
+              "year": 2015
+            },
+            "textValue": "Apr 5, 2015"
+          },
+          {
+            "dataType": "urn:replicon:list-type:object",
+            "objectType": "urn:replicon:object-type:approval-status",
+            "textValue": "Waiting for Approval",
+            "uri": "urn:replicon:approval-status:waiting"
+          },
+          {
+            "dataType": "urn:replicon:list-type:object",
+            "objectType": "urn:replicon:object-type:timesheet",
+            "slug": ".mike/2015-4-6",
+            "uri": "urn:replicon-tenant:astro:timesheet:timesheet-b-uri"
+          },
+          {
+            "calendarDayDurationValue": {
+              "hours": 0,
+              "minutes": 14,
+              "seconds": 6
+            },
+            "dataType": "urn:replicon:list-type:calendar-day-duration",
+            "textValue": "0.21"
+          }
+        ]
+      }
+    ]
+  }
+}

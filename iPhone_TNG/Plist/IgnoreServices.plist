@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>GetUserIntegrationDetails</string>
+	<string>GetVersionUpdateDetails</string>
+	<string>FetchRemoteApiUrl.ashx</string>
+	<string>contactMobileSupport</string>
+	<string>CreatePasswordResetRequest</string>
+	<string>SendPasswordResetRequestEmail</string>
+	<string>getsystemdowntimeinfoformobile</string>
+	<string>reporting/appError</string>
+	<string>GetTimesheetSummary</string>
+	<string>submitsummarize</string>
+	<string>reopenSummarize</string>
+	<string>validations</string>
+	<string>BulkPunchWithCreatedAtTime2</string>
+	<string>GetMyTimePunchDetailsForDateRangeAndLastTwoPunchDetails</string>
+	<string>validateClientProjectTask</string>
+	<string>validations</string>
+	<string>UpdatePassword</string>
+	<string>mobile-backend/</string>
+	<string>BulkPunchWithCreatedAtTime3</string>
+</array>
+</plist>

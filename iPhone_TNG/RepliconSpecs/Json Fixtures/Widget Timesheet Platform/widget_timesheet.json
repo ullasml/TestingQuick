@@ -1,0 +1,543 @@
+{
+  "summary": {
+    "totalPayablePay": {
+      "baseCurrencyValueAsOfDate": {
+        "day": 8,
+        "month": 8,
+        "year": 2017
+      },
+      "multiCurrencyValue": [
+        {
+          "amount": 0,
+          "currency": {
+            "symbol": "$",
+            "displayText": "$",
+            "name": "US Dollar",
+            "uri": "urn:replicon-tenant:e9fc3635df184e15ac7b555bba744424:currency:1"
+          }
+        }
+      ],
+      "baseCurrencyValue": {
+        "amount": 0,
+        "currency": {
+          "symbol": "$",
+          "displayText": "$",
+          "name": "US Dollar",
+          "uri": "urn:replicon-tenant:e9fc3635df184e15ac7b555bba744424:currency:1"
+        }
+      }
+    },
+    "scriptCalculationStatus": {
+      "timesheet": {
+        "slug": ".punch1/2017-7-17",
+        "uri": "urn:replicon-tenant:3602ea7aacfd48cb82f6a75d0235a0e9:timesheet:1ea687a1-e97c-40fe-a8d1-4ebc1a72e1c9",
+        "displayText": ".punch1/2017-7-17"
+      },
+      "timesheetStatus": {
+        "uri": "urn:replicon:timesheet-status:waiting",
+        "displayText": "Waiting For Approval"
+      },
+      "lastSuccessfulAttempt": {
+        "minute": 30,
+        "hour": 12,
+        "second": 14,
+        "timeZone": {
+          "uri": "urn:replicon:time-zone:america-denver",
+          "displayText": "(UTC-7:00) Mountain Standard Time"
+        },
+        "day": 18,
+        "displayText": "Jul 18, 2017 12:30:14 PM",
+        "month": 7,
+        "year": 2017,
+        "valueInUtc": {
+          "minute": 30,
+          "hour": 18,
+          "second": 14,
+          "day": 18,
+          "month": 7,
+          "millisecond": 379,
+          "year": 2017
+        }
+      },
+      "lastDataModification": {
+        "minute": 30,
+        "hour": 12,
+        "second": 13,
+        "timeZone": {
+          "uri": "urn:replicon:time-zone:america-denver",
+          "displayText": "(UTC-7:00) Mountain Standard Time"
+        },
+        "day": 18,
+        "displayText": "Jul 18, 2017 12:30:13 PM",
+        "month": 7,
+        "year": 2017,
+        "valueInUtc": {
+          "minute": 30,
+          "hour": 18,
+          "second": 13,
+          "day": 18,
+          "month": 7,
+          "millisecond": 168,
+          "year": 2017
+        }
+      },
+      "lastFailedAttempt": null
+    },
+    "approvalStatus": {
+      "uri": "urn:replicon:approval-status:open",
+      "displayText": "Not Submitted"
+    },
+    "totalBreakDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "permittedApprovalActions": {
+      "displayResubmit": false,
+      "canApproveReject": false,
+      "canUnsubmit": true,
+      "canForceApproveReject": false,
+      "canReopen": true,
+      "canSubmit": false
+    },
+    "timesheetStatus": {
+      "uri": "urn:replicon:timesheet-status:waiting",
+      "displayText": "Waiting For Approval"
+    },
+    "timesheetPeriodViolations": {
+      "validationMessagesByDate": [],
+      "totalMissingPunchesCount": 0,
+      "totalTimesheetPeriodViolationMessagesCount": 0,
+      "timesheetLevelValidationMessages": [],
+      "totalInformationCount": 0,
+      "totalNonActionedValidationsCount": 0,
+      "totalErrorCount": 0,
+      "totalWarningCount": 0
+    },
+    "actualsByPaycode": [
+      {
+        "payCodeMultiplier": 1,
+        "totalTimeDuration": {
+          "hours": 1,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "payCode": {
+          "name": "Regular Time",
+          "uri": "urn:replicon-tenant:e9fc3635df184e15ac7b555bba744424:pay-code:4",
+          "displayText": "Regular Time"
+        },
+        "moneyValue": {
+          "baseCurrencyValueAsOfDate": {
+            "day": 8,
+            "month": 8,
+            "year": 2017
+          },
+          "multiCurrencyValue": [
+            {
+              "amount": 0,
+              "currency": {
+                "symbol": "$",
+                "displayText": "$",
+                "name": "US Dollar",
+                "uri": "urn:replicon-tenant:e9fc3635df184e15ac7b555bba744424:currency:1"
+              }
+            }
+          ],
+          "baseCurrencyValue": {
+            "amount": 0,
+            "currency": {
+              "symbol": "$",
+              "displayText": "$",
+              "name": "US Dollar",
+              "uri": "urn:replicon-tenant:e9fc3635df184e15ac7b555bba744424:currency:1"
+            }
+          }
+        }
+      }
+    ],
+    "totalWorkDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "totalTimeOffDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "totalPayableTimeDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    }
+  },
+  "daysOff": {
+    "nonScheduledDays": [
+      {
+        "day": 15,
+        "month": 7,
+        "year": 2017
+      },
+      {
+        "day": 16,
+        "month": 7,
+        "year": 2017
+      }
+    ],
+    "holidays": [],
+    "timesheet": {
+      "slug": ".widget/2017-7-10",
+      "uri": "urn:replicon-tenant:4f0076fdc36342a6908df03bb5dbaee1:timesheet:39ca1236-b7d7-4f6b-8cfd-30e91562fd41",
+      "displayText": ".widget/2017-7-10"
+    }
+  },
+  "timepunchCapabilities": {
+    "hasBreakAccess": true,
+    "activitySelectionRequired": true,
+    "projectTaskSelectionRequired": true,
+    "hasProjectAccess": true,
+    "hasActivityAccess": true,
+    "hasClientAccess": true
+  },
+  "objectExtensionFields": [],
+  "widgets": [
+    "urn:replicon:policy:timesheet:widget-timesheet:attestation",
+    "urn:replicon:policy:timesheet:widget-timesheet:notice",
+    "urn:replicon:policy:timesheet:widget-timesheet:payroll-summary",
+    "urn:replicon:policy:timesheet:widget-timesheet:time-pair-punch-entry"
+  ],
+  "permittedActions": {
+    "displayPayTotals": true,
+    "canOwnerViewPayrollSummary": true,
+    "displayPayAmount": true,
+    "canAutoSubmitOnDueDate": true
+  },
+  "timesheetUri": "urn:replicon-tenant:4f0076fdc36342a6908df03bb5dbaee1:timesheet:39ca1236-b7d7-4f6b-8cfd-30e91562fd41",
+  "timesheet": {
+    "notice": {
+      "title": "notice title",
+      "text": "notice text",
+      "noticeExplicitlyAccepted": false
+    },
+    "attestation": {
+      "title": "attestation-title",
+      "text": "attestation-description",
+      "status": "urn:replicon:attestation-status:unattested"
+    },
+    "timeline": [
+      {
+        "timePunches": [],
+        "isScheduledDay": true,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 10
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": true,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 11
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": true,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 12
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": true,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 13
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": true,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 14
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": false,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 15
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "timePunches": [],
+        "isScheduledDay": false,
+        "totalBreakDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "day": {
+          "year": 2017,
+          "month": 7,
+          "day": 16
+        },
+        "violations": {
+          "totalErrorCount": 0,
+          "totalViolationMessagesCount": 0,
+          "totalInformationCount": 0,
+          "totalWarningCount": 0
+        },
+        "totalWorkDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalTimeOffDuration": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      }
+    ],
+    "approvalStatus": {
+      "uri": "urn:replicon:approval-status:open",
+      "displayText": "Not Submitted"
+    },
+    "totalBreakDuration": {
+      "hours": 1,
+      "minutes": 2,
+      "seconds": 3
+    },
+    "timesheetPeriodViolations": {
+      "validationMessagesByDate": [],
+      "totalMissingPunchesCount": 0,
+      "totalTimesheetPeriodViolationMessagesCount": 0,
+      "timesheetLevelValidationMessages": [],
+      "totalInformationCount": 0,
+      "totalNonActionedValidationsCount": 0,
+      "totalErrorCount": 0,
+      "totalWarningCount": 0
+    },
+    "actualsByPaycode": [],
+    "totalWorkDuration": {
+      "hours": 3,
+      "minutes": 4,
+      "seconds": 5
+    },
+    "timesheetUri": "urn:replicon-tenant:4f0076fdc36342a6908df03bb5dbaee1:timesheet:39ca1236-b7d7-4f6b-8cfd-30e91562fd41",
+    "timesheetPeriod": {
+      "dateRangeValue": {
+        "endDate": {
+          "day": 16,
+          "month": 7,
+          "year": 2017
+        },
+        "startDate": {
+          "day": 10,
+          "month": 7,
+          "year": 2017
+        }
+      }
+    },
+    "totalTimeOffDuration": {
+      "hours": 6,
+      "minutes": 7,
+      "seconds": 8
+    },
+    "scriptCalculationStatus": {
+      "timesheet": {
+        "slug": ".punch1/2017-7-17",
+        "uri": "urn:replicon-tenant:3602ea7aacfd48cb82f6a75d0235a0e9:timesheet:1ea687a1-e97c-40fe-a8d1-4ebc1a72e1c9",
+        "displayText": ".punch1/2017-7-17"
+      },
+      "timesheetStatus": {
+        "uri": "urn:replicon:timesheet-status:waiting",
+        "displayText": "Waiting For Approval"
+      },
+      "lastSuccessfulAttempt": {
+        "minute": 30,
+        "hour": 12,
+        "second": 14,
+        "timeZone": {
+          "uri": "urn:replicon:time-zone:america-denver",
+          "displayText": "(UTC-7:00) Mountain Standard Time"
+        },
+        "day": 18,
+        "displayText": "Jul 18, 2017 12:30:14 PM",
+        "month": 7,
+        "year": 2017,
+        "valueInUtc": {
+          "minute": 30,
+          "hour": 18,
+          "second": 14,
+          "day": 18,
+          "month": 7,
+          "millisecond": 379,
+          "year": 2017
+        }
+      },
+      "lastDataModification": {
+        "minute": 30,
+        "hour": 12,
+        "second": 13,
+        "timeZone": {
+          "uri": "urn:replicon:time-zone:america-denver",
+          "displayText": "(UTC-7:00) Mountain Standard Time"
+        },
+        "day": 18,
+        "displayText": "Jul 18, 2017 12:30:13 PM",
+        "month": 7,
+        "year": 2017,
+        "valueInUtc": {
+          "minute": 30,
+          "hour": 18,
+          "second": 13,
+          "day": 18,
+          "month": 7,
+          "millisecond": 168,
+          "year": 2017
+        }
+      },
+      "lastFailedAttempt": null
+    }
+  },
+  "timesheetFormat": "urn:replicon:policy:timesheet:timesheet-format:gen4-timesheet"
+}

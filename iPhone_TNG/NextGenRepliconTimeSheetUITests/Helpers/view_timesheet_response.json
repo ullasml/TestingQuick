@@ -1,0 +1,1434 @@
+{
+  "tenant": {
+    "companyKey": "mobileUIAutomation20160531102427342394764",
+    "displayText": "mobileUIAutomation20160531102427342394764",
+    "slug": "mobile-ui-automation20160531102427342394764",
+    "uri": "urn:replicon-saas:tenant:9a69d203-cc8d-4199-b19a-dc932ab78235"
+  },
+  "user": {
+    "displayText": "User, Simple Astro",
+    "loginName": "simple.astro",
+    "slug": "simpleastro",
+    "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+  },
+  "endpoint": {
+    "applicationRootUrl": "https://na2.swimlane51c.replicon.staging/",
+    "isLocal": true,
+    "tenant": {
+      "companyKey": "mobileUIAutomation20160531102427342394764",
+      "isEnabled": true,
+      "slug": "mobile-ui-automation20160531102427342394764",
+      "uri": "urn:replicon-saas:tenant:9a69d203-cc8d-4199-b19a-dc932ab78235"
+    },
+    "mobileLogin": "gss-na2-int.SwimLane51c.replicon.staging/mobileUIAutomation20160531102427342394764"
+  },
+  "breaks": [
+    {
+      "displayText": "Meal",
+      "slug": "meal",
+      "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+    },
+    {
+      "displayText": "Rest",
+      "slug": "rest",
+      "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:cb3a9588-0eea-4738-96de-0c60af359e9b"
+    },
+    {
+      "displayText": "Break A",
+      "slug": "break-a",
+      "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:972b43b9-a904-4183-9656-69cfce76db81"
+    }
+  ],
+  "currenttimesheet": {
+    "currentTimesheetPeriodDateRange": {
+      "startDate": {
+        "day": 29,
+        "month": 5,
+        "year": 2016
+      },
+      "endDate": {
+        "day": 4,
+        "month": 6,
+        "year": 2016
+      }
+    },
+    "grossPay": null,
+    "timesheetDays": [
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 29
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 30
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 30,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 30,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 30,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 31
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 31,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 31,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 31,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 6,
+          "day": 1
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 1,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 1,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 1,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 6,
+          "day": 2
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 2,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 2,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 2,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 6,
+          "day": 3
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 3,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 3,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 3,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 6,
+          "day": 4
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 4,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 4,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 6,
+                "day": 4,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      }
+    ],
+    "totalWorkHours": "7h:0m",
+    "totalOtHours": "0h:0m",
+    "totalBreakHours": "7h:0m",
+    "violations": null
+  },
+  "previoustimesheet": {
+    "currentTimesheetPeriodDateRange": {
+      "startDate": {
+        "day": 22,
+        "month": 5,
+        "year": 2016
+      },
+      "endDate": {
+        "day": 28,
+        "month": 5,
+        "year": 2016
+      }
+    },
+    "grossPay": null,
+    "timesheetDays": [
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 22
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 22,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 22,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 22,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 23
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 23,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 23,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 23,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 24
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 24,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 24,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 24,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 25
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 25,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 25,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 25,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 26
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 26,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 26,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 26,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 27
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 27,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 27,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 27,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 28
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 28,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 28,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 28,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      },
+      {
+        "date": {
+          "year": 2016,
+          "month": 5,
+          "day": 29
+        },
+        "workHours": "1h:0m",
+        "breakHours": "1h:0m",
+        "punches": [
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 9,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:in",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:start-break",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": {
+                "breakType": {
+                  "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:break-type:280f8c94-e193-4515-a63f-4b3e18558557"
+                }
+              }
+            },
+            "audit": null
+          },
+          {
+            "timePunch": {
+              "target": {
+                "parameterCorrelationId": null,
+                "uri": null,
+                "slug": null
+              },
+              "user": {
+                "uri": "urn:replicon-tenant:mobile-ui-automation20160531102427342394764:user:3"
+              },
+              "extensionFieldValues": [],
+              "punchTime": {
+                "year": 2016,
+                "month": 5,
+                "day": 29,
+                "hour": 11,
+                "minute": 0,
+                "second": 0
+              },
+              "actionUri": "urn:replicon:time-punch-action:out",
+              "punchInAttributes": null,
+              "punchStartBreakAttributes": null
+            },
+            "audit": null
+          }
+        ]
+      }
+    ],
+    "totalWorkHours": "7h:0m",
+    "totalOtHours": "0h:0m",
+    "totalBreakHours": "7h:0m",
+    "violations": null
+  }
+}

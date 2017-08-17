@@ -1,0 +1,1 @@
+ALTER TABLE "time_punch_oef_value" ADD COLUMN "disabled" BOOL;

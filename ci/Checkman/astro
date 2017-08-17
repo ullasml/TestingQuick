@@ -1,0 +1,4 @@
+timesheet-ios-dev-iphone5-7.1: jenkins_build.check http://astro-ci.ddns.net:8080 timesheet-ios-dev-iphone5-7.1
+timesheet-ios-dev-iphone6-8.x: jenkins_build.check http://astro-ci.ddns.net:8080 timesheet-ios-dev-iphone6-8.x
+timesheet-ios-inhouse: jenkins_build.check http://astro-ci.ddns.net:8080 timesheet-ios-inhouse
+timesheet-tracker-delivery: jenkins_build.check http://astro-ci.ddns.net:8080 timesheet-tracker-delivery

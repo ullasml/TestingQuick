@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ApprovalsPendingTimeOffTableViewHeader">
+            <connections>
+                <outlet property="approveButton" destination="1Va-Di-18D" id="Nh7-Gl-gTu"/>
+                <outlet property="rejectButton" destination="5gS-uT-ILp" id="zZB-BL-rbi"/>
+                <outlet property="separatorView" destination="BN9-mx-rNI" id="JxE-6x-RfC"/>
+                <outlet property="toggleButton" destination="Y7N-qV-uqm" id="0If-4o-hE9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Va-Di-18D">
+                    <rect key="frame" x="476" y="285" width="108" height="30"/>
+                    <state key="normal" title="Approve Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapApproveButton:" destination="-1" eventType="touchUpInside" id="GfJ-om-RgQ"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BN9-mx-rNI" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="560" width="600" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.46082823426573427" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="1" id="JVd-m3-kEC"/>
+                        <constraint firstAttribute="height" constant="40" placeholder="YES" id="g17-7R-akd"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7N-qV-uqm">
+                    <rect key="frame" x="10" y="285" width="150" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="aLM-VX-4fZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Select all Text">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didToggleButtonForSelectOrClearAll:" destination="-1" eventType="touchUpInside" id="mNF-au-d4A"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gS-uT-ILp">
+                    <rect key="frame" x="366" y="285" width="94" height="30"/>
+                    <state key="normal" title="Reject Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapRejectButton:" destination="-1" eventType="touchUpInside" id="sKU-Ic-7Tt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="1Va-Di-18D" secondAttribute="centerY" id="33o-Ff-Zoj"/>
+                <constraint firstItem="Y7N-qV-uqm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="4zR-k7-5LP"/>
+                <constraint firstAttribute="trailing" secondItem="BN9-mx-rNI" secondAttribute="trailing" id="AAL-RC-wv0"/>
+                <constraint firstItem="BN9-mx-rNI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ius-TZ-1Vj"/>
+                <constraint firstItem="5gS-uT-ILp" firstAttribute="centerY" secondItem="1Va-Di-18D" secondAttribute="centerY" id="Man-JT-ufW"/>
+                <constraint firstItem="Y7N-qV-uqm" firstAttribute="height" secondItem="5gS-uT-ILp" secondAttribute="height" id="TAD-m9-ELG"/>
+                <constraint firstItem="Y7N-qV-uqm" firstAttribute="centerY" secondItem="5gS-uT-ILp" secondAttribute="centerY" id="VOV-CT-kTC"/>
+                <constraint firstAttribute="trailing" secondItem="1Va-Di-18D" secondAttribute="trailing" constant="16" id="WZ0-be-E4D"/>
+                <constraint firstItem="1Va-Di-18D" firstAttribute="leading" secondItem="5gS-uT-ILp" secondAttribute="trailing" constant="16" id="hgQ-L1-tp3"/>
+                <constraint firstItem="5gS-uT-ILp" firstAttribute="height" secondItem="1Va-Di-18D" secondAttribute="height" id="k5U-ZV-Poe"/>
+                <constraint firstAttribute="bottom" secondItem="BN9-mx-rNI" secondAttribute="bottom" id="pn0-Sg-1qI"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

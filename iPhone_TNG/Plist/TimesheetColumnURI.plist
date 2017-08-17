@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Timesheet Period</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:timesheet-period</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Department</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:department-of-timesheet-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>User</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:timesheet-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Regular Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:regular-time-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Overtime Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:overtime-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Off Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:time-off-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Billable Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:billable-time-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Non-Billable Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:non-billable-time-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Total Hours</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:total-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Due Date</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:due-date</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meal Penalties</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:meal-break-penalty-count</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meal Break Violations</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:meal-break-violation-count</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Saved Date</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:saved-date-time</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Employee Id</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:employee-id-of-timesheet-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Employee Type</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:employee-type-of-timesheet-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Supervisor</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:supervisor-of-timesheet-owner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Project Total</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:project-time-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Approval Status</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:approval-status</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Billing Status</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:timesheet-billing-status</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Payment Status</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:timesheet-payment-status</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Billable Amount</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:billable-amount</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Submitted Amount</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:submitted-billing-status-amount</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Waiting For Payment Amount</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:billed-billing-status-amount</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Paid Amount</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:paid-billing-status-amount</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Waiting on Approver</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:currently-waiting-on-approver</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Timesheet</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:timesheet</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Approval Due Date</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:approval-due-date</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Total Hours Excluding Break</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:total-payable-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Start Day Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:start-day-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>End Day Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:time-off-list-column:end-day-duration</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Project Total Time Duration</string>
+		<key>uri</key>
+		<string>urn:replicon:timesheet-list-column:project-leader-projects-total-time-duration</string>
+	</dict>
+</array>
+</plist>

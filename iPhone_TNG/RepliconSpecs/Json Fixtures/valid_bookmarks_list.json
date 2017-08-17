@@ -1,0 +1,38 @@
+[
+                {
+                             "project": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:project:25",
+                             "name": "Dashboarding",
+                             "displayText":"Dashboarding",
+                             "slug" :"Dashboarding"
+                             },
+                             "client": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:client:4",
+                             "name": "Xo Xo Communications",
+                             "displayText":"Xo Xo Communications",
+                             "slug" :"Xo-Xo-Communications"
+                             },
+                             "task": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:task:143",
+                             "displayText": "Deployment"
+                             }
+                },
+                {
+                             "project": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:project:20",
+                             "name": "Customer Billing System",
+                             "displayText":"Customer Billing System",
+                             "slug" :"Customer-Billing-System"
+                             },
+                             "client": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:client:2",
+                             "name": "Advantage Technologies",
+                             "displayText":"Advantage Technologies",
+                             "slug" :"advantage-technologies"
+                             },
+                             "task": {
+                             "uri": "urn:replicon-tenant:9769df3ff85644ccab649aa504c9ff21:task:103",
+                             "displayText": "Development"
+                             }
+                }
+]

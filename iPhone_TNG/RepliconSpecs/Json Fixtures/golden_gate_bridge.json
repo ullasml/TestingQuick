@@ -1,0 +1,255 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1415",
+               "short_name" : "1415",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Golden Gate Bridge",
+               "short_name" : "CA-1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "San Francisco",
+               "short_name" : "SF",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Southwest Marin",
+               "short_name" : "Southwest Marin",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "1415 Golden Gate Bridge, San Francisco, CA, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.8324955,
+                  "lng" : -122.4774662
+               },
+               "southwest" : {
+                  "lat" : 37.8109071,
+                  "lng" : -122.480942
+               }
+            },
+            "location" : {
+               "lat" : 37.819895,
+               "lng" : -122.4784907
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8324955,
+                  "lng" : -122.4774662
+               },
+               "southwest" : {
+                  "lat" : 37.8109071,
+                  "lng" : -122.480942
+               }
+            }
+         },
+         "place_id" : "Ei8xNDE1IEdvbGRlbiBHYXRlIEJyaWRnZSwgU2FuIEZyYW5jaXNjbywgQ0EsIFVTQQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "San Francisco",
+               "short_name" : "SF",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Francisco County",
+               "short_name" : "San Francisco County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "San Francisco, CA, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.9297707,
+                  "lng" : -122.3279149
+               },
+               "southwest" : {
+                  "lat" : 37.6933354,
+                  "lng" : -123.1077733
+               }
+            },
+            "location" : {
+               "lat" : 37.7749295,
+               "lng" : -122.4194155
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.812,
+                  "lng" : -122.3482
+               },
+               "southwest" : {
+                  "lat" : 37.70339999999999,
+                  "lng" : -122.527
+               }
+            }
+         },
+         "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "San Francisco County",
+               "short_name" : "San Francisco County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "San Francisco County, CA, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.9297707,
+                  "lng" : -122.3279149
+               },
+               "southwest" : {
+                  "lat" : 37.6933354,
+                  "lng" : -123.1077733
+               }
+            },
+            "location" : {
+               "lat" : 37.7749073,
+               "lng" : -122.4193878
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8332484,
+                  "lng" : -122.3570189
+               },
+               "southwest" : {
+                  "lat" : 37.7080859,
+                  "lng" : -122.5177237
+               }
+            }
+         },
+         "place_id" : "ChIJIQBpAG2ahYARUksNqd0_1h8",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "California, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.0095169,
+                  "lng" : -114.131211
+               },
+               "southwest" : {
+                  "lat" : 32.5342321,
+                  "lng" : -124.4096196
+               }
+            },
+            "location" : {
+               "lat" : 36.778261,
+               "lng" : -119.4179324
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.0095169,
+                  "lng" : -114.131211
+               },
+               "southwest" : {
+                  "lat" : 32.5342321,
+                  "lng" : -124.4096196
+               }
+            }
+         },
+         "place_id" : "ChIJPV4oX_65j4ARVW8IJ6IJUYs",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "United States",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 71.389888,
+                  "lng" : -66.94539469999999
+               },
+               "southwest" : {
+                  "lat" : 18.9110642,
+                  "lng" : 172.4458955
+               }
+            },
+            "location" : {
+               "lat" : 37.09024,
+               "lng" : -95.712891
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 49.38,
+                  "lng" : -66.94
+               },
+               "southwest" : {
+                  "lat" : 25.82,
+                  "lng" : -124.39
+               }
+            }
+         },
+         "place_id" : "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

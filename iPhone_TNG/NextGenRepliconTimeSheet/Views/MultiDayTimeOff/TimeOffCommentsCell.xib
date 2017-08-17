@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentsCell" rowHeight="100" id="KGk-i7-Jjw" customClass="TimeOffCommentsCell" customModule="NextGenRepliconTimeSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gq7-sw-o7b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uft-wK-jPA">
+                                <rect key="frame" x="15" y="8" width="290" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21.5" id="meM-jR-xxN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ABS-Fc-R80">
+                                <rect key="frame" x="15" y="38" width="290" height="53.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ABS-Fc-R80" firstAttribute="leading" secondItem="gq7-sw-o7b" secondAttribute="leading" constant="15" id="0db-Zd-Rp1"/>
+                            <constraint firstItem="Uft-wK-jPA" firstAttribute="top" secondItem="gq7-sw-o7b" secondAttribute="top" constant="8" id="12e-9m-Lcn"/>
+                            <constraint firstItem="ABS-Fc-R80" firstAttribute="top" secondItem="Uft-wK-jPA" secondAttribute="bottom" constant="8" id="2sj-hp-EBP"/>
+                            <constraint firstItem="Uft-wK-jPA" firstAttribute="leading" secondItem="gq7-sw-o7b" secondAttribute="leading" constant="15" id="56B-MK-2Dn"/>
+                            <constraint firstAttribute="bottom" secondItem="ABS-Fc-R80" secondAttribute="bottom" constant="8" id="EDe-aX-ddU"/>
+                            <constraint firstAttribute="trailing" secondItem="ABS-Fc-R80" secondAttribute="trailing" constant="15" id="MpU-gN-94k"/>
+                            <constraint firstAttribute="trailing" secondItem="Uft-wK-jPA" secondAttribute="trailing" constant="15" id="jfD-jG-eZ8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gq7-sw-o7b" secondAttribute="bottom" id="RFl-ui-dX1"/>
+                    <constraint firstItem="gq7-sw-o7b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="adQ-j8-l4L"/>
+                    <constraint firstAttribute="trailing" secondItem="gq7-sw-o7b" secondAttribute="trailing" id="adb-VU-e2e"/>
+                    <constraint firstItem="gq7-sw-o7b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xsP-op-4Nb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentsTitle" destination="Uft-wK-jPA" id="ZPE-N8-Ofh"/>
+                <outlet property="userComments" destination="ABS-Fc-R80" id="J9d-Ti-gEj"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

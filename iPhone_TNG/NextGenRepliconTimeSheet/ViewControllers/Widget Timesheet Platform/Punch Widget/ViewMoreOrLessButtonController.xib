@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewMoreOrLessButtonController" customModule="NextGenRepliconTimeSheet" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="YxV-iJ-cml" id="ZhG-Hu-wWA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewMoreOrLessButton" destination="1CA-X3-Ze0" id="DBW-tW-mnB"/>
+                <outlet property="widthConstraint" destination="cSO-uR-kE3" id="wVy-pS-yLy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-iJ-cml">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5su-L3-8gB">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CA-X3-Ze0">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                    <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="viewMoreOrLessAction:" destination="-1" eventType="touchUpInside" id="hZc-lC-XRK"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="1CA-X3-Ze0" firstAttribute="top" secondItem="5su-L3-8gB" secondAttribute="top" id="1cW-ho-47M"/>
+                                <constraint firstAttribute="bottom" secondItem="1CA-X3-Ze0" secondAttribute="bottom" id="3px-gy-H6F"/>
+                                <constraint firstItem="1CA-X3-Ze0" firstAttribute="leading" secondItem="5su-L3-8gB" secondAttribute="leading" id="K1H-Ku-ggG"/>
+                                <constraint firstAttribute="width" constant="320" id="cSO-uR-kE3"/>
+                                <constraint firstAttribute="height" constant="60" id="hit-ck-YFJ"/>
+                                <constraint firstAttribute="trailing" secondItem="1CA-X3-Ze0" secondAttribute="trailing" id="ozR-F0-jjV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="5su-L3-8gB" secondAttribute="bottom" id="2tf-fC-Crg"/>
+                        <constraint firstItem="5su-L3-8gB" firstAttribute="top" secondItem="YxV-iJ-cml" secondAttribute="top" id="8FF-PS-3i5"/>
+                        <constraint firstAttribute="trailing" secondItem="5su-L3-8gB" secondAttribute="trailing" id="YNN-MM-0z7"/>
+                        <constraint firstItem="5su-L3-8gB" firstAttribute="leading" secondItem="YxV-iJ-cml" secondAttribute="leading" id="bap-2V-a1H"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YxV-iJ-cml" secondAttribute="trailing" id="0sM-VI-JCE"/>
+                <constraint firstAttribute="bottom" secondItem="YxV-iJ-cml" secondAttribute="bottom" id="lE8-jN-2kA"/>
+                <constraint firstItem="YxV-iJ-cml" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mXX-Rp-cMG"/>
+                <constraint firstItem="YxV-iJ-cml" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r0k-6N-Pmg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

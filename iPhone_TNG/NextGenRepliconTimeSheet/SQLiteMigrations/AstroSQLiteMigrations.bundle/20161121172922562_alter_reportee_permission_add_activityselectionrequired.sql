@@ -1,0 +1,1 @@
+ALTER TABLE "reportee_permissions" ADD COLUMN "activity_selection_required" BOOL;

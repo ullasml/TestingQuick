@@ -1,0 +1,12 @@
+{
+  "error": {
+    "code": "Client",
+    "correlationId": "289fa9a149484a02bdfa949bc84dc20c",
+    "details": {
+      "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:5bf5ac71-e1c0-4aae-8e46-3c86557ae95d",
+      "displayText": "Incorrect URI Type"
+    },
+    "reason": "URI not found : Incorrect URI Type : urn:replicon-tenant:repliconiphone-2:time-punch:5bf5ac71-e1c0-4aae-8e46-3c86557ae95d",
+    "type": "UriError1"
+  }
+}

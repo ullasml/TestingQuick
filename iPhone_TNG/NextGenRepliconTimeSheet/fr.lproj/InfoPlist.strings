@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+//MOBI - 477
+"Location is used for clock in or out feature." = "La localisation est utilisée pour la fonction de pointage d'entrée ou de sortie l'horloge.";
+"Photo capture is used for attaching expense receipts." = "La capture de photo est utilisée pour attacher les reçus des dépenses.";

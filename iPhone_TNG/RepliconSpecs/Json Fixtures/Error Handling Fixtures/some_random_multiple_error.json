@@ -1,0 +1,20 @@
+{
+    "error": {
+        "code": "Sender",
+        "correlationId": "12cc1a18657844b0b2538ac4d2897f25",
+        "reason": "Authentication error",
+        "details": {
+            "displayText": "Authentication error",
+            "failureUri": "",
+            "notifications": [
+                              {
+                              "displayText": "random error1",
+                              },
+                              {
+                              "displayText": "random error2",
+                              }
+                              ]
+        },
+        "type": "AuthenticationError1"
+    }
+}

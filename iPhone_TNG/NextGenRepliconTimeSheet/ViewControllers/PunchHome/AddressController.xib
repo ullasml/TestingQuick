@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressController">
+            <connections>
+                <outlet property="addressLabel" destination="Lsm-YM-T9p" id="P3T-dW-iID"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_small_locationPointer" translatesAutoresizingMaskIntoConstraints="NO" id="vw1-rT-Qv3">
+                    <rect key="frame" x="8" y="295" width="12" height="14"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="oAx-pN-14s"/>
+                        <constraint firstAttribute="width" constant="12" id="wJs-b4-wGR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address placeholder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Lsm-YM-T9p">
+                    <rect key="frame" x="28" y="293" width="564" height="15"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="Lsm-YM-T9p" secondAttribute="centerY" id="Ivf-h8-dwf"/>
+                <constraint firstItem="vw1-rT-Qv3" firstAttribute="top" secondItem="Lsm-YM-T9p" secondAttribute="top" constant="2" id="Lg6-4l-VRa"/>
+                <constraint firstItem="Lsm-YM-T9p" firstAttribute="leading" secondItem="vw1-rT-Qv3" secondAttribute="trailing" constant="8" id="jv2-0T-F5V"/>
+                <constraint firstItem="vw1-rT-Qv3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="kun-qV-Lgg"/>
+                <constraint firstAttribute="trailing" secondItem="Lsm-YM-T9p" secondAttribute="trailing" constant="8" id="zuw-JN-g9e"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_small_locationPointer" width="12" height="14"/>
+    </resources>
+</document>

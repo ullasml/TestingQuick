@@ -1,0 +1,8 @@
+{
+    "oef":{
+        "text":"hello",
+        "numeric":"25.00",
+        "dropDown":"Value 1"
+    },
+    "readme":"Config file to execute UI tests. tags: used to config tests with different runtime attributes. tags are used to run generic test code with different test configurations. admin: admin user credentials users: list of users."
+}

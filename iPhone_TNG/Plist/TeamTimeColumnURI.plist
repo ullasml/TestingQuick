@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Activity</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:activity</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AuditImage</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:audit-image</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BreakType</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:break-type</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Punch Time</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:date-time</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Punch Time (UTC)</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:date-time-utc</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Punch Location</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:geolocation-data</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Project</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:project</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Time Punch</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:time-punch</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Task</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:task</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Punch Action</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:time-punch-action</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Device Name</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:time-punch-agent</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>User</string>
+		<key>uri</key>
+		<string>urn:replicon:time-punch-list-column:user</string>
+	</dict>
+</array>
+</plist>

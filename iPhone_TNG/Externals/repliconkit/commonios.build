@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="commonios">
+
+  <!-- Entry target -->
+  <target name="commoniosBuildCycle" description="Entry point for completing a full build cycle">
+    <property name="Xcode.path"                           value="/Applications/Xcode8.2.1/Xcode.app/Contents/Developer/usr/bin" />
+    <property name="Solution.dir"                         value="${project::get-base-directory()}"/>
+    <call target="XCodeCompile"/>
+  </target>
+
+  <target name="XCodeCompile">
+    <call target="UnlockKeychain" />
+    <exec program="xcodebuild" basedir="${Xcode.path}" workingdir="${Solution.dir}">
+    <arg value="-scheme"/>
+      <arg value="repliconkit"/>
+      <arg value="-destination"/>
+      <arg value="generic/platform=iOS"/>
+      <arg value="-configuration"/>
+      <arg value="Release"/>
+      <arg value="-derivedDataPath"/>
+      <arg value="${Solution.dir}/build"/>
+    </exec>
+  </target>
+
+  <target name="UnlockKeychain">
+    <loadfile file="/Users/${environment::get-user-name()}/ScriptPwd.text" property="LoginKeyChainAuthentication" />
+    <property name="LoginKeyChainAuthentication" value="${string::trim(LoginKeyChainAuthentication)}" />
+    <exec program="/usr/bin/security">
+      <arg value="unlock-keychain" />
+      <arg value="-p" />
+      <arg value="${LoginKeyChainAuthentication}" />
+      <arg value="/Users/${environment::get-user-name()}/Library/Keychains/login.keychain" />
+    </exec>
+  </target>
+
+</project>

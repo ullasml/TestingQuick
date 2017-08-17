@@ -1,0 +1,205 @@
+{
+  "d": {
+    "approvalsPending": {
+      "pendingExpenseSheetApprovalCount": 1,
+      "pendingTimeOffApprovalCount": 3,
+      "pendingTimesheetApprovalCount": 10
+    },
+    "totalClockedInUsersCount": 2,
+    "totalNotInUsersCount": 5,
+    "totalOnBreakUsersCount": 4,
+    "totalTimePunchAndTimesheetViolationsCount": 9,
+    "totalUsersWithOvertimeHoursCount": 8,
+    "overtimeUsersDetails": [
+      {
+        "latestTimePunchDetails": {
+          "actionUri": "urn:replicon:time-punch-action:out",
+          "thumbnailImage": null,
+          "timePunchAgent": {
+            "uri": null,
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+            "displayText": "Mobile"
+          },
+          "uri": "urn:replicon-tenant:astro:time-punch:18300208-b289-4c91-ad6f-348c0cb0e56b",
+          "user": {
+            "displayText": "user, punch",
+            "loginName": "punch",
+            "slug": "punch",
+            "uri": "urn:replicon-tenant:astro:user:64"
+          },
+          "punchInAttributes": null,
+          "punchStartBreakAttributes": null,
+          "auditImage": null,
+          "punchTime": {
+            "minute": 55,
+            "hour": 9,
+            "second": 12,
+            "timeZone": {
+              "uri": "urn:replicon:time-zone:america-los-angeles",
+              "displayText": "(UTC-8:00) Pacific Standard Time"
+            },
+            "day": 5,
+            "month": 5,
+            "year": 2015,
+            "valueInUtc": {
+              "minute": 55,
+              "hour": 16,
+              "second": 12,
+              "day": 5,
+              "month": 5,
+              "millisecond": 0,
+              "year": 2015
+            }
+          },
+          "geolocation": {
+            "address": "1800 Ellis Street, San Francisco, CA 94115, USA",
+            "gps": {
+              "accuracyInMeters": 5,
+              "latitudeInDegrees": 37.7858,
+              "longitudeInDegrees": -122.4064
+            }
+          },
+          "extensionFields": {
+            "values": [],
+            "bindings": []
+          }
+        },
+        "timeOffDetails": null,
+        "timeSegments": [
+          {
+            "activity": null,
+            "breakType": null,
+            "endPunchActionUri": "urn:replicon:time-punch-action:out",
+            "endPunchAgent": {
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+              "displayText": "Web",
+              "uri": null
+            },
+            "endPunchAuditImages": [],
+            "endPunchExtensionFields": {
+              "bindings": [],
+              "values": []
+            },
+            "endPunchGeolocation": null,
+            "endPunchLastModificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:created",
+            "endPunchTime": {
+              "day": 30,
+              "hour": 14,
+              "minute": 0,
+              "month": 4,
+              "second": 0,
+              "timeZone": {
+                "displayText": "(UTC-5:00) Eastern Standard Time",
+                "uri": "urn:replicon:time-zone:america-new-york"
+              },
+              "valueInUtc": {
+                "day": 30,
+                "hour": 18,
+                "millisecond": 0,
+                "minute": 0,
+                "month": 4,
+                "second": 0,
+                "year": 2015
+              },
+              "year": 2015
+            },
+            "endPunchUri": "urn:replicon-tenant:may:time-punch:ed4c63be-d8b8-4c65-9e42-8b847c1b4eaf",
+            "endPunchValidationResult": {
+              "validationMessages": [],
+              "validationTime": {
+                "day": 1,
+                "hour": 20,
+                "millisecond": 201,
+                "minute": 31,
+                "month": 5,
+                "second": 18,
+                "year": 2015
+              }
+            },
+            "owner": {
+              "displayText": "user, punch",
+              "loginName": "punch",
+              "slug": "punch",
+              "uri": "urn:replicon-tenant:may:user:65"
+            },
+            "startPunchActionUri": "urn:replicon:time-punch-action:in",
+            "startPunchAgent": {
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+              "displayText": "Web",
+              "uri": null
+            },
+            "startPunchAuditImages": [],
+            "startPunchExtensionFields": {
+              "bindings": [],
+              "values": []
+            },
+            "startPunchGeolocation": null,
+            "startPunchLastModificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:edited",
+            "startPunchTime": {
+              "day": 30,
+              "hour": 2,
+              "minute": 0,
+              "month": 4,
+              "second": 0,
+              "timeZone": {
+                "displayText": "(UTC-5:00) Eastern Standard Time",
+                "uri": "urn:replicon:time-zone:america-new-york"
+              },
+              "valueInUtc": {
+                "day": 30,
+                "hour": 6,
+                "millisecond": 0,
+                "minute": 0,
+                "month": 4,
+                "second": 0,
+                "year": 2015
+              },
+              "year": 2015
+            },
+            "startPunchUri": "urn:replicon-tenant:may:time-punch:d71c1a8d-8c27-4bd4-a22a-9602f2980648",
+            "startPunchValidationResult": {
+              "validationMessages": [],
+              "validationTime": {
+                "day": 1,
+                "hour": 20,
+                "millisecond": 872,
+                "minute": 31,
+                "month": 5,
+                "second": 10,
+                "year": 2015
+              }
+            },
+            "timesheetTransferErrorText": null,
+            "timesheetTransferStatusUri": "urn:replicon:time-punch-timesheet-transfer-status:not-transferred"
+          }
+        ],
+        "totalBreakHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalOvertimeHours": {
+          "hours": 1,
+          "minutes": 29,
+          "seconds": 46
+        },
+        "totalRegularHours": {
+          "hours": 8,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalWorkHours": {
+          "hours": 12,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "user": {
+          "displayText": "user, punch",
+          "loginName": "punch",
+          "slug": "punch",
+          "uri": "urn:replicon-tenant:may:user:65"
+        }
+      }
+    ]
+  }
+}

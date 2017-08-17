@@ -1,0 +1,571 @@
+{
+  "d": {
+    "notInUsers": [
+      {
+        "totalWorkHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalOvertimeHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "user": {
+          "slug": "paula",
+          "displayText": "Bamer, Paula",
+          "loginName": "pbamer@yourcompany.com",
+          "uri": "urn:replicon-tenant:astro:user:24"
+        },
+        "latestTimePunchDetails": {
+          "actionUri": "urn:replicon:time-punch-action:out",
+          "thumbnailImage": null,
+          "timePunchAgent": {
+            "uri": null,
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+            "displayText": "Web"
+          },
+          "uri": "urn:replicon-tenant:astro:time-punch:4ba49609-fdcd-43ba-856d-376989f26865",
+          "user": {
+            "slug": "paula",
+            "displayText": "Bamer, Paula",
+            "loginName": "pbamer@yourcompany.com",
+            "uri": "urn:replicon-tenant:astro:user:24"
+          },
+          "punchInAttributes": null,
+          "punchStartBreakAttributes": null,
+          "auditImage": null,
+          "punchTime": {
+            "minute": 0,
+            "hour": 22,
+            "second": 0,
+            "timeZone": {
+              "uri": "urn:replicon:time-zone:america-los-angeles",
+              "displayText": "(UTC-8:00) Pacific Standard Time"
+            },
+            "day": 9,
+            "month": 5,
+            "year": 2015,
+            "valueInUtc": {
+              "minute": 0,
+              "hour": 5,
+              "second": 0,
+              "day": 10,
+              "month": 5,
+              "millisecond": 0,
+              "year": 2015
+            }
+          },
+          "geolocation": null,
+          "extensionFields": {
+            "values": [],
+            "bindings": []
+          }
+        },
+        "timeOffDetails": null,
+        "totalBreakHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "timeSegments": [],
+        "totalRegularHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "totalWorkHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalOvertimeHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "user": {
+          "slug": "thomas",
+          "displayText": "Testing, Thomas",
+          "loginName": "thomas",
+          "uri": "urn:replicon-tenant:astro:user:66"
+        },
+        "latestTimePunchDetails": {
+          "actionUri": "urn:replicon:time-punch-action:in",
+          "thumbnailImage": null,
+          "timePunchAgent": {
+            "uri": null,
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+            "displayText": "Web"
+          },
+          "uri": "urn:replicon-tenant:astro:time-punch:4c2d55db-a6f5-48a1-bd8c-64024b484596",
+          "user": {
+            "slug": "thomas",
+            "displayText": "Testing, Thomas",
+            "loginName": "thomas",
+            "uri": "urn:replicon-tenant:astro:user:66"
+          },
+          "punchInAttributes": {
+            "activity": null,
+            "client": null,
+            "project": null,
+            "task": null,
+            "billingRate": null
+          },
+          "punchStartBreakAttributes": null,
+          "auditImage": null,
+          "punchTime": {
+            "minute": 27,
+            "hour": 12,
+            "second": 28,
+            "timeZone": {
+              "uri": "urn:replicon:time-zone:america-los-angeles",
+              "displayText": "(UTC-8:00) Pacific Standard Time"
+            },
+            "day": 4,
+            "month": 5,
+            "year": 2015,
+            "valueInUtc": {
+              "minute": 27,
+              "hour": 19,
+              "second": 28,
+              "day": 4,
+              "month": 5,
+              "millisecond": 0,
+              "year": 2015
+            }
+          },
+          "geolocation": null,
+          "extensionFields": {
+            "values": [],
+            "bindings": []
+          }
+        },
+        "timeOffDetails": null,
+        "totalBreakHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "timeSegments": [],
+        "totalRegularHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      },
+      {
+        "totalWorkHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "totalOvertimeHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "user": {
+          "slug": "wiley",
+          "displayText": "Testing, Wiley",
+          "loginName": "wiley",
+          "uri": "urn:replicon-tenant:astro:user:64"
+        },
+        "latestTimePunchDetails": {
+          "actionUri": "urn:replicon:time-punch-action:out",
+          "thumbnailImage": {
+            "imageUri": "urn:replicon-tenant:astro:binary-object:a116091a-d278-4d62-8f47-4636f7aa7ca6",
+            "imageLink": {
+              "widthInPixels": 32,
+              "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=a116091ad2784d628f474636f7aa7ca6",
+              "heightInPixels": 32
+            }
+          },
+          "timePunchAgent": {
+            "uri": null,
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+            "displayText": "Mobile"
+          },
+          "uri": "urn:replicon-tenant:astro:time-punch:18300208-b289-4c91-ad6f-348c0cb0e56b",
+          "user": {
+            "slug": "wiley",
+            "displayText": "Testing, Wiley",
+            "loginName": "wiley",
+            "uri": "urn:replicon-tenant:astro:user:64"
+          },
+          "punchInAttributes": null,
+          "punchStartBreakAttributes": null,
+          "auditImage": {
+            "imageUri": "urn:replicon-tenant:astro:binary-object:20668b23-0363-4044-a3a0-07b2a7450f60",
+            "imageLink": {
+              "widthInPixels": 1500,
+              "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=20668b2303634044a3a007b2a7450f60",
+              "heightInPixels": 1001
+            }
+          },
+          "punchTime": {
+            "minute": 55,
+            "hour": 9,
+            "second": 12,
+            "timeZone": {
+              "uri": "urn:replicon:time-zone:america-los-angeles",
+              "displayText": "(UTC-8:00) Pacific Standard Time"
+            },
+            "day": 5,
+            "month": 5,
+            "year": 2015,
+            "valueInUtc": {
+              "minute": 55,
+              "hour": 16,
+              "second": 12,
+              "day": 5,
+              "month": 5,
+              "millisecond": 0,
+              "year": 2015
+            }
+          },
+          "geolocation": {
+            "address": "1800 Ellis Street, San Francisco, CA 94115, USA",
+            "gps": {
+              "accuracyInMeters": 5,
+              "latitudeInDegrees": 37.7858,
+              "longitudeInDegrees": -122.4064
+            }
+          },
+          "extensionFields": {
+            "values": [],
+            "bindings": []
+          }
+        },
+        "timeOffDetails": null,
+        "totalBreakHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "timeSegments": [],
+        "totalRegularHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        }
+      }
+    ],
+    "onBreakUsers": [],
+    "clockedInUsers": [
+      {
+        "totalWorkHours": {
+          "hours": 9,
+          "minutes": 29,
+          "seconds": 12
+        },
+        "totalOvertimeHours": {
+          "hours": 1,
+          "minutes": 29,
+          "seconds": 23
+        },
+        "user": {
+          "slug": "mike",
+          "displayText": "Testing, Mike",
+          "loginName": "mike",
+          "uri": "urn:replicon-tenant:astro:user:65"
+        },
+        "latestTimePunchDetails": {
+          "actionUri": "urn:replicon:time-punch-action:in",
+          "thumbnailImage": {
+            "imageUri": "urn:replicon-tenant:astro:binary-object:d019266d-a61e-4131-bf2e-e290e06cd515",
+            "imageLink": {
+              "widthInPixels": 32,
+              "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=d019266da61e4131bf2ee290e06cd515",
+              "heightInPixels": 32
+            }
+          },
+          "timePunchAgent": {
+            "uri": null,
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+            "displayText": "Mobile"
+          },
+          "uri": "urn:replicon-tenant:astro:time-punch:cb994a97-aa35-4758-8f82-4908b13e28ac",
+          "user": {
+            "slug": "mike",
+            "displayText": "Testing, Mike",
+            "loginName": "mike",
+            "uri": "urn:replicon-tenant:astro:user:65"
+          },
+          "punchInAttributes": {
+            "activity": null,
+            "client": null,
+            "project": null,
+            "task": null,
+            "billingRate": null
+          },
+          "punchStartBreakAttributes": null,
+          "auditImage": {
+            "imageUri": "urn:replicon-tenant:astro:binary-object:abccc5e1-c4fc-44eb-a429-89cf723a0c44",
+            "imageLink": {
+              "widthInPixels": 1008,
+              "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=abccc5e1c4fc44eba42989cf723a0c44",
+              "heightInPixels": 669
+            }
+          },
+          "punchTime": {
+            "minute": 38,
+            "hour": 11,
+            "second": 53,
+            "timeZone": {
+              "uri": "urn:replicon:time-zone:america-los-angeles",
+              "displayText": "(UTC-8:00) Pacific Standard Time"
+            },
+            "day": 6,
+            "month": 5,
+            "year": 2015,
+            "valueInUtc": {
+              "minute": 38,
+              "hour": 18,
+              "second": 53,
+              "day": 6,
+              "month": 5,
+              "millisecond": 0,
+              "year": 2015
+            }
+          },
+          "geolocation": {
+            "address": "1800 Ellis Street, San Francisco, CA 94115, USA",
+            "gps": {
+              "accuracyInMeters": 5,
+              "latitudeInDegrees": 37.7858,
+              "longitudeInDegrees": -122.4064
+            }
+          },
+          "extensionFields": {
+            "values": [],
+            "bindings": []
+          }
+        },
+        "timeOffDetails": null,
+        "totalBreakHours": {
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0
+        },
+        "timeSegments": [
+          {
+            "timesheetTransferStatusUri": "urn:replicon:time-punch-timesheet-transfer-status:not-transferred",
+            "endPunchActionUri": "urn:replicon:time-punch-action:out",
+            "endPunchExtensionFields": {
+              "values": [],
+              "bindings": []
+            },
+            "endPunchAgent": {
+              "uri": null,
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+              "displayText": "Web"
+            },
+            "endPunchAuditImages": [],
+            "endPunchTime": {
+              "minute": 30,
+              "hour": 9,
+              "second": 0,
+              "timeZone": {
+                "uri": "urn:replicon:time-zone:america-los-angeles",
+                "displayText": "(UTC-8:00) Pacific Standard Time"
+              },
+              "day": 6,
+              "month": 5,
+              "year": 2015,
+              "valueInUtc": {
+                "minute": 30,
+                "hour": 16,
+                "second": 0,
+                "day": 6,
+                "month": 5,
+                "millisecond": 0,
+                "year": 2015
+              }
+            },
+            "owner": {
+              "slug": "mike",
+              "displayText": "Testing, Mike",
+              "loginName": "mike",
+              "uri": "urn:replicon-tenant:astro:user:65"
+            },
+            "startPunchActionUri": "urn:replicon:time-punch-action:in",
+            "startPunchLastModificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:created",
+            "activity": null,
+            "startPunchAgent": {
+              "uri": null,
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+              "displayText": "Web"
+            },
+            "startPunchValidationResult": {
+              "validationTime": {
+                "minute": 50,
+                "hour": 16,
+                "second": 4,
+                "day": 6,
+                "month": 5,
+                "millisecond": 958,
+                "year": 2015
+              },
+              "validationMessages": []
+            },
+            "timesheetTransferErrorText": null,
+            "startPunchTime": {
+              "minute": 1,
+              "hour": 0,
+              "second": 0,
+              "timeZone": {
+                "uri": "urn:replicon:time-zone:america-los-angeles",
+                "displayText": "(UTC-8:00) Pacific Standard Time"
+              },
+              "day": 6,
+              "month": 5,
+              "year": 2015,
+              "valueInUtc": {
+                "minute": 1,
+                "hour": 7,
+                "second": 0,
+                "day": 6,
+                "month": 5,
+                "millisecond": 0,
+                "year": 2015
+              }
+            },
+            "endPunchGeolocation": null,
+            "startPunchUri": "urn:replicon-tenant:astro:time-punch:07a6ba79-a1d8-4850-97a5-6ae3d80c1b8c",
+            "breakType": null,
+            "startPunchExtensionFields": {
+              "values": [],
+              "bindings": []
+            },
+            "startPunchAuditImages": [],
+            "endPunchUri": "urn:replicon-tenant:astro:time-punch:2738914a-e007-4ae0-8df2-6d2b75136055",
+            "endPunchValidationResult": {
+              "validationTime": {
+                "minute": 50,
+                "hour": 16,
+                "second": 12,
+                "day": 6,
+                "month": 5,
+                "millisecond": 977,
+                "year": 2015
+              },
+              "validationMessages": [
+                {
+                  "keyValues": [],
+                  "objectUris": ["urn:replicon-tenant:astro:time-punch:2738914a-e007-4ae0-8df2-6d2b75136055"],
+                  "waiver": null,
+                  "displayText": "Meal Break Violation:​You have missed you meal break for the day. A meal break violation will be assessed.",
+                  "severity": "urn:replicon:severity:warning",
+                  "uri": "urn:replicon-tenant:astro:validation-message:9f682d76-7665-4a00-8c3b-372aa7648ae4"
+                }
+              ]
+            },
+            "endPunchLastModificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:created",
+            "startPunchGeolocation": null
+          },
+          {
+            "timesheetTransferStatusUri": "urn:replicon:time-punch-timesheet-transfer-status:not-transferred",
+            "endPunchActionUri": null,
+            "endPunchExtensionFields": null,
+            "endPunchAgent": null,
+            "endPunchAuditImages": null,
+            "endPunchTime": null,
+            "owner": {
+              "slug": "mike",
+              "displayText": "Testing, Mike",
+              "loginName": "mike",
+              "uri": "urn:replicon-tenant:astro:user:65"
+            },
+            "startPunchActionUri": "urn:replicon:time-punch-action:in",
+            "startPunchLastModificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:created-with-authentic-time",
+            "activity": null,
+            "startPunchAgent": {
+              "uri": null,
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+              "displayText": "Mobile"
+            },
+            "startPunchValidationResult": {
+              "validationTime": {
+                "minute": 39,
+                "hour": 18,
+                "second": 24,
+                "day": 6,
+                "month": 5,
+                "millisecond": 105,
+                "year": 2015
+              },
+              "validationMessages": []
+            },
+            "timesheetTransferErrorText": null,
+            "startPunchTime": {
+              "minute": 38,
+              "hour": 11,
+              "second": 53,
+              "timeZone": {
+                "uri": "urn:replicon:time-zone:america-los-angeles",
+                "displayText": "(UTC-8:00) Pacific Standard Time"
+              },
+              "day": 6,
+              "month": 5,
+              "year": 2015,
+              "valueInUtc": {
+                "minute": 38,
+                "hour": 18,
+                "second": 53,
+                "day": 6,
+                "month": 5,
+                "millisecond": 0,
+                "year": 2015
+              }
+            },
+            "endPunchGeolocation": null,
+            "startPunchUri": "urn:replicon-tenant:astro:time-punch:cb994a97-aa35-4758-8f82-4908b13e28ac",
+            "breakType": null,
+            "startPunchExtensionFields": {
+              "values": [],
+              "bindings": []
+            },
+            "startPunchAuditImages": [
+              {
+                "imageUri": "urn:replicon-tenant:astro:binary-object:abccc5e1-c4fc-44eb-a429-89cf723a0c44",
+                "imageLink": {
+                  "widthInPixels": 1008,
+                  "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=some-other-image-sha",
+                  "heightInPixels": 669
+                }
+              },
+              {
+                "imageUri": "urn:replicon-tenant:astro:binary-object:d019266d-a61e-4131-bf2e-e290e06cd515",
+                "imageLink": {
+                  "widthInPixels": 32,
+                  "href": "https:\/\/na2.swimlane08c.replicon.staging\/astro\/services\/BinaryObjectHandler.ashx?id=some-image-sha",
+                  "heightInPixels": 32
+                }
+              }
+            ],
+            "endPunchUri": null,
+            "endPunchValidationResult": null,
+            "endPunchLastModificationTypeUri": null,
+            "startPunchGeolocation": {
+              "address": "1801 Ellis Street, San Francisco, CA 94115, USA",
+              "gps": {
+                "accuracyInMeters": 5,
+                "latitudeInDegrees": 37.7858,
+                "longitudeInDegrees": -122.4064
+              }
+            }
+          }
+        ],
+        "totalRegularHours": {
+          "hours": 8,
+          "minutes": 12,
+          "seconds": 12
+        }
+      }
+    ]
+  }
+}

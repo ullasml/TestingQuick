@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Replicon${BUNDLE_ID_SUFFIX}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>com.replicon.nextgenreplicontimesheet.$(PRODUCT_NAME:rfc1034identifier)${BUNDLE_ID_SUFFIX}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.74.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.replicon.gen3</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>replicongen3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.replicon.gen3</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>replicongen2</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.74.6</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>9a20a18b13ce00e6dba30b046bc1244ccdc8a78b</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to capture images</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Location is used for clock in or out feature.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Employees are required to capture their location when they clock IN and OUT.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo capture is used for attaching expense receipts.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Open Sans 300.ttf</string>
+		<string>Open Sans 600.ttf</string>
+		<string>Open Sans regular.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to capture images</string>
+        <key>NSBluetoothPeripheralUsageDescription</key>
+	<string>bluetooth use</string>
+</dict>
+</plist>

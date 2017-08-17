@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TimeOffStatusHeader" customModule="NextGenRepliconTimeSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1p-c7-ghs">
+                    <rect key="frame" x="138" y="0.0" width="44.5" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Approval_Comments.png" translatesAutoresizingMaskIntoConstraints="NO" id="xw4-94-Roh">
+                    <rect key="frame" x="190" y="6" width="18" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Jj9-Fi-jQB"/>
+                        <constraint firstAttribute="width" constant="18" id="SKI-0e-dYj"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3T-6i-Orw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <connections>
+                        <action selector="selection:" destination="iN0-l3-epB" eventType="touchUpInside" id="BaV-LP-VzY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.74682831106365033" blue="0.60227679200343509" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="o1p-c7-ghs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="C9t-HT-UnD"/>
+                <constraint firstAttribute="bottom" secondItem="o1p-c7-ghs" secondAttribute="bottom" id="E8p-JJ-Fzd"/>
+                <constraint firstItem="o1p-c7-ghs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gt7-7M-c3G"/>
+                <constraint firstItem="xw4-94-Roh" firstAttribute="leading" secondItem="o1p-c7-ghs" secondAttribute="trailing" constant="8" id="Gzb-VS-7EL"/>
+                <constraint firstAttribute="trailing" secondItem="n3T-6i-Orw" secondAttribute="trailing" id="KzA-Oh-Ro0"/>
+                <constraint firstItem="n3T-6i-Orw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ia6-U3-Ort"/>
+                <constraint firstItem="xw4-94-Roh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="lDp-51-mLK"/>
+                <constraint firstAttribute="bottom" secondItem="n3T-6i-Orw" secondAttribute="bottom" id="mmL-og-aty"/>
+                <constraint firstItem="n3T-6i-Orw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="niq-SD-HPO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="o1p-c7-ghs" id="T3c-tx-6bO"/>
+            </connections>
+            <point key="canvasLocation" x="6" y="-238"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Approval_Comments.png" width="18" height="18"/>
+    </resources>
+</document>

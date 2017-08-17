@@ -1,0 +1,15 @@
+thrust_version: 0.7
+project_name: NextGenRepliconTimeSheet
+path_to_xcodeproj: 'iPhone_TNG/NextGenRepliconTimeSheet.xcodeproj'
+app_name: NextGenRepliconTimeSheet
+
+spec_targets:
+  specs:
+    scheme: RepliconSpecs
+    type: bundle
+    build_configuration: Debug
+    device_name: 'iPhone 5s'
+    os_version: 8.1
+
+spec_directories:
+  - iPhone_TNG/RepliconSpecs

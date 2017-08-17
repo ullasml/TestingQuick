@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DatabasePath</key>
+	<string>/</string>
+	<key>DatabaseName</key>
+	<string>replicon.sqlite</string>
+	<key>Sqlite3Path</key>
+	<string>/usr/bin/sqlite3</string>
+	<key>DomainName</key>
+	<string>replicon.com</string>
+	<key>StagingDomainName</key>
+	<string>replicon.staging</string>
+	<key>StagingBaseURLName</key>
+	<string>global</string>
+	<key>ProductionBaseURLName</key>
+	<string>global</string>
+	<key>SSOTargetURL</key>
+	<string>/mobile-sso-landing</string>
+	<key>SaasServiceUrl</key>
+	<string>http://saasservices-na2-int</string>
+	<key>timesheetDownloadCount</key>
+	<integer>10</integer>
+	<key>approvalsDownloadCount</key>
+	<integer>10</integer>
+	<key>clientsOrprojectOrtasksDownloadCount</key>
+	<integer>10</integer>
+	<key>billingRateDownloadCount</key>
+	<integer>10</integer>
+	<key>activityDownlaodCount</key>
+	<integer>10</integer>
+	<key>expenseSheetDownloadCount</key>
+	<integer>10</integer>
+	<key>expenseCodesDownloadCount</key>
+	<integer>10</integer>
+	<key>timeoffDownloadCount</key>
+	<integer>10</integer>
+	<key>dropDownOptionDownloadCount</key>
+	<integer>10</integer>
+	<key>itunesAppUrl</key>
+	<string>https://itunes.apple.com/app/id462289490</string>
+	<key>currentGenItunesAppUrl</key>
+	<string>http://itunes.apple.com/us/app/replicon-timesheet/id463488167?mt=8</string>
+	<key>adHocOptionDataDownloadCount</key>
+	<integer>10</integer>
+	<key>logFilePassword</key>
+	<string>8/&gt;}13z.DXzm.=|</string>
+	<key>breakDownloadCount</key>
+	<integer>10</integer>
+	<key>teamTimeDownloadCount</key>
+	<integer>1000</integer>
+	<key>databasePassword</key>
+	<string>e_?4H5yhyK-VAx6</string>
+	<key>oefDropDownTagOptionDownloadCount</key>
+	<integer>10</integer>
+</dict>
+</plist>

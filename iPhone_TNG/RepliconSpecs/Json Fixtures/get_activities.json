@@ -1,0 +1,24 @@
+{
+  "d": [
+    {
+      "name": "12345678901234567890123456789012345678901111111111",
+      "uri": "urn:replicon-tenant:repliconiphone-2:activity:41",
+      "displayText": "12345678901234567890123456789012345678901111111111"
+    },
+    {
+      "name": "Coding",
+      "uri": "urn:replicon-tenant:repliconiphone-2:activity:7",
+      "displayText": "Coding"
+    },
+    {
+      "name": "General Admin",
+      "uri": "urn:replicon-tenant:repliconiphone-2:activity:1",
+      "displayText": "General Admin"
+    },
+    {
+      "name": "Hiring",
+      "uri": "urn:replicon-tenant:repliconiphone-2:activity:3",
+      "displayText": "Hiring"
+    }
+  ]
+}

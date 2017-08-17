@@ -1,0 +1,144 @@
+{ "d": {
+        "objectExtensionDefinitionDetails": [
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-numeric",
+                                             "description": null,
+                                             "name": "supedit-eof-number-noprompt-break-field",
+                                             "slug": "supedit-eof-number-noprompt-break-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:711a1919-f081-4231-bdd7-fd5ff64c78d2"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-numeric",
+                                             "description": null,
+                                             "name": "supedit-eof-number-prompt-break-field",
+                                             "slug": "supedit-eof-number-prompt-break-field-2",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b0885128-a7e9-4efb-85e3-b3c4c7b16f2e"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-prompt-break-field",
+                                             "slug": "supedit-eof-number-prompt-break-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:5d0b5c77-dab1-45f5-a8ba-078aa2eb5a17"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-number-noprompt-clockout-field",
+                                             "slug": "supedit-eof-number-noprompt-clockout-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:faeef124-a3d8-4598-a7f6-c12df6e89706"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-numeric",
+                                             "description": null,
+                                             "name": "supedit-eof-number-noprompt-field",
+                                             "slug": "supedit-eof-number-noprompt-field-2",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:4b41396d-4783-4c31-95bf-1dc55643f626"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-numeric",
+                                             "description": null,
+                                             "name": "supedit-eof-number-prompt-field",
+                                             "slug": "supedit-eof-number-prompt-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:0ff40d5f-bd4a-4a16-b0e6-f4326fef6a13"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-noprompt-break-field",
+                                             "slug": "supedit-eof-text-noprompt-break-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b20fcfdf-b4b8-4093-ad74-dc6b4c7a3362"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-noprompt-field",
+                                             "slug": "supedit-eof-number-noprompt-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:291705aa-fb3f-4ae8-8ed5-3b11b45fea46"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-noprompt-transfer-field",
+                                             "slug": "supedit-eof-text-noprompt-transfer-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:a1b80375-2385-4f11-b90d-75d84927ef37"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-prompt-field",
+                                             "slug": "supedit-eof-text-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:12702ab2-1aa6-4e6c-b2c5-4853ecc65be6"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-numeric",
+                                             "description": null,
+                                             "name": "supedit-eof-number-prompt-clockout-field",
+                                             "slug": "supedit-eof-number-prompt-clockout-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b08219cf-94c0-40ea-a91c-bec89b066890"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-prompt-clockout-field",
+                                             "slug": "supedit-eof-text-prompt-clockout-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:3e297141-fb98-4402-a3b6-7959b8da4bdd"
+                                             },
+                                             {
+                                             "code": null,
+                                             "definitionTypeUri": "urn:replicon:object-extension-definition-type:object-extension-type-text",
+                                             "description": null,
+                                             "name": "supedit-eof-text-prompt-transfer-field",
+                                             "slug": "supedit-eof-number-prompt-transfer-field",
+                                             "uri": "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:aaeb2834-2dea-4af4-b11c-f3f9ad5fdf27"
+                                             }
+                                             ],
+        "userTimePunchObjectExtensionFields": [
+                                               {
+                                               "collectAtTimeOfPunchFieldUris": [
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b0885128-a7e9-4efb-85e3-b3c4c7b16f2e",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b08219cf-94c0-40ea-a91c-bec89b066890",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:0ff40d5f-bd4a-4a16-b0e6-f4326fef6a13",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:5d0b5c77-dab1-45f5-a8ba-078aa2eb5a17",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:3e297141-fb98-4402-a3b6-7959b8da4bdd",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:12702ab2-1aa6-4e6c-b2c5-4853ecc65be6",
+                                                                                 "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:aaeb2834-2dea-4af4-b11c-f3f9ad5fdf27"
+                                                                                 ],
+                                               "punchInFieldUris": [
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:faeef124-a3d8-4598-a7f6-c12df6e89706",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:4b41396d-4783-4c31-95bf-1dc55643f626",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:0ff40d5f-bd4a-4a16-b0e6-f4326fef6a13",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b20fcfdf-b4b8-4093-ad74-dc6b4c7a3362",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:291705aa-fb3f-4ae8-8ed5-3b11b45fea46",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:a1b80375-2385-4f11-b90d-75d84927ef37",
+                                                                    "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:12702ab2-1aa6-4e6c-b2c5-4853ecc65be6"
+                                                                    ],
+                                               "punchOutFieldUris": [
+                                                                     "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b08219cf-94c0-40ea-a91c-bec89b066890",
+                                                                     "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:3e297141-fb98-4402-a3b6-7959b8da4bdd"
+                                                                     ],
+                                               "punchStartBreakFieldUris": [
+                                                                            "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:711a1919-f081-4231-bdd7-fd5ff64c78d2",
+                                                                            "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:b0885128-a7e9-4efb-85e3-b3c4c7b16f2e",
+                                                                            "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:5d0b5c77-dab1-45f5-a8ba-078aa2eb5a17"
+                                                                            ],
+                                               "punchTransferFieldUris": [
+                                                                          "urn:replicon-tenant:repliconiphone-2:object-extension-tag-definition:aaeb2834-2dea-4af4-b11c-f3f9ad5fdf27"
+                                                                          ],
+                                               "userUri": "urn:replicon-tenant:repliconiphone-2:user:985"
+                                               }
+                                               ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+  "d": [
+    {
+      "task": {
+        "task": {
+          "uri": "urn:replicon-tenant:iphone:task:111",
+          "displayText": "Deployment"
+        },
+        "parentTask": null
+      },
+      "dateRangeWhereTimeAllocationIsAllowed": {
+        "endDate": {
+          "day": 11,
+          "month": 10,
+          "year": 2015
+        },
+        "startDate": {
+          "day": 5,
+          "month": 10,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "task": {
+        "task": {
+          "uri": "urn:replicon-tenant:iphone:task:108",
+          "displayText": "Design"
+        },
+        "parentTask": null
+      },
+      "dateRangeWhereTimeAllocationIsAllowed": {
+        "endDate": {
+          "day": 11,
+          "month": 10,
+          "year": 2015
+        },
+        "startDate": {
+          "day": 5,
+          "month": 10,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "task": {
+        "task": {
+          "uri": "urn:replicon-tenant:iphone:task:109",
+          "displayText": "Development"
+        },
+        "parentTask": null
+      },
+      "dateRangeWhereTimeAllocationIsAllowed": {
+        "endDate": {
+          "day": 11,
+          "month": 10,
+          "year": 2015
+        },
+        "startDate": {
+          "day": 5,
+          "month": 10,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "task": {
+        "task": {
+          "uri": "urn:replicon-tenant:iphone:task:106",
+          "displayText": "Discovery"
+        },
+        "parentTask": null
+      },
+      "dateRangeWhereTimeAllocationIsAllowed": {
+        "endDate": {
+          "day": 11,
+          "month": 10,
+          "year": 2015
+        },
+        "startDate": {
+          "day": 5,
+          "month": 10,
+          "year": 2015
+        }
+      }
+    }
+
+  ]
+}

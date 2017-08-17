@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- -D: BuildConfig.arg       : usually Release, but could be debug, or Release x64 or ....                  -->
+<!-- -D: FullBranchName.arg    : What is the name of the GitHub branch name that we are building?             -->
+<!-- -D: BuildVersion.arg      : 255.255.255.255 for dev builds .                                             -->
+<!-- ******************************************************************************************************** -->
+<project name="commonios" default="RBuilder">
+  <!-- ***Includes********************************************************************************************* -->
+  <property name="commonios.buildfile"       value="${project::get-base-directory()}/commonios.build"/>
+  <include buildfile="${commonios.buildfile}" />
+  <echo message="Using build file: ${commonios.buildfile}" />
+  <!-- ******************************************************************************************************** -->
+  
+  <target name="RBuilder" description="Default entry point">
+    <call target="commonios" cascade="false" />
+  </target>
+  
+  <!-- Individual project entry points.  The *BuildCycle targets are located inside the individual project build files. -->
+  <target name="commonios" unless="${target::has-executed('commonios')}" description="Build the Replicon iOS Platform product">
+    <call target="commoniosBuildCycle" />
+  </target>
+</project>

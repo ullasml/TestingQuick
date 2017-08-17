@@ -1,0 +1,252 @@
+ [
+  {
+  "uri": "urn:replicon-tenant:repliconiphone-2:time-punch:4a4951e8-e48f-4ed2-bd08-445cc96cec5d",
+  "records": [
+              {
+              "geolocation": null,
+              "originalPunchTime": null,
+              "newBillingRate": null,
+              "newPunchTime": {
+              "minute": 12,
+              "hour": 14,
+              "second": 9,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:12:09 PM",
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 12,
+              "hour": 21,
+              "second": 9,
+              "day": 21,
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017
+              }
+              },
+              "clientIpAddress": "172.16.9.249",
+              "displayOnTimeline": false,
+              "originalProject": null,
+              "originalBreakType": null,
+              "roundingRuleRevision": null,
+              "displayText": "Added 2:12 PM, Activity \"Performance Review\", By oef, pact On Jun 21, 2017 At 2:12 PM, Via Mobile",
+              "actualUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "newBreakType": null,
+              "originalPunchUser": null,
+              "newPunchActionUri": "urn:replicon:time-punch-action:in",
+              "originalActivity": null,
+              "modificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:created",
+              "newActivity": {
+              "name": "Performance Review",
+              "uri": "urn:replicon-tenant:repliconiphone-2:activity:5",
+              "displayText": "Performance Review"
+              },
+              "originalBillingRate": null,
+              "auditImage": null,
+              "newProject": null,
+              "newPunchUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "originalPunchActionUri": null,
+              "effectiveUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "originalTask": null,
+              "thumbnailImage": null,
+              "timestamp": {
+              "minute": 12,
+              "hour": 14,
+              "second": 13,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:12:13 PM",
+              "month": 6,
+              "millisecond": 722,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 12,
+              "hour": 21,
+              "second": 13,
+              "day": 21,
+              "month": 6,
+              "millisecond": 722,
+              "year": 2017
+              }
+              },
+              "newTask": null,
+              "comment": null,
+              "unroundedPunchTime": {
+              "minute": 12,
+              "hour": 14,
+              "second": 9,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:12:09 PM",
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 12,
+              "hour": 21,
+              "second": 9,
+              "day": 21,
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017
+              }
+              },
+              "clientAgent": {
+              "uri": null,
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+              "displayText": "Mobile"
+              }
+              },
+              {
+              "geolocation": null,
+              "originalPunchTime": {
+              "minute": 12,
+              "hour": 14,
+              "second": 9,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:12:09 PM",
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 12,
+              "hour": 21,
+              "second": 9,
+              "day": 21,
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017
+              }
+              },
+              "newBillingRate": null,
+              "newPunchTime": {
+              "minute": 13,
+              "hour": 14,
+              "second": 9,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:13:09 PM",
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 13,
+              "hour": 21,
+              "second": 9,
+              "day": 21,
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017
+              }
+              },
+              "clientIpAddress": "172.16.8.15",
+              "displayOnTimeline": true,
+              "originalProject": null,
+              "originalBreakType": null,
+              "roundingRuleRevision": null,
+              "displayText": "Edited To 2:13 PM, By oef, pact On Jun 21, 2017 At 8:13 PM, Via Mobile",
+              "actualUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "newBreakType": null,
+              "originalPunchUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "newPunchActionUri": "urn:replicon:time-punch-action:in",
+              "originalActivity": {
+              "name": "Performance Review",
+              "uri": "urn:replicon-tenant:repliconiphone-2:activity:5",
+              "displayText": "Performance Review"
+              },
+              "modificationTypeUri": "urn:replicon:time-punch-audit-record-modification-type:edited",
+              "newActivity": {
+              "name": "Performance Review",
+              "uri": "urn:replicon-tenant:repliconiphone-2:activity:5",
+              "displayText": "Performance Review"
+              },
+              "originalBillingRate": null,
+              "auditImage": null,
+              "newProject": null,
+              "newPunchUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "originalPunchActionUri": "urn:replicon:time-punch-action:in",
+              "effectiveUser": {
+              "slug": "pactoef",
+              "displayText": "oef, pact",
+              "loginName": "pact.oef",
+              "uri": "urn:replicon-tenant:repliconiphone-2:user:743"
+              },
+              "originalTask": null,
+              "thumbnailImage": null,
+              "timestamp": {
+              "minute": 13,
+              "hour": 20,
+              "second": 25,
+              "day": 21,
+              "displayText": "Jun 21, 2017 11:13:25 PM",
+              "month": 6,
+              "millisecond": 788,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 13,
+              "hour": 3,
+              "second": 25,
+              "day": 22,
+              "month": 6,
+              "millisecond": 788,
+              "year": 2017
+              }
+              },
+              "newTask": null,
+              "comment": null,
+              "unroundedPunchTime": {
+              "minute": 13,
+              "hour": 14,
+              "second": 9,
+              "day": 21,
+              "displayText": "Jun 21, 2017 5:13:09 PM",
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017,
+              "valueInUtc": {
+              "minute": 13,
+              "hour": 21,
+              "second": 9,
+              "day": 21,
+              "month": 6,
+              "millisecond": 0,
+              "year": 2017
+              }
+              },
+              "clientAgent": {
+              "uri": null,
+              "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+              "displayText": "Mobile"
+              }
+              }
+              ]
+  }
+  ]

@@ -1,0 +1,75 @@
+{
+    "d": {
+        "actionUri": "urn:replicon:time-punch-action:out",
+        "auditImage": null,
+        "extensionFields":{"bindings":[],"values":[]},
+        "geolocation": {
+            "address": "address unavailable",
+            "gps": {
+                "accuracyInMeters": 5,
+                "latitudeInDegrees": 37.3323,
+                "longitudeInDegrees": -122.0312
+            }
+        },
+        "isTimeEntryAvailable":0,
+        "punchInAttributes": {
+            "activity": {
+                "name": "Meeting",
+                "uri": "urn:replicon-tenant:repliconiphone-2:activity:2",
+                "displayText": "Meeting"
+            },
+            "client" : {
+                "displayText": "Big Game Inc",
+                "name": "Big Game Inc",
+                "slug": "big-game-inc",
+                "uri": "urn:replicon-tenant:iphone:client:3"
+            },
+            "project": {
+                "displayText": "Automated Reporting & Dashboards",
+                "name": "Automated Reporting & Dashboards",
+                "slug": "automated-reporting-dashboards",
+                "uri": "urn:replicon-tenant:mobile:project:21"
+            },
+            "task": {
+                "displayText": "Deployment",
+                "uri": "urn:replicon-tenant:mobile:task:111"
+            },
+            "billingRate": null
+        },
+        "punchStartBreakAttributes": null,
+        "punchTime": {
+            "day": 26,
+            "hour": 10,
+            "minute": 27,
+            "month": 3,
+            "second": 34,
+            "timeZone": {
+                "displayText": "(UTC-8:00) Pacific Standard Time",
+                "uri": "urn:replicon:time-zone:america-los-angeles"
+            },
+            "valueInUtc": {
+                "day": 26,
+                "hour": 17,
+                "millisecond": 0,
+                "minute": 27,
+                "month": 3,
+                "second": 34,
+                "year": 2015
+            },
+            "year": 2015
+        },
+        "thumbnailImage": null,
+        "timePunchAgent": {
+            "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:web-ui",
+            "displayText": "Web",
+            "uri": null
+        },
+        "uri": "urn:replicon-tenant:repliconmobile:time-punch:182067e0-82da-4bcb-af42-204e8fd59e25",
+        "user": {
+            "displayText": "ML, Ullas",
+            "loginName": "admin",
+            "slug": "admin",
+            "uri": "urn:replicon-tenant:repliconmobile:user:2"
+        }
+    }
+}

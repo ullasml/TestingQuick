@@ -1,0 +1,116 @@
+{
+    "d": [
+        {
+            "client": {
+            "displayText": "Big Game Inc",
+            "name": "Big Game Inc",
+            "slug": "big-game-inc",
+            "uri": "urn:replicon-tenant:qa:client:3"
+        },
+            "hasTasksAvailableForExpenseEntry": true,
+            "project": {
+            "displayText": "Financial data reporting fixes",
+            "name": "Financial data reporting fixes",
+            "slug": "financial-data-reporting-fixes",
+            "uri": "urn:replicon-tenant:qa:project:28"
+        },
+            "projectBillingType": {
+            "displayText": "Time & Materials",
+            "uri": "urn:replicon:billing-type:time-and-material"
+            },
+            "projectTimeAndExpenseEntryType": {
+            "displayText": "Billable & Non-Billable",
+            "uri": "urn:replicon:time-and-expense-entry-type:billable-and-non-billable"
+        }
+        },
+          {
+          "client": {
+          "displayText": "Big Game Inc",
+          "name": "Big Game Inc",
+          "slug": "big-game-inc",
+          "uri": "urn:replicon-tenant:qa:client:3"
+          },
+          "hasTasksAvailableForExpenseEntry": true,
+          "project": {
+          "displayText": "Financial data reporting fixes",
+          "name": "Financial data reporting fixes",
+          "slug": "financial-data-reporting-fixes",
+          "uri": "urn:replicon-tenant:qa:project:28"
+          },
+          "projectBillingType": {
+          "displayText": "Non-Billable",
+          "uri": "urn:replicon:billing-type:non-billable"
+          },
+          "projectTimeAndExpenseEntryType": null
+          },
+          {
+          "client": {
+          "displayText": "Big Game Inc",
+          "name": "Big Game Inc",
+          "slug": "big-game-inc",
+          "uri": "urn:replicon-tenant:qa:client:3"
+          },
+          "hasTasksAvailableForExpenseEntry": true,
+          "project": {
+          "displayText": "Financial data reporting fixes",
+          "name": "Financial data reporting fixes",
+          "slug": "financial-data-reporting-fixes",
+          "uri": "urn:replicon-tenant:qa:project:28"
+          },
+          "projectBillingType": {
+          "displayText": "Time & Materials",
+          "uri": "urn:replicon:billing-type:time-and-material"
+          },
+          "projectTimeAndExpenseEntryType": {
+          "displayText": "Non-Billable",
+          "uri": "urn:replicon:time-and-expense-entry-type:non-billable"
+          }
+          },
+        {
+            "client": {
+            "displayText": "Big Game Inc",
+            "name": "Big Game Inc",
+            "slug": "big-game-inc",
+            "uri": "urn:replicon-tenant:qa:client:3"
+        },
+            "hasTasksAvailableForExpenseEntry": true,
+            "project": {
+            "displayText": "New Customer Service System",
+            "name": "New Customer Service System",
+            "slug": "new-customer-service-system",
+            "uri": "urn:replicon-tenant:qa:project:16"
+        },
+            "projectBillingType": {
+            "displayText": "Time & Materials",
+            "uri": "urn:replicon:billing-type:time-and-material"
+            },
+            "projectTimeAndExpenseEntryType": {
+            "displayText": "Billable Only",
+            "uri": "urn:replicon:time-and-expense-entry-type:billable"
+        }
+        },
+        {
+        "client": {
+            "displayText": "Big Game Inc",
+            "name": "Big Game Inc",
+            "slug": "big-game-inc",
+            "uri": "urn:replicon-tenant:qa:client:3"
+        },
+            "hasTasksAvailableForExpenseEntry": true,
+            "project": {
+            "displayText": "Next gen ERP Deployment",
+            "name": "Next gen ERP Deployment",
+            "slug": "next-gen-erp-deployment",
+            "uri": "urn:replicon-tenant:qa:project:18"
+        },
+        "projectBillingType": {
+            "displayText": "Time & Materials",
+            "uri": "urn:replicon:billing-type:time-and-material"
+        },
+        "projectTimeAndExpenseEntryType": {
+            "displayText": "Billable Only",
+            "uri": "urn:replicon:time-and-expense-entry-type:billable"
+        }
+        }
+    ]
+}

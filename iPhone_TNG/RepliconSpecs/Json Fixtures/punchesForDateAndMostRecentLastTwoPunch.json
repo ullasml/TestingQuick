@@ -1,0 +1,237 @@
+[
+  {
+    "totalWorkDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "totalTimeOffDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "timePunches": [
+      {
+        "extensionFields": {
+          "values": [],
+          "bindings": []
+        },
+        "geolocation": {
+          "address": "200 W 47th St, New York, NY 10036, USA",
+          "gps": {
+            "accuracyInMeters": 5,
+            "latitudeInDegrees": 40.7592,
+            "longitudeInDegrees": -73.9846
+          }
+        },
+        "punchTime": {
+          "minute": 55,
+          "hour": 12,
+          "second": 21,
+          "day": 9,
+          "month": 6,
+          "millisecond": 0,
+          "year": 2017,
+          "valueInUtc": {
+            "minute": 55,
+            "hour": 18,
+            "second": 21,
+            "day": 9,
+            "month": 6,
+            "millisecond": 0,
+            "year": 2017
+          }
+        },
+        "thumbnailImage": {
+          "imageUri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:s3-binary-object:e05c08cd-a141-4482-bc08-6ac8540f7e8e",
+          "imageLink": {
+            "widthInPixels": 32,
+            "href": "https://diptar-1492191972104-us-west-2-mobile-swimlane-artifacts.s3-us-west-2.amazonaws.com/binary-objects/6ccbe9a8d8034256851ce93ecd6e5f83/e05c08cda1414482bc086ac8540f7e8e.jpg?AWSAccessKeyId=ASIAJNEJTVG6QJVIVEPQ&Expires=1497302984&x-amz-security-token=FQoDYXdzEMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDFSPTINqe%2B4eMpwzhCK3A5JAz62eVFUh%2FWdGr49vT%2BZtqIll6rNXdXf0pJ%2F1wDymcgquZ%2BHbHbeay67XxlTtVRP8iqoQmWReu1QMqcN9TB40vTqxFn67Lt97%2B2n4mLhefNq2IJxOfb3o1DVIj0m62w%2Bq5Db64H%2F%2B7hDFhqhG%2BUDrUweEaOqUe3TMzIFZOfYd2lKqpYXB7H3GFCg5sbViNBWyThsoMFCa04QfY%2FhHFMLlJBzbLuipFFWH%2BmmxYuwGejmJoCylWdBMZhi52regajHx1b3Ot5czEzeEGlhc4mMUo%2Ftvbcsoxq71AjIjhyLLWNngVGpcl1Xp%2BT%2FUfkAbXeqe143u%2F3WwZG5wp8wPeZmm1GR%2B5PPv2gPbxcx3R%2FxAoaCQuzd%2BPO4%2FAxE%2BXFDBOIyGGxk3HBdVp3%2FdkL1Kv7dMqlUUs3i%2F%2B7oezJ3VVlHseRy9U3WqQG1xqW1eWl6JQN87dV2a7WzE9PF9JJBRgGEwcsGkdkE2vxn5xhYOp9TbiwKhpC%2B082Nt28fiO9ix0tO%2FgBSAAnb%2FksiTztcIYSgDHQvh0lUkZ5wceValn%2BBzvYKm%2BR1tJ30lPYcfzPYk17CrTfIExXEon%2Bb7yQU%3D&Signature=TE45jjUrXrDch75jEGMG6%2F6HwAA%3D",
+            "heightInPixels": 32
+          }
+        },
+        "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:time-punch:a4cc0f8f-7a5e-4271-903e-0b31e44086a6",
+        "actionUri": "urn:replicon:time-punch-action:out",
+        "isTimeEntryAvailable": true,
+        "auditImage": {
+          "imageUri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:s3-binary-object:a84567e4-56a4-4e67-a644-a151736c0fd2",
+          "imageLink": {
+            "widthInPixels": 480,
+            "href": "https://diptar-1492191972104-us-west-2-mobile-swimlane-artifacts.s3-us-west-2.amazonaws.com/binary-objects/6ccbe9a8d8034256851ce93ecd6e5f83/a84567e456a44e67a644a151736c0fd2.jpg?AWSAccessKeyId=ASIAJNEJTVG6QJVIVEPQ&Expires=1497302984&x-amz-security-token=FQoDYXdzEMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDFSPTINqe%2B4eMpwzhCK3A5JAz62eVFUh%2FWdGr49vT%2BZtqIll6rNXdXf0pJ%2F1wDymcgquZ%2BHbHbeay67XxlTtVRP8iqoQmWReu1QMqcN9TB40vTqxFn67Lt97%2B2n4mLhefNq2IJxOfb3o1DVIj0m62w%2Bq5Db64H%2F%2B7hDFhqhG%2BUDrUweEaOqUe3TMzIFZOfYd2lKqpYXB7H3GFCg5sbViNBWyThsoMFCa04QfY%2FhHFMLlJBzbLuipFFWH%2BmmxYuwGejmJoCylWdBMZhi52regajHx1b3Ot5czEzeEGlhc4mMUo%2Ftvbcsoxq71AjIjhyLLWNngVGpcl1Xp%2BT%2FUfkAbXeqe143u%2F3WwZG5wp8wPeZmm1GR%2B5PPv2gPbxcx3R%2FxAoaCQuzd%2BPO4%2FAxE%2BXFDBOIyGGxk3HBdVp3%2FdkL1Kv7dMqlUUs3i%2F%2B7oezJ3VVlHseRy9U3WqQG1xqW1eWl6JQN87dV2a7WzE9PF9JJBRgGEwcsGkdkE2vxn5xhYOp9TbiwKhpC%2B082Nt28fiO9ix0tO%2FgBSAAnb%2FksiTztcIYSgDHQvh0lUkZ5wceValn%2BBzvYKm%2BR1tJ30lPYcfzPYk17CrTfIExXEon%2Bb7yQU%3D&Signature=SjfOm3dF0rqPv27w3VW5RWrFuz8%3D",
+            "heightInPixels": 320
+          }
+        },
+        "punchStartBreakAttributes": null,
+        "offsetFromLast": -1,
+        "punchInAttributes": null,
+        "timePunchAgent": {
+          "uri": null,
+          "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+          "displayText": "Mobile"
+        },
+        "user": {
+          "slug": "admin",
+          "displayText": "user, test",
+          "loginName": "admin",
+          "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:user:2"
+        }
+      }
+    ],
+    "day": {
+      "year": 2017,
+      "month": 6,
+      "day": 9
+    },
+    "violations": {
+      "totalErrorCount": 0,
+      "totalViolationMessagesCount": 0,
+      "totalInformationCount": 0,
+      "totalWarningCount": 0
+    },
+    "totalBreakDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    }
+  },
+  {
+    "totalWorkDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "totalTimeOffDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "timePunches": [
+      {
+        "extensionFields": {
+          "values": [],
+          "bindings": []
+        },
+        "geolocation": {
+          "address": "Nulevoy kilometr, pr-d Voskresenskiye Vorota, Moskva, Russia, 109012",
+          "gps": {
+            "accuracyInMeters": 5,
+            "latitudeInDegrees": 55.7558,
+            "longitudeInDegrees": 37.6176
+          }
+        },
+        "punchTime": {
+          "minute": 16,
+          "hour": 10,
+          "second": 57,
+          "day": 12,
+          "month": 6,
+          "millisecond": 0,
+          "year": 2017,
+          "valueInUtc": {
+            "minute": 16,
+            "hour": 16,
+            "second": 57,
+            "day": 12,
+            "month": 6,
+            "millisecond": 0,
+            "year": 2017
+          }
+        },
+        "thumbnailImage": null,
+        "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:time-punch:68de9786-2083-4a3a-a3a9-de7504e12b60",
+        "actionUri": "urn:replicon:time-punch-action:in",
+        "totalHours": null,
+        "punchValidationResult": {
+          "validationTime": {
+            "minute": 16,
+            "hour": 16,
+            "second": 58,
+            "day": 12,
+            "month": 6,
+            "millisecond": 272,
+            "year": 2017
+          },
+          "validationMessages": [
+            {
+              "keyValues": [],
+              "objectUris": [
+                "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:time-punch:68de9786-2083-4a3a-a3a9-de7504e12b60"
+              ],
+              "waiver": {
+                "options": [
+                  {
+                    "value": "accept",
+                    "displayText": "Waive Meal Penalty"
+                  },
+                  {
+                    "value": "reject",
+                    "displayText": "Do not Waive"
+                  }
+                ],
+                "selectedOption": null,
+                "displayText": "To waive this violation, click the button below. Employees waives violation pay for this day.",
+                "primaryOptionValue": "accept",
+                "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:validation-waiver:0298b6e4-893d-45f1-8b2c-e2ec620b9371"
+              },
+              "displayText": "The lunch taken is too short this will cause a lunch break violation.",
+              "severity": "urn:replicon:severity:warning",
+              "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:validation-message:5f296d98-1534-4d48-ba77-dc23baf83b5d"
+            }
+          ]
+        },
+        "nextPunchStatus": "urn:replicon:punch-timeline-pair-status:ticking",
+        "punchStartBreakAttributes": null,
+        "auditImage": {
+          "imageUri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:s3-binary-object:430fe248-84c7-48bd-87a7-b93cd0a240cd",
+          "imageLink": {
+            "widthInPixels": 214,
+            "href": "https://diptar-1492191972104-us-west-2-mobile-swimlane-artifacts.s3-us-west-2.amazonaws.com/binary-objects/6ccbe9a8d8034256851ce93ecd6e5f83/430fe24884c748bd87a7b93cd0a240cd.jpg?AWSAccessKeyId=ASIAJNEJTVG6QJVIVEPQ&Expires=1497302983&x-amz-security-token=FQoDYXdzEMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDFSPTINqe%2B4eMpwzhCK3A5JAz62eVFUh%2FWdGr49vT%2BZtqIll6rNXdXf0pJ%2F1wDymcgquZ%2BHbHbeay67XxlTtVRP8iqoQmWReu1QMqcN9TB40vTqxFn67Lt97%2B2n4mLhefNq2IJxOfb3o1DVIj0m62w%2Bq5Db64H%2F%2B7hDFhqhG%2BUDrUweEaOqUe3TMzIFZOfYd2lKqpYXB7H3GFCg5sbViNBWyThsoMFCa04QfY%2FhHFMLlJBzbLuipFFWH%2BmmxYuwGejmJoCylWdBMZhi52regajHx1b3Ot5czEzeEGlhc4mMUo%2Ftvbcsoxq71AjIjhyLLWNngVGpcl1Xp%2BT%2FUfkAbXeqe143u%2F3WwZG5wp8wPeZmm1GR%2B5PPv2gPbxcx3R%2FxAoaCQuzd%2BPO4%2FAxE%2BXFDBOIyGGxk3HBdVp3%2FdkL1Kv7dMqlUUs3i%2F%2B7oezJ3VVlHseRy9U3WqQG1xqW1eWl6JQN87dV2a7WzE9PF9JJBRgGEwcsGkdkE2vxn5xhYOp9TbiwKhpC%2B082Nt28fiO9ix0tO%2FgBSAAnb%2FksiTztcIYSgDHQvh0lUkZ5wceValn%2BBzvYKm%2BR1tJ30lPYcfzPYk17CrTfIExXEon%2Bb7yQU%3D&Signature=MMnSJ3CuSDFW3nV3zfcrf9rnsPg%3D",
+            "heightInPixels": 320
+          }
+        },
+        "offsetFromLast": 0,
+        "nonActionedValidationsCount": 1,
+        "previousPunchStatus": null,
+        "punchInAttributes": {
+          "activity": {
+            "name": "Training",
+            "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:activity:4",
+            "displayText": "Training"
+          },
+          "project": null,
+          "clients": null,
+          "client": null,
+          "billingRate": null,
+          "task": null
+        },
+        "timePunchAgent": {
+          "uri": null,
+          "agentTypeUri": "urn:replicon:well-known-time-punch-agent-type:mobile",
+          "displayText": "Mobile"
+        },
+        "user": {
+          "slug": "admin",
+          "displayText": "user, test",
+          "loginName": "admin",
+          "uri": "urn:replicon-tenant:6ccbe9a8d8034256851ce93ecd6e5f83:user:2"
+        }
+      }
+    ],
+    "day": {
+      "year": 2017,
+      "month": 6,
+      "day": 12
+    },
+    "violations": {
+      "totalErrorCount": 0,
+      "totalViolationMessagesCount": 0,
+      "totalInformationCount": 0,
+      "totalWarningCount": 0
+    },
+    "totalBreakDuration": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    }
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>inOutWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry</string>
+	<key>approvalHistory</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:approval-history</string>
+	<key>noticeWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:notice</string>
+	<key>standardWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:allocation-entry</string>
+	<key>attestationWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:attestation</string>
+	<key>paySummaryWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:payroll-summary</string>
+	<key>timeOffWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:time-off</string>
+	<key>extendedInOutWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:extended-in-out-time-and-allocation-entry</string>
+	<key>dailyFieldsWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:daily-fields</string>
+	<key>punchWidget</key>
+	<string>urn:replicon:policy:timesheet:widget-timesheet:time-pair-punch-entry</string>
+</dict>
+</plist>

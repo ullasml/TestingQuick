@@ -1,0 +1,231 @@
+{
+  "d": {
+    "baseCurrency": {
+      "displayText": "$",
+      "name": "US Dollar",
+      "symbol": "$",
+      "uri": "urn:replicon-tenant:comp:currency:1"
+    },
+    "customTerms": [],
+    "expenseEntryCustomFields": [],
+    "timeOffCustomFields": [],
+    "timesheetCustomFields": [],
+    "timesheetEntryCellCustomFields": [],
+    "timesheetEntryCustomFields": [],
+    "timesheetEntryRowLeftCustomFields": [],
+    "timesheetEntryRowRightCustomFields": [],
+    "userSummary": {
+      "approvalCapabilities": {
+        "expenseApprovalCapabilities": {
+          "areRejectCommentsRequired": true,
+          "isExpenseApprover": false
+        },
+        "timeoffApprovalCapabilities": {
+          "areRejectCommentsRequired": true,
+          "isTimeOffApprover": false
+        },
+        "timesheetApprovalCapabilities": {
+          "areRejectCommentsRequired": true,
+          "isTimesheetApprover": false
+        }
+      },
+      "expenseCapabilities": {
+        "currentCapabilities": {
+          "canDeleteExpenseSheet": false,
+          "canEditBillToClient": false,
+          "canEditEntryDescription": false,
+          "canEditExchangeRate": false,
+          "canEditExpenseCode": false,
+          "canEditExpenseSheet": false,
+          "canEditNetAmount": false,
+          "canEditPaymentMethod": false,
+          "canEditRate": false,
+          "canEditReceipt": false,
+          "canEditReimburse": false,
+          "canEditTask": false,
+          "canEditTaxAmounts": false,
+          "canViewBillToClient": false,
+          "canViewEntryDescription": false,
+          "canViewEntryReimbursementAmount": false,
+          "canViewExchangeRate": false,
+          "canViewExpenseCode": false,
+          "canViewNetAmount": false,
+          "canViewPaymentMethod": false,
+          "canViewRate": false,
+          "canViewReceipt": false,
+          "canViewReimburse": false,
+          "canViewTask": false,
+          "canViewTaxAmounts": false,
+          "commentsRequiredOnResubmission": true,
+          "entryAgainstProjectsAllowed": false,
+          "entryAgainstProjectsRequired": false,
+          "expenseNoticePolicyUri": null,
+          "selectProjectByClient": false,
+          "selectProjectByProgram": false
+        },
+        "hasExpenseAccess": false
+      },
+      "language": {
+        "cultureCode": "en",
+        "displayText": "English (United States)",
+        "languageCode": "en-US",
+        "uri": "urn:replicon:language:en-US"
+      },
+      "punchInTime": null,
+      "shiftCapabilities": {
+        "canViewShifts": false
+      },
+      "timePunchCapabilities": {
+        "activitySelectionRequired": false,
+        "auditImageRequired": true,
+        "canEditOwnTimePunchNonTimeFields": false,
+        "canEditTimePunch": true,
+        "canTransferTimePunchToTimesheet": false,
+        "canViewTeamTimePunch": false,
+        "canViewTimePunch": true,
+        "geolocationRequired": true,
+        "hasActivityAccess": false,
+        "hasBillingAccess": false,
+        "hasBreakAccess": true,
+        "hasClientAccess": false,
+        "hasProjectAccess": false,
+        "hasTimePunchAccess": true,
+        "projectTaskSelectionRequired": false,
+        "timePunchExtensionFields": {
+          "collectAtTimeOfPunchFieldBindings": [],
+          "punchInFieldBindings": [],
+          "punchOutFieldBindings": [],
+          "punchStartBreakFieldBindings": [],
+          "punchTransferFieldBindings": []
+        }
+      },
+      "timeoffCapabilities": {
+        "currentCapabilities": {
+          "canDeleteTimeOff": false,
+          "canEditTimeOff": false,
+          "enabledCustomFieldUris": [],
+          "timeoffDisplayFormat": "urn:replicon:time-off-measurement-unit:work-days"
+        },
+        "hasTimeoffBookingAccess": false
+      },
+      "timesheetCapabilities": {
+        "currentCapabilities": {
+          "activitySelectionRequired": false,
+          "canDeleteTimesheet": false,
+          "canEditTimesheet": true,
+          "commentsRequiredOnResubmission": false,
+          "enabledCustomFieldUris": [],
+          "enabledEntryCustomFieldUris": [],
+          "hasActivityAccess": false,
+          "hasBillingAccess": false,
+          "hasBreakAccess": true,
+          "hasClientAccess": false,
+          "hasProgramAccess": false,
+          "hasProjectAccess": false,
+          "hasTimesheetTimeOffAccess": false,
+          "overlappingTimeEntriesPermitted": false,
+          "projectTaskSelectionRequired": false,
+          "timesheetCommentsRequired": false,
+          "timesheetFormat": "urn:replicon:policy:timesheet:timesheet-format:gen4-timesheet",
+          "timesheetNoticePolicyUri": "urn:replicon:policy:timesheet:explicit-notice-acceptance:not-required",
+          "widgetTimesheetCapabilities": [
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:attestation",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:extended-in-out-time-and-allocation-entry",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:allocation-entry",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:payroll-summary",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:time-off",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:schedule",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:approval-history",
+              "policyValue": {}
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:notice",
+              "policyValue": {
+                "bool": true,
+                "collection": [
+                  {
+                    "text": "this is title",
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:notice:notice-title"
+                  },
+                  {
+                    "text": "this is text",
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:notice:notice-text"
+                  }
+                ],
+                "number": 3,
+                "uri": "urn:replicon:policy:timesheet:widget-timesheet:notice"
+              }
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:time-pair-punch-entry",
+              "policyValue": {
+                "bool": true,
+                "number": 2,
+                "uri": "urn:replicon:policy:timesheet:widget-timesheet:time-pair-punch-entry"
+              }
+            },
+            {
+              "policyKeyUri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry",
+              "policyValue": {
+                "bool": true,
+                "collection": [
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:track-breaks"
+                  },
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:track-breaks:allow-track-breaks"
+                  },
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:time-entry-comments"
+                  },
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:time-entry-comments:allow-time-entry-comments"
+                  },
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:snap-time-to-nearest"
+                  },
+                  {
+                    "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry:snap-time-to-nearest:do-not-snap-times"
+                  }
+                ],
+                "number": 1,
+                "uri": "urn:replicon:policy:timesheet:widget-timesheet:in-out-time-entry"
+              }
+            }
+          ]
+        },
+        "hasTimesheetAccess": true,
+        "timesheetHourFormat": "urn:replicon:clock-format:am-pm"
+      },
+      "user": {
+        "displayText": "1, nastro",
+        "loginName": "nastro",
+        "slug": "nastro",
+        "uri": "urn:replicon-tenant:comp:user:65"
+      },
+      "workWeekStartDay": {
+        "displayText": "Monday",
+        "uri": "urn:replicon:day-of-week:monday"
+      }
+    }
+  }
+}

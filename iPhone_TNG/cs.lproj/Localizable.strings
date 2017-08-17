@@ -1,0 +1,1033 @@
+/*
+ Localizable.strings
+ NextGenRepliconTimeSheet
+ 
+ Created by Ullas ML on 14/12/12.
+ Copyright (c) 2012 Replicon. All rights reserved.
+ */
+
+
+
+//Others
+
+"Your device is offline.  Please try again when your device is online."="Vaše zařízení není připojené.  Zkuste to prosím znovu, až připojíte vaše zařízení.";
+
+"Incorrect User Name"="Nesprávné jméno uživatele";
+"Unknown Company.  Please check that it was entered correctly."="Neznámá společnost.  Zkontrolujte prosím, že to bylo zadáno správně.";
+"Please enter your User Name."="Zadejte prosím vaše jméno uživatele.";
+"Please enter your Company."="Zadejte prosím vaši společnost.";
+"Your session has expired.  Please log in again."="Vaše připojení  vypršelo.  Přihlaste se prosím znovu.";
+"Your company is subscribed to a Replicon product that this app does not support. Please get the right app to continue."="Vaše společnost si předplatila produkt Replicon, který tato aplikace nepodporuje. Pro pokračování získejte správnou aplikaci.";
+"Incompatible App"="Nekompatibilní aplikace";
+"Get App"="Získejte aplikaci";
+"Later"="Později";
+"New Version Available"="Nová verze je k dispozici";
+"The new version includes performance enhancements and offers a more reliable experience"="Tato nová verze přináší zlepšení výkonu a nabízí spolehlivější použití";
+"Please get the latest version for an accurate and reliable experience"="Pořiďte si nejnovější verzi pro přesný a spolehlivý výkon";
+"Update Now"="Aktualizovat nyní";
+"You must change your password before you can proceed. Please sign in to your Replicon web portal to change your password."="Před pokračováním musíte změnit svoje heslo. Pro změnu hesla se prosím přihlaste na webový portál Replicon.";
+"Your company is using an older version of the Replicon Platform (Gen2). Please re-launch the Replicon app to login to the older Replicon Platform."="Vaše společnost používá starší verzi platformy Replicon (Gen2). Stáhněte si prosím znovu aplikaci Replicon pro přihlášení ke starší verzi platformy Replicon.";
+
+//Common
+
+"OK"="OK";
+"Previous"="Předchozí";
+"Next"="Další";
+"Submit"="Odeslat";
+"Approved"="Schváleno";
+"Not Submitted"="Neodesláno";
+"Waiting for Approval"="Čeká na schválení";
+"Rejected"="Zamítnuto";
+"Loading..."="Načítání...";
+"Select"="Vybrat";
+"Type"="Typ";
+"Add"="Přidat";
+"Cancel"="Zrušit";
+"Save"="Uložit";
+"Waiting"="Čekání";
+"Submit Timesheet"="Odeslat výkaz práce";
+"Unsubmit Timesheet"="Zrušit odeslání výkazu práce";
+"Resubmit Timesheet"="Znovu odeslat výkaz práce";
+"Unsubmit"="Zrušit odeslání";
+"Back"="Zpět";
+"Reopen"="Znovu otevřít";
+"We are experiencing technical difficulties. We are actively working on resolving the issue. Please retry a little later"="Máme technické problémy. Aktivně pracujeme na vyřešení tohoto problému. Zkuste to prosím o trochu později";
+"Clear"="Odstranit";
+
+//companyViewController
+
+"Go"="Jděte";
+"Welcome to Replicon Mobile!"="Vítáme Vás v Replicon Mobile!";
+"Enter your company and user name to get started."="Zadejte název vaší společnosti a jméno uživatele pro zahájení.";
+
+//HomeViewController
+
+"Expenses"="Výdaje";
+"Timesheets"="Výkazy práce";
+"Time Off"="Dovolená";
+"Settings"="Nastavení";
+"Approvals"="Schválení";
+
+//LoginViewController
+"Company"="Společnost";
+"User Name"="Jméno uživatele";
+"Password"="Heslo";
+"SIGN IN"="PŘIHLÁSIT SE";
+"Signing In"="Přihlašuji se";
+"Incorrect Login or Password"="Nesprávné přihlášení nebo heslo";
+"Please complete all fields"="Vyplňte prosím všechna pole";
+"Remember Company and User Name"="Zapamatujte si název společnosti a jméno uživatele";
+
+
+//SamlWebviewController
+"Authentication Required"="Autentizace požadována";
+"You may briefly experience a blank screen during the authentication process."="Během procesu ověření se Vám může objevit prázdná obrazovka.";
+
+//TimeSheetSummary
+"Add a project"="Přidat projekt";
+"Timesheet Summary"="Shrnutí výkazu práce";
+"Projects This Period"="Projekty za toto období";
+"Payroll"="Výplatní listina";
+"Billing"="Účtování";
+"Approval History"="Historie schválení";
+"Add an activity"="Přidat činnost";
+"Activity"="Činnost";
+"Summary"="Shrnutí";
+"Period"="Období";
+"Select TimeOff Type"="Vybrat typ dovolené";
+"Total Hours"="Hodiny celkem";
+"No Activity"="Žádná činnost";
+"No Project"="Žádný projekt";
+"No Paycode"="Žádný kód mzdy";
+"Not Billable"="Neúčtovatelné";
+"Total"="Celkem";
+"You do not have Project or\nActivity permission."="Nemáte povolení pro projekt nebo\nčinnost.";
+"Add Timesheet Row"="Přidat řádek výkazu práce";
+
+//Settings
+
+"Logout"="Odhlášení se";
+//TimeEntry
+"Add Entry"="Přidat zadání";
+"Client"="Klient";
+"Project"="Projekt";
+"Task"="Úloha";
+"Billing"="Účtování";
+"Activity"="Činnost";
+"Project Selection"="Volba projektu";
+"Activity Selection"="Volba činnosti";
+"Add to Timesheet"="Přidat do výkazu práce";
+"Billing Rate" = "Účtovaná sazba";
+
+//Disclamer
+"Accept"="Přijmout";
+"Accepted"="Přijmout";
+
+//Approvals
+
+"Approve"="Schválit";
+"Reject"="Zamítnout";
+
+"All timesheets approved\nNone pending"="Všechny výkazy práce schváleny\nŽádné nečekají na vyřízení";
+"No timesheets approval\nhistory found"="Nenalezena žádná historie\nschvalování výkazů práce";
+"Pending Approvals"="Schválení čekající na vyřízení";
+"Previous Approvals"="Předchozí schválení";
+"Approve Timesheets"="Schválit výkazy práce";
+"Approve Expenses"="Schválit výdaje";
+"Approve Time Off"="Schválit čas odchodu";
+"Previous Timesheets"="Předchozí výkazy práce";
+"Previous Expenses"="Předchozí výdaje";
+"Previous Time Off"="Předchozí dovolená";
+"Meal"="Oběd";
+"TO"="DO";
+"OT"="OT";
+"Reg"="Reg";
+"Approver Comments"="Poznámky schvalovatele";
+"Please select a timesheet for approval or rejection."="Vyberte prosím výkaz práce ke schválení nebo zamítnutí.";
+"Are you sure you want to approve"="Opravdu chcete schválit";
+"timesheet?"="výkaz práce?";
+"Are you sure you want to reject"="Opravdu chcete zamítnout";
+"You must enter comments when rejecting a timesheet."="Když chcete zamítnout výkaz práce, musíte zadat poznámky.";
+"Are you sure you want to approve %d timesheets?"="Opravdu chcete schválit %d výkazy práce?";
+"Are you sure you want to reject %d timesheets?"="Opravdu chcete zamítnout %d výkazy práce?";
+"NO"="NE";
+"YES"="ANO";
+
+"All expense sheets approved\nNone pending"="Všechny výkazy výdajů schváleny\nŽádné nečekají na vyřízení";
+"No expense sheets approval\nhistory found"="Nenalezena žádná historie\nschvalování výkazů výdajů";
+"Please select a expense sheet for approval or rejection."="Vyberte prosím výkaz výdajů ke schválení nebo zamítnutí.";
+"Are you sure you want to approve"="Opravdu chcete schválit";
+"expense sheet?"="výkaz výdajů?";
+"Are you sure you want to reject"="Opravdu chcete zamítnout";
+"You must enter comments when rejecting a expense sheet."="Když chcete zamítnout výkaz výdajů, musíte přidat poznámky.";
+"Are you sure you want to approve %d expense sheets?"="Opravdu chcete schválit %d výkazy výdajů?";
+"Are you sure you want to reject %d expense sheets?"="Opravdu chcete zamítnout %d výkazy výdajů?";
+
+"All time offs approved\nNone pending"="Všechny dovolené schváleny\nŽádné nečekají na vyřízení";
+"No time offs approval\nhistory found"="Nenalezena žádná historie\nschvalování dovolené";
+"Please select a time off for approval or rejection."="Vyberte prosím dovolenou ke schválení nebo zamítnutí.";
+"Are you sure you want to approve"="Opravdu chcete schválit";
+"time off?"="Dovolená?";
+"Are you sure you want to reject"="Opravdu chcete zamítnout";
+"You must enter comments when rejecting a time off."="Když chcete zamítnout dovolenou, musíte zadat poznámky.";
+"Are you sure you want to approve %d time offs?"="Opravdu chcete schválit %d dovolené?";
+"Are you sure you want to reject %d time off"="Opravdu chcete zamítnout %d dovolené";
+"Timesheet(s) can not be approved"="Výkaz (výkazy) práce nelze schválit";
+"Expense Sheet(s) can not be approved"="Výkaz (výkazy) výdajů nelze schválit";
+"Time Off(s) can not be approved"="Dovolenou nelze schválit";
+"Timesheet(s) can not be rejected"="Výkaz (výkazy) práce nelze zamítnout";
+"Expense Sheet(s) can not be rejected"="Výkaz (výkazy) výdajů nelze zamítnout";
+"Time Off(s) can not be rejected"="Dovolenou nelze zamítnout";
+
+//SearchScreen
+"Clients"="Klienti";
+"Projects"="Projekty";
+"Type a project or client name"="Napište název projektu nebo klienta";
+"Select a Project / Client"="Vyberte projekt/klienta";
+"Select a Project"="Vyberte projekt";
+"Select a Task"="Vyberte úlohu";
+"Type a Project name"="Napište název projektu";
+"Type a Task name"="Napište název úlohy";
+"None"="Žádný";
+"Skip"="Přeskočit";
+"No Results"="Žádné výsledky";
+"Search Projects by name or code"="Vyhledávat projekty podle názvu nebo kódu";
+"Search Clients by name or code"="Vyhledávat klienty podle názvu nebo kódu";
+"Search Tasks by name or code"="Vyhledávat úlohy podle názvu nebo kódu";
+
+
+//BillingListScreen
+"start typing for a billing code"="začněte psát účtovací kód";
+"Choose Billing Rate"="Zvolte účtovanou sazbu";
+"No billing rate available for"="Žádná účtovací sazba není k dispozici pro";
+"No activity available"="Žádná činnost není k dispozici";
+"Choose Activity"="Zvolit činnost";
+"start typing for an activity name"="začněte psát název činnosti";
+
+//TimeentryScrollview
+"Entry Details"="Podrobnosti zadání";
+"Edit Entry"="Upravit zadání";
+"View / Edit Row"="Zobrazit / upravit řádek";
+"Delete Row"="Vymazat řádek";
+"Add Entry"="Přidat zadání";
+"View Entry"="Zobrazit zadání";
+//CurrentTimesheetPeriod
+"Current Timesheet"="Aktuální výkaz práce";
+"Due - as of "="Splatný - k";
+"Submitted"="Odesláno";
+//MultiInOutTimeentryScrollView
+"Please enter a valid time"="Zadejte prosím platný čas";
+"You have overlap in time entry"="Vaše zadání času se překrývá";
+"Save"="Uložit";
+
+//Submit Unsubmit
+
+"Comments:"="Poznámky:";
+
+//ListOfExpenseSheets
+"Expense Sheets"="Výkazy výdajů";
+
+//ExpensesEntriesViewController
+"Reimbursement"="Náhrada";
+"Expense"="Výdaj";
+"Detail"="Podrobnost";
+"New Expense Sheet"="Nový výkaz výdajů";
+"Add Expense Entry"="Přidat zadání výdaje";
+"Edit Expense Entry"="Upravit zadání výdaje";
+"View Expense Entry"="Zobrazit zadání výdajů";
+"Resubmit"="Znovu odeslat";//implemented as per US7989
+"Unsubmit"="Zrušit odeslání";
+"Delete"="Vymazat";
+"Done"="Provedeno";
+"Add"="Přidat";
+"Select"="Vybrat";
+"Yes"="Ano";
+"Project"="Projekt";
+"Type"="Typ";
+"Currency"="Měna";
+"Amount"="Částka";
+"DATE"="DATUM";
+"Description"="Popis";
+"Bill Client"="Účtovat klienta";
+"Receipt Photo"="Přijmout foto";
+"Reimburse"="Nahradit";
+"Payment Method"="Způsob platby";
+"ImagePicker"="ImagePicker";
+"CheckMark"="CheckMark";
+"None"="Žádný";
+"Total Incurred"="Celkem vzniklých";
+"Rate"="Sazba";
+"Pre-Tax Amount"="částka před zdaněním";
+"Taxes"="Daně";
+"Please select a project"="Vyberte prosím projekt";
+"Please select a client"="Vyberte prosím klienta";
+"Please select a task"="Vyberte prosím úlohu";
+"Please select a type"="Vyberte prosím typ";
+"Please add a amount"="Přidejte prosím částku";
+"Are you sure you want to delete this expense entry?"="Opravdu chcete vymazat toto zadání výdaje?";
+
+//IMAGE PICKER
+
+"Permanently delete photo receipt?"="Chcete trvale vymazat foto?";
+"This receipt is too large to download or the connection speed is too slow. \n \nPlease log in to Replicon on a PC to view the receipt"="Tato stvrzenka je příliš velká ke stažení nebo je rychlost připojení příliš pomalá. \n \nZalogujte se prosím do aplikace Replicon na svém osobním počítači, abyste si mohli zobrazit stvrzenku";
+"Take photo"="Vyfotit";
+"Choose from library"="Zvolit z Knihovny";
+
+
+
+
+//NEW EXPENSE SHEET
+
+"New Expense Sheet"="Nový výkaz výdajů";
+"Please provide a description"="Zadejte prosím popis";
+"Reimbursement Currency"="Měna náhrady";
+"Expense Sheet Title"="Název výkazu výdajů";
+"Please select a currency"="Vyberte prosím měnu";
+"Tap the + button above to add expenses to this sheet."="Klepněte na tlačítko + nahoře pro přidání výdajů do tohoto výkazu.";
+"Are you sure you want to delete this expense sheet?"="Opravdu chcete vymazat tento výkaz výdajů?";
+
+
+//BookedTimeOff
+"Time Off"="Dovolená";
+"Bookings"="Rezervace";
+"Calendar"="Kalendář";
+"Time Off Balances"="Zůstatky dovolené";
+"Time Available"="Dostupný čas";
+"Time Taken"="Zabraný čas";
+"Time Untracked"="Nesledováno";
+"Choose Dates"="Zvolit dny";
+"Set HRS:"="Nastavit HOD:";
+"Are you sure you want to delete your vacation booking for "="Opravdu chcete vymazat vaši rezervaci dovolené pro";
+"FULL DAY"="CELÝ DEN";
+"HOUR"="HODINA";
+"PARTIAL DAY"="ČÁSTEČNÝ DEN";
+"1/4"="1/4";
+"1/2"="1/2";
+"3/4"="3/4";
+"Start At:"="Zahájeno v:";
+"End At:"="Ukončeno v:";
+"START DATE"="DATUM OD";
+"END DATE"="DATUM DO";
+"Book Time Off"="Rezervovat dovolenou";
+"Time Off Booking"="Rezervování dovolené";
+"TYPE:"="TYP:";
+"Thanks for submitting a vacation request for "="Děkujeme za odeslání požadavku na dovolenou pro";
+"Edit"="Upravit";
+"Waiting for Approval"="Čeká na schválení";
+"This request is pending your manager's approval."="Tento požadavek čeká na schválení manažera.";
+"This booking has been submitted and is pending your manager's approval."="Tato rezervace byla odeslána a čeká na schválení manažera.";
+"This booking has been approved by your manager."="Tato rezervace byla schválena vaším manažerem.";
+"Back"="Zpět";
+"More"="Více";
+"Comments"="Poznámky";
+"Date"="Datum";
+"Delete"="Vymazat";
+"Company Holidays"="Firemní dovolená";
+"Balances"="Zůstatky";
+"Holidays"="Svátky";
+"Invalid value.Please edit the value"="Neplatná hodnota. Upravte prosím hodnotu";
+"Please enter comments"="Zadejte prosím poznámky";
+
+//Setting
+"App Control"="Řízení aplikace";
+"Send Feedback"="Odeslat zpětnou vazbu";
+"Review this App"="Provést recenzi této aplikace";
+"Thank you! Your review will help us improve the app."="Děkujeme Vám! Vaše recenze nám pomůže zlepšit aplikaci.";
+"No Thanks"="Děkuji nechci";
+"App Store"="Aplikace Store";
+"Feedback for Replicon Mobile 3 v" = "Zpětná vazba na Replicon Mobile 3 v";
+"This device is not configured for sending mail"="Toto zařízení není konfigurované pro odeslání pošty";
+"Mail Log File"="Poslat soubor se záznamem";
+
+//Placeholders for 0 list data
+
+"You do not have any Timesheets. \nPlease contact your administrator \nif this is unexpected"="Nemáte žádné výkazy práce. \nifPokud je to neočekávané, \nkontaktujte prosím svého správce systému";
+"Please tap the + button to create \na new Expense Sheet"="Klepněte prosím na tlačítko + \npro vytvoření nového výkazu výdajů";
+"Please tap the + button to \nrequest Time Off"="Pokud chcete žádat o dovolenou, \nklepněte prosím na tlačítko +";
+"You don't have any Adhoc Time Off's \nassigned to you. Please tap on the \nTime Off tab at the bottom of the \nscreen and create a new Booked \nTime Off request"="Nemáte přiřazeny žádné dovolené ad-hoc. Klepněte prosím na \ntabulku Dovolená dole na \nobrazovce a vytvořte nový požadavek \nRezervovaná dovolená";
+
+//Approvals in currenttimesheetView
+"Approver Comments"="Poznámky schvalovatele";
+"This timeoff is no longer\n waiting for approval"="Tato dovolená už nečeká\n na schválení";
+"This timesheet is no longer\n waiting for approval"="Tento výkaz práce už nečeká\n na schválení";
+"This expense sheet is no longer\n waiting for approval"="Tento výkaz výdajů už nečeká\n na schválení";
+"Submitted on"="Odesláno dne";
+
+//Slider Title
+"My Replicon"="Moje Replicon";
+"Team"="Tým";
+"Are you sure you want to logout?"="Opravdu se chcete odhlásit?";
+
+//LockedInOut
+"The application currently does not support punching in and out. A view-only version of the Timesheet is being displayed instead."="Tato aplikace nyní nepodporuje označení příchodu a odchodu. Namísto toho byla zobrazena verze výkazu práce pouze k prohlížení.";
+
+//No Relevant Permissions
+"You do not have the required permissions to use the Replicon Mobile application. Please contact your Replicon system administrator"="Nemáte požadované povolení používat mobilní aplikaci Replicon. Kontaktujte prosím svého správce systému Replicon";
+
+"Deleting this item will remove it from all the days in this timesheet period, along with any associated hours and comments. Do you want to proceed?"="Vymazáním této položky to odstraníte ze všech dnů v tomto období výkazu práce společně se souvisejícími hodinami a poznámkami. Chcete pokračovat?";
+"Deleting this item will remove associated hours and comments. Do you want to proceed?"="Vymazáním této položky odstraníte související hodiny a poznámky. Chcete pokračovat?";
+
+
+
+"Sorry! \nYour timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Promiňte! \nVáš formát výkazu práce není zatím podporován aplikací Replicon Mobile. Pracujeme na přidání této funkce. Můžete se těšit na aktualizace od App store.";
+"Sorry! \nThis timesheet format is not yet supported in Replicon Mobile. We are working hard to add this feature. Please stay tuned to updates from the App store."="Promiňte! \nTento formát výkazu práce není zatím podporován aplikací Replicon Mobile. Pracujeme na přidání této funkce. Můžete se těšit na aktualizace od App store.";
+
+"Previous Entries"="Předchozí zadání";
+"Entry Details"="Podrobnosti zadání";
+"to"="do";
+//Externalize remaining strings on the app
+"Reopened"="Znovu otevřen";
+"No"="Ne";
+"Please add an amount"="Přidejte prosím částku";
+"Total Amount"="Celková částka";
+"Untracked"="nesledováno";
+"start typing for a project or client name"="začněte psát název projektu nebo klienta";
+"start typing for task name"="začněte psát název úlohy";
+"start typing for a project"="začněte psát projekt";
+"Are you sure you want to delete this time off booking?"="Opravdu chcete vymazat tuto rezervaci dovolené?";
+"Suggestions Based on Previous Entries"="Návrhy podle předchozích zadání";
+"Entry Details"="Podrobnosti zadání";
+"Delete Entry"="Vymazat zadání";
+
+//Break
+"Add Break Entry"="Přidat zadání přestávky";
+"Edit Break Entry"="Upravit zadání přestávky";
+"Add Time"="Přidat čas";
+"Add Break"="Přidat přestávku";
+"Search Breaks"="Vyhledat přestávky";
+"Delete Break"="Vymazat přestávku";
+"Break Details"="Podrobnosti o přestávce";
+//US9109//Timeoff
+"Add Time Off"="Přidat dovolenou";
+"Edit Time Off"="Upravit dovolenou";
+"Search Time Off Types"="Vyhledávat typy dovolené";
+"There are overlapping time entries. Please fix these entries before submitting your timesheet."="Zadání času se překrývají. Před odesláním vašeho výkazu práce proveďte prosím tato zadání.";
+"Time entry is overlapping."="Zadání času se překrývá.";
+
+"Expense Type"="Typ výdaje";
+"Search Expense Type"="Vyhledávat typ výdaje";
+"Deleting this item will remove it from all days in this timesheet period,along with any associated hours and comments.Do you want to proceed?"="Vymazáním této položky to odstraníte ze všech dnů v tomto období výkazu práce společně se souvisejícími hodinami a poznámkami. Chcete pokračovat?";
+
+//US8906//Shift
+"No Shift Schedule"="Žádný plán směn";
+"Note from Shift Manager"="Upozornění od manažera směny";
+"No Note From Manager"="Žádná připomínka od manažera";
+"Shift Details" ="Podrobnosti o směně";
+"Shifts"= "Směny";
+"No Shifts Scheduled" = "Žádné směny nejsou naplánovány";
+"Schedule" = "Naplánovat";
+
+//Implementation forMobi-181//JUHI
+"None Selected"="Žádný nebyl vybrán";
+
+"No Project Selected"="Žádný projekt nebyl vybrán";
+"No Activity Selected"="Žádná činnost nebyla vybrána";
+"End Break"="Ukončit přestávku";
+"Break"="Přerušit";
+"Start New Task"="Začít novou úlohu";
+"Start New Activity"="Začít novou činnost";
+"Start"="Spustit";
+"Stop"="Zastavit";
+
+
+//ATTENDANCE
+"Attendance"="Docházka";
+
+"Take a Photo of Yourself"="Vyfoťte se";
+"You are required to attach a photo with each time entry."="Musíte s každým zadáním času přidat foto.";
+"Preview Photo"="Náhled fota";
+"Retake"="Opakovat";
+"Use"="Použití";
+"Today's Entries"="Dnešní zadání";
+
+//Implementation For Mobi-190//Reset Password//JUHI
+"Save New Password"="Uložit nové heslo";
+"Old Password"="Staré heslo";
+"New Password"="Nové heslo";
+"Confirm New Password"="Potvrdit nové heslo";
+"Reset Password"="Resetovat heslo";
+"Please ensure your new passwords match"="Zkontrolujte prosím, že se vaše nová hesla shodují";
+"Your new password must be different than your current password"="Vaše nové heslo se musí lišit od vašeho aktuálního hesla";
+
+"Clock"="Hodiny";
+"Track Time"="Sledovat čas";
+"Tracking Time..."="Sleduji čas...";
+"On Break"="Na přestávce";
+"Clock In"="Označit příchod";
+"Clock Out"="Označit odchod";
+"Location is not enabled. Go to \"Settings\" -> \"Privacy\" -> \"Location Services\" to enable location"="Lokace není povolena. Jděte na \"Nastavení\" -> \"Soukromí\" -> \"Služby lokace\" pro povolení lokace";
+"Yesterday"="Včera";
+
+"Location Unavailable"="Lokace není k dispozici";
+"Clocking You Out..."="Označuji váš odchod...";
+"Clocking You In..."="Označuji váš příchod...";
+
+"Punch History"="Historie označení příchodu a odchodu";
+
+//Punch
+"Add Punch"="Přidat označení příchodu a odchodu";
+"＋Add Missing Punch"="+ Přidat chybějící označení příchodu a odchodu";
+"Add Missing Punch"="Přidat chybějící označení příchodu a odchodu";
+"Edit Punch"="Upravit označení příchodu a odchodu";
+"Clocked In"="Příchod označen";
+"Clocked Out"="Odchod označen";
+"Are you sure you want to delete this Punch? This can not be undone." = "Opravdu chcete vymazat toto označení příchodu a odchodu? Nesmí to zůstat neprovedeno.";
+"Select Break Type"="Vybrat typ přestávky";
+"Select Activity"="Vybrat činnost";
+"Started Break"="Přestávka začala";
+"Transfer"="Přesun";
+"Transfered to"="Převedeno do";
+"End Break"="Ukončit přestávku";
+"Post"="Zaúčtovat";
+"time punches could not be posted to timesheet."="označení příchodu a odchodu nelze zaúčtovat k výkazu práce.";
+"Successfully posted to timesheet"="Úspěšně zaznamenáno do pracovního výkazu";
+"Please select a Break Type"="Vyberte prosím typ přestávky";
+"Please select an Activity"="Vyberte prosím činnost";
+"Time"="Čas";
+"Images"="Obrázky";
+"Location"="Lokace";
+"Clock In or Out"="Příchod a odchod";
+"Time Punches"="Označení času příchodu a odchodu";
+//"or Clock Out for the Day"="nebo označit odchod pro tento den";
+"Resume Work"="Pokračovat v práci";
+"Activity: None"="Činnost: Žádný";
+"Continue"="Pokračovat";
+"IN"="V";
+"OUT"="MIMO";
+"No time punches."= "Žádná označení času příchodu a odchodu.";
+
+//DCAA
+"Following changes were made to this timesheet:"="Byly provedeny následující změny v tomto výkazu práce:";
+"Reason for Changes "="Důvod ke změnám ";
+"Please provide reasons for these changes."="Uveďte prosím důvod k těmto změnám.";
+"Your timesheet cannot be submitted unless you provide a reason for the changes."="Nelze odeslat váš výkaz práce, pokud neuvedete důvod změn.";
+"Add Comments"="Přidat poznámky";
+
+"Timesheet Change History" = "Historie změn výkazu práce";
+
+// Free Trial
+"Create Free Trial" = "Vytvořit bezplatnou zkušební verzi";
+//"Free Trial"= "Bezplatná zkušební verze";
+"Sign In"= "Přihlásit se";
+"Your Full Name"= "Vaše celé jméno";
+"Company Name"= "Název společnosti";
+"Password"= "Heslo";
+"8 characters, at least 1 alphabetical and 1 numeric" = "8 znaků, minimálně 1 písmeno a 1 číslo";
+"Business Phone Number"= "Telefonní číslo do zaměstnání";
+"By registering you agree to Replicon's"= "Zaregistrováním souhlasíte s Replicon";
+"Terms of Service" = "Obchodní podmínky pro poskytování služby";
+"Sign Up"= "Zaregistrovat se";
+"Setting up your account"= "Nastavení vašeho účtu";
+"Enjoy full access to the following features for next 14 days. We are also creating sample data to help you see how everything works." = "Využívejte plný přístup k následujícím funkcím během příštích 14 dnů. Také vytváříme vzorová data, která Vám ukážou, jak všechno funguje.";
+"Setup Complete" = "Nastavení dokončeno";
+"Start Using Replicon" ="Začněte používat aplikaci Replicon";
+"Email Address already exist."= "Emailová adresa už existuje.";
+"Email Address" = "Emailová adresa";
+"8 characters,"= "8 znaků,";
+"at least 1 alphabetical"= "minimálně 1 písmeno";
+"and 1 numeric"= "a 1 číslo";
+"Enter project-based time with ease"="Snadné zadání času na projekt";
+"In/out time entry made quick and painless"="Rychlé a bezproblémové zadání času příchodu/odchodu";
+"Field workers can clock-in from their worksite"="Pracovníci v terénu mohou označit příchod z jejich pracoviště";
+"Track where employees clock-in using GPS"="Sledovat, kde zaměstnanci označují příchod pomocí GPS";
+"Take expense receipt photos and upload. Done!"="Vyfotit účtenky k výdajům a nahrát. Provedeno!";
+"Approve timesheets, time off, expenses on the spot"="Schválit výkazy výdajů, dovolenou a výdaje na místě";
+"Quickly analyze projects and bill clients"="Rychlá analýza projektů a účtování klientům";
+"Overtime compliance and error free payroll"="Dodržování přesčasů a bezchybné výplatní listiny";
+"Hassle-free Time Tracking"="Bezproblémové sledování času";
+
+
+
+//Removal Of Slider Timeoff
+"Leaving at"="Odchod v";
+"Returning at"="Návrat v";
+"Select Time"="Vybrat čas";
+
+//MISSING STRINGS
+"Filing Date"="Datum vyplnění";
+"Current Time"="Aktuální čas";
+"Search Activity by name or code"="Vyhledávat činnost podle názvu nebo kódu";
+"at"="v";
+"REQUESTED:"="POŽADOVÁNO";
+"BALANCE:"="ZŮSTATEK:";
+"Balance:"="Zůstatek:";
+"Requested:"="Požadováno:";
+"Data as of"="Data k";
+"Current"="Aktuální";
+"Future"="Budoucí";
+"No Shifts Assigned"="Žádné směny nebyly přiřazeny";
+"Search Billing by name"="Vyhledávat účtování podle názvu";
+"Login failed. Please check your login name and password and try again"="Přihlášení neuspělo. Zkontrolujte prosím vaše přihlašovací jméno a zkuste to znovu";
+"Pull to refresh..."="Pro obnovení zatáhněte...";
+"Release to refresh..."="Pro obnovení uvolněte...";
+"You have entered time that crosses into the next day."="Zadali jste čas, který se prolíná s dalším dnem.";
+"will be entered on"="bude zadáno dne";
+"Your Replicon language preference is set to"="Volba vašeho jazyka Replicon je nastavena na";
+"To enable the same language as mobile on your preference please contact your administrator."="Pokud chcete povolit stejný jazyk pro mobilní aplikaci, kontaktujte prosím svého správce systému.";
+"DropDown Option"="Rozevírací možnost";
+"For"="Pro";
+"The company name that you have entered is not recognized. Please correct and try again"="Zadaný název společnosti nebyl rozpoznán. Opravte to prosím a zkuste znovu";
+"Your authentication type has been reset by your administrator. Please login again"="Váš typ ověření byl resetován vaším správcem systému. Přihlaste se prosím znovu";
+"Your company has been disabled. Please contact your administrator"="Vaše společnost nebyla povolena. Kontaktujte prosím svého správce systému";
+"Your Replicon account has been disabled. Please contact your administrator"="Váš účet Replicon nebyl povolen. Kontaktujte prosím svého správce systému";
+"You must change your password before you can proceed."="Před pokračováním musíte změnit svoje heslo.";
+"days"="dny";
+"day"="Den";
+"HRS"="HOD";
+"Due"="Splatný";
+"NOW"="NYNÍ";
+"to"="do";
+"Work"="Pracovat";
+"View Punch"="Zobrazit označení příchodu a odchodu";
+
+//Implementation for TOFF-166//JUHI
+"Three Quarter Day"="Tříčtvrteční den";
+"Half Day"="Polovina dne";
+"Quarter Day"="Den v čtvrtletí";
+"Hours"="Hodiny";
+"Full Day"="Celý Den";
+"Partial Day"="Částečný den";
+
+//Implementation for MOBI-261//JUHI
+"Approval Details"="Podrobnosti schválení";
+"on behalf of"="jménem";
+
+// Punch - 180
+"via" = "přes";
+"Last Punch" = "Poslední označení příchodu a odchodu";
+"on" = "zapnout";
+"Punch Location"="Lokace označení příchodu a odchodu";
+//Punch-112 Ullas M L
+
+"On"="zapnout";
+"B"="B";
+"No Audit Trail Data Found"="Žádné údaje prověřovacího záznamu nebyly nalezeny";
+"Audit Trail"="Prověřovací záznam";
+"Audit History"="Zkontrolovat historii";
+"by"="kým";
+"at"="v";
+"via"="přes";
+"Cloud Clock"="Cloud Clock";
+"mobile"="mobilní";
+"web"="webový";
+"Deleted"="Vymazáno";
+"Edited"="Upraveno";
+"Added"="Přidáno";
+"break"="Přerušit";
+"type"="Typ";
+"punch"="označení příchodu a odchodu";
+"activity"="Činnost";
+"Original time"="Původní čas";
+
+
+//MOBI - 406
+"Please take a moment to rate the Replicon app."= "Udělejte si prosím čas na ohodnocení aplikace Replicon.";
+"No, Thanks" = "Děkuji nechci";
+"Submit Rating"="Odeslat hodnocení";
+"Remind Me Later" = "Připomenout později";
+"Provide Feedback"= "Poskytnout zpětnou vazbu";
+"Would you please take a moment to tell us how we can do better?"= "Můžete si prosím udělat čas a poradit nám, co bychom měli zlepšit?";
+"Feedback"= "Zpětná vazba";
+"Awesome, Thanks!"= "Skvělé, děkujeme!";
+"Would you please add your rating on the App Store as well?"= "Můžete prosím také přidat vaše hodnocení App Store?";
+"App Store" = "App Store";
+"Star Rating for Replicon Mobile 3 v" = "Hvězdičkové hodnocení pro Replicon Mobile 3 v";
+"Please select a star rating."="Vyberte prosím hodnocení podle hvězdiček.";
+"Add Break"="Přidat přestávku";
+
+//Implemetation for Punch-229//JUHI
+"Transferred In"="Přesunuto v";
+"Transferred Out"="Přeneseno ven";
+"For"="Pro";
+"Punch Details"="Podrobnosti označení příchodu a odchodu";
+
+//MOBI- 434
+"Debug mode has been enabled. The app performance may be slower while the app is in debug mode." = "Režim odstranění závad byl povolen. Když je aplikace v režimu odstranění závad, její výkon může být pomalejší.";
+"Debug Mode is On"= "Režim odstranění závad je ZAP.";
+"Debug Mode is Off"="Režim odstranění závad je VYP.";
+"Please continue using the app and send us the log file when you encounter an issue."="Nadále používejte aplikaci a v případě problému nám prosím pošlete soubor s záznamem.";
+"Send Log File"="Poslat soubor se záznamem";
+"Replicon is running in debug mode. Turn off debug mode?"="Replicon běží v režimu odstranění závad. Vypnout režim odstranění závad?";
+
+//MOBI- 314
+"Issues on" = "Problémy týkající se";
+"Errors" = "Chyby";
+"Warnings" = "Výstrahy";
+"Error" = "Chyba";
+"Warning" = "Výstraha";
+"Information" = "Informace";
+"Timesheet Level Errors" = "Chyby na úrovni výkazu práce";
+
+"In/Out Time"="Časy příchodu/odchodu";
+"Break Hours"="Hodiny na přestávku";
+"Add a Comment"="Přidat poznámku";
+"Time Off Hours"="Hodiny dovolené";
+"Work Hours"="Pracovní doba";
+"Your timesheet format is not supported on the mobile app."="Váš formát výkazu práce není podporován v mobilní aplikaci.";
+//SCHED - 114
+"Select a Date"="Vybrat datum";
+
+//HRTrial//JUHI
+"HR Tech 2014"="HR Tech 2014";
+"HR Tech 2014!"="HR Tech 2014!";
+"Visit us at our booth at HR Tech 2014 and get your special account."="Navštivte náš stánek na HR Tech 2014 a získejte speciální účet.";
+
+//MOBI-811
+"Please specify"="Uveďte prosím konkrétně";
+
+//MOBI-814
+"Replicon server is unreachable at this time. Please try again later."="Server Replicon je nyní nedostupný. Zkuste to prosím později znovu.";
+"An unknown error occurred. Please try again. If the problem persists, please contact support."="Nastala neznámá chyba. Zkuste to znovu. Pokud problém přetrvává, kontaktujte prosím podporu.";
+"The operation could not be completed."="Tuto operaci nelze dokončit.";
+"Server request timed out. Please ensure you have an internet connection and try again."="Vypršel požadavek serveru. Zkontrolujte prosím, že jste připojeni k internetu a zkuste to znovu.";
+
+"Your session has timed out. Please sign in again."="Vaše připojení vypršelo. Přihlaste se prosím znovu.";
+"Holiday calendar has not been configured for your account. Please contact your Admin."="Kalendář svátků nebyl nakonfigurován pro váš účet. Kontaktujte prosím svého správce systému.";
+
+"Server request timed out."="Vypršel požadavek serveru.";
+
+//MOBI-782
+"Replicon is performing scheduled server maintenance from" = "Replicon provádí plánovanou údržbu serveru od";
+"Please try again later."="Zkuste to prosím později znovu.";
+
+//MOBI-888
+
+"App update available. Would you like to update now?"="Aktualizace aplikace je k dispozici. Chcete nyní provést aktualizaci?";
+"App update required."="Aktualizace aplikace požadována.";
+//MOBI-839"
+"Please refresh your timesheet."="Obnovte prosím váš výkaz práce.";
+"Please refresh your time off data."="Obnovte prosím vaše údaje o dovolené.";
+"Please refresh your expense sheet."="Obnovte prosím váš výkaz výdajů.";
+"Please refresh your pending timesheet data."="Obnovte prosím údaje vašeho výkazu práce čekajícího na vyřízení.";
+"Please refresh your previous timesheet data."="Obnovte prosím údaje vašeho předchozího výkazu práce.";
+"Please refresh your pending expense sheet data."="Obnovte prosím údaje vašeho výkazu výdajů čekajícího na vyřízení.";
+"Please refresh your previous expense sheet data."="Obnovte prosím údaje vašeho předchozího výkazu výdajů.";
+"Please refresh your pending time off data."="Obnovte prosím vaše údaje o dovolené čekající na vyřízení.";
+"Please refresh your previous time off data."="Obnovte prosím vaše předchozí údaje o dovolené.";
+
+//MOBI-849
+"Allow access to your camera to start taking photos with the Replicon app.\n 1. Open your device Settings\n 2. Go to Privacy\n 3. Go to Camera\n 4. Turn Replicon ON"="Pokud chcete udělat fotky pomocí aplikace Replicon.\n 1., povolte přístup k fotoaparátu. Otevřete nastavení vašeho zařízení\n 2. Jděte na Soukromí\n 3. Jděte na Fotoaparát\n 4. ZAP. Aplikaci Replicon";
+
+//MOBI- 786
+"You do not have access to perform this operation. Please refresh your app data. If that does not resolve the issue, contact your Admin." = "Nemáte přístup k této operaci. Obnovte prosím data vaší aplikace. Pokud nebude problém odstraněn, kontaktujte svého správce systému.";
+"Refresh App Data" = "Obnovte data aplikace";
+
+//MOBI-746
+"Program"="Program";
+"Programs"="Programy";
+"Search Programs by name or code"="Vyhledávat programy podle názvu nebo kódu";
+
+//MOBI-238
+"Sorry, something went wrong. Please try again. If the problem persists, please contact Replicon support."  = "Promiňte, něco se pokazilo. Zkuste to znovu. Pokud problém přetrvává, kontaktujte prosím podporu Replicon." ;
+
+//MOBI-766
+"Sign In with Google" = "Přihlaste se přes Google";
+"OR" = "NEBO";
+"Authenticating..." = "Ověřuji...";
+"Please enter your Company Name and User Name." = "Zadejte prosím název společnosti a jméno uživatele.";
+"Please enter your Company Name and Email Address." = "Zadejte prosím název společnosti a emailovou adresu.";
+"Trouble Signing In?" = "Máte problém s přihlášením?";
+"Forgot Password?" = "Zapomněli jste heslo?";
+"Contact Support" = "Kontaktujte podporu";
+"Enter your Company Name and Email Address to reset your password." = "Pro resetování vašeho hesla zadejte prosím název vaší společnosti a emailovou adresu.";
+"Instructions to reset your password have been emailed to you. Please check your email." = "Pokyny pro resetování vašeho hesla vám byly zaslány emailem. Zkontrolujte prosím váš email.";
+"Invalid Email Address."= "Neplatná emailová adresa.";
+"Signing In..." = "Přihlašuji se...";
+"Trouble Signing In? Contact Support" = "Máte problém s přihlášením? Kontaktujte podporu";
+
+//MOBI-236
+"Please enter your password."="Zadejte prosím vaše heslo.";
+"Please enter your user name and password."="Zadejte prosím vaše jméno uživatele a heslo.";
+"Please enter your email address."="Zadejte prosím vaši emailovou adresu.";
+
+//MOBI-1289
+
+"Trouble signing in - Replicon Mobile 3 v"="Problém s přihlášením - Replicon Mobile 3 v";
+
+
+"Pending Submission"="Odeslání čekající na vyřízení";
+"Submitted"="Odesláno";
+"Conflicted"="Konflikt";
+"Clock Out"="Označit odchod";
+"Clocked in since %@"="Příchod označen od %@";
+"%@ since %@"="%@ od %@";
+"%dh : %02dm : %02ds"="%dh : %02dm : %02ds";
+"Getting location…"="Získává lokaci…";
+"Address not available"="Adresa není k dispozici";
+"Regular"="Pravidelný";
+"Break"="Přerušit";
+"Take a Break"="Udělat si přestávku";
+"Resume Work"="Pokračovat v práci";
+"Select Break Type"="Vybrat typ přestávky";
+
+"In"="V";
+"Not In"="Ne v";
+"Break"="Přerušit";
+
+// Timeline labels
+"Clocked In"="Příchod označen";
+"Clocked Out"="Odchod označen";
+
+// Timesheet button
+"View My Timesheets"="Zobrazit moje výkazy práce";
+
+// Timesheet details
+"Timesheet Periods" = "Období výkazu práce";
+"Current Period" = "Aktuální období";
+
+"Overtime"="Přesčas";
+"%02lu:%02lu Hrs"="%02lu:%02lu hod";
+"at %@"="v %@";
+
+"Employees on overtime"="Zaměstnanci pracující přesčas";
+
+// Violations summary
+"Violations"="Porušení";
+
+// Punch Details
+"Punch Details"="Podrobnosti označení příchodu a odchodu";
+
+// Offline Banner
+"No Internet Connection."="Není připojení k internetu.";
+
+// Waiver
+"No Response"="Žádná odezva";
+"Change Waiver Response"="Změnit odpověď zřeknutí se práv";
+
+//standard widget
+"Time Distribution"="Rozložení času";
+
+//PunchOverviewController
+"Are you sure you want to delete this punch?" = "Opravdu chcete vymazat toto označení příchodu a odchodu?";
+
+// Supervisor Dashboard
+"View Team Timesheets"="Zobrazit výkazy práce pro tým";
+
+// Gross Pay
+"Gross Pay"="Hrubá mzda";
+"Total Time"="Čas celkem";
+"Total Team Pay"="Celková mzda týmu";
+
+// Timesheet User Table
+"Without Violations or Overtime"="Bez porušení nebo přesčasu";
+"With Violations or Overtime"="S porušeními nebo přesčasem";
+"%@ Break"="%@ Přestávka";
+"%@ OT"="%@ OT";
+
+// Supervisor Trend Chart
+"Employee Clock In Trend"="Vývojový Employee Clock";
+
+//ApprovalCommentsController
+
+"Please add your comments here."="Zde prosím zadejte svoje poznámky.";
+"Some of your punch data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Některá vaše data označení příchodu a odchodu nebyla uložena na server Replicon.  Pro synchronizování dat zkontrolujte, že je vaše zařízení připojeno k internetu.";
+
+//WelcomeScreens
+
+"Time Is An Enterprise Asset\nReplicon Helps You Manage it"= "Čas je majetkem podniku\nReplicon Vám pomáhá řídit váš čas";
+"Automate workforce\nmanagement and ensure\nglobal labour law compliance"="Automatizovat pracovní síly\nmanagement a zajistit\n soulad s mezinárodními pracovními nařízeními";
+"Manage projects efficiently in\nreal-time and ensure profitability"="Řiďte účinně projekty v\nreálném čase a zajistěte ziskovost";
+"Reduce revenue leakage with\nstreamlined and accurate client billing"="Snižte unikání příjmů pomocí\nmodernizovaného a přesného účtování klientovi";
+
+//Missing String MI-478
+"Inbox"="Doručená pošta";
+"No pending items"="Žádné položky čekající na vyřízení";
+"Punch Team Status"="Stav označení příchodu a odchodu pro tým";
+
+"Dashboard"="Přístrojová deska";
+"Timesheets for Approval"="Výkazy práce ke schválení";
+"Expenses for Approval"="Výdaje ke schválení";
+"Time Off Requests for Approval"="Požadavek na dovolenou ke schválení";
+"Employees on Overtime"="Zaměstnanci pracující přesčas";
+"Violations"="Porušení";
+"Violation"="Porušení";
+
+
+//MI-481
+"Total Worked"= "Odpracováno celkem";
+"My Timesheet"= "Můj výkaz práce";
+"Team Timesheets"= "Výkazy práce týmu";
+"Delete Punch" = "Vymazat označení příchodu a odchodu";
+"Select All" = "Vybrat vše";
+"Clear All" = "Vymazat vše";
+
+"Total"="Celkem";
+"Payroll Summary"="Shrnutí výplatní listiny";
+"Delete Punch" = "Vymazat označení příchodu a odchodu";
+"Select All" = "Vybrat vše";
+"No Comments"="Žádné poznámky";
+
+"Please refresh your data and try again."="Obnovte prosím svoje údaje a zkuste to znovu.";
+"View Previous Approvals" = "Zobrazit předchozí schválení";
+
+//Previous Approvals
+
+"Timesheet Approvals"="Schválení výkazu práce";
+"Expense Approvals"="Schválení výdaje";
+"Time Off Approvals"="Schválení dovolené";
+
+"Having trouble signing in?"="Máte problém s přihlášením?";
+"Password reset failed. Please try again"="Resetování hesla neuspělo. Zkuste to znovu";
+"Please enter a valid email"="Zadejte prosím platný email";
+"Please enter company name and email id"="Zadejte prosím název společnosti a ID emailu";
+"Enter your Company Name and Email Address to reset your password"="Pro resetování vašeho hesla zadejte prosím název vaší společnosti a emailovou adresu";
+//MI-749
+
+"Comments must be added before proceeding."="Před pokračováním musí být přidány poznámky.";
+
+"A timesheet template has not been assigned to your account. Please contact your Admin.\n​Once the issue is resolved, please refresh the app." = "Šablona výkazu práce nebyla přiřazena k vašemu účtu. Kontaktujte prosím svého správce systému.\nPo vyřešení problému obnovte prosím aplikaci.";
+"Refresh" = "Obnovit";
+//EXTENDED IN OUT WIDGET
+
+"In/Out Times + Allocation"="Časy příchodu/odchodu + přiřazení";
+
+"hour"="hodina";
+"hours"="hodiny";
+"All Day" = "Celý den";
+
+"See All"="Zobrazit vše";
+"Punch Cards"="Karty označení příchodu a odchodu";
+"Create Punch Card"="Vytvořit kartu označení příchodu a odchodu";
+"Select a Client"="Vyberte klienta";
+"Select a Project"="Vyberte projekt";
+"Select a Task"="Vyberte úlohu";
+"Select an Activity"="Vybrat činnost";
+"Search Client"="Vyhledávat klienta";
+"Search Project"="Vyhledávat projekt";
+"Search Task"="Vyhledávat úlohu";
+"Search Activity"="Vyhledávat činnost";
+
+"Search Dropdown options"="Vyhledávat možnosti rozevíracího seznamu";
+"a new card has been created" = "nová karta byla vytvořena";
+"Search Dropdown options"="Vyhledávat možnosti rozevíracího seznamu";
+
+//DAILY FIELD WIDGET
+
+"Daily Fields"="Pole za den";
+"Enter text"="Zadat text";
+"Enter numeric value"="Zadejte číselnou hodnotu";
+
+//Attestation Message
+
+"Please accept the disclaimer."="Přijměte prosím odmítnutí odpovědnosti.";
+
+"Time Capture for Attendance"= "Zachycení času pro docházku";
+"Approvals for Time & Attendance" = "Schválení času & docházky";
+"Time Capture for Client Billing"= "Zachycení času pro účtování klientovi";
+"Approvals for Client Billing" = "Schvalování účtování klientovi";
+"GPS enabled clock in & out from\nanywhere, anytime. Gain real-time access\nto your shifts and time off."="GPS umožňuje označit příchod & odchod \n kdekoli a kdykoli. Získejte přístup k vašim směnám a dovolené \v reálném čase.";
+"Approve timesheets and time off at your convenience. Ensure compliance & insight into workforce productivity."="Schválit výkazy práce a dovolenou podle vašich potřeb. Zajistíte tím soulad & přehled o produktivitě pracovních sil.";
+"Track billable and non-billable hours by client, project and task. Request time off and capture expenses, even on-the-go."="Sledovat účtovatelné a neúčtovatelné hodiny podle klienta, projektu a úlohy. Požadovat dovolenou a zachytit výdaje, i při odjezdu.";
+"Include project managers, supervisors, and clients for approvals. Track project progress, billing and client profitability in real-time."="Zahrnout projektové manažery, vedoucí a klienty ke schválení. Sledovat postup projektu, účtování a ziskovost klienta v reálném čase.";
+
+"You do not have any time off types assigned. Please contact your Admin." = "Nebyly vám přiřazeny žádné typy dovolené. Kontaktujte prosím svého správce systému.";
+"Your punch configuration is not supported." = "Vaše konfigurace označení příchodu a odchodu není podporována.";
+
+//Email Body Phone Capture
+"Please enter your phone number. We may need to call you, if we have additional questions."="Zadejte prosím telefonní číslo. Pokud budeme mít další dotazy, možná Vám budeme muset zavolat.";
+"My Phone Number:"="Moje telefonní číslo:";
+
+///MutltiDay Timeoff not supported
+"Editing a multi day time off booking is not yet supported on the mobile app."="Upravení rezervace dovolené na více dnů zatím mobilní aplikace nepodporuje.";
+
+//Sync Local Notification
+
+"Some of your data has not been saved on the Replicon server.  Please ensure your device has an Internet connection to sync the data."="Některá vaše data nebyla uložena na server Replicon.  Pro synchronizování dat zkontrolujte, že je vaše zařízení připojeno k internetu.";
+"You can enter time & submit timesheets while offline."= "Když nejste připojeni, můžete zadat čas & odeslat výkazy práce.";
+
+"Timesheet Error" = "Chyba výkazu práce";
+"Timesheet Errors" = "Chyby výkazu práce";
+"There are no errors." = "Nejsou zde žádné chyby.";
+"You have" = "Máte";
+"error" = "chyba";
+"errors" = "chyby";
+"Tap to view." = "Stiskněte pro zobrazení.";
+"Are you sure you want to dismiss all notifications from this list?" ="Opravdu chcete odmítnout všechna oznámení z tohoto seznamu?";
+"Dismiss All" = "Odmítnout vše";
+"Dismiss" = "Odmítnout";
+"Notification" = "Oznámení";
+"Notifications" = "Oznámení";
+"Please enter a comment indicating the reason for rejection." = "Zadejte prosím poznámku k důvodu zamítnutí.";
+
+"Show Less"="Zobrazit méně";
+"Show More"="Zobrazit více";
+"Choose Break"="Zvolit přestávku";
+"Break Type" = "Typ přestávky";
+"Please select a break type." = "Vyberte prosím typ přestávky.";
+
+"This field has been disabled. Contact your Administrator for more details." = "Toto pole nebylo povoleno. Pokud chcete získat podrobnosti, kontaktujte prosím svého správce systému.";
+
+"Search OEF Dropdown Options" = "Vyhledávat možnosti rozevíracího seznamu OEF";
+"Select OEF Dropdown Options" = "Vybrat možnosti rozevíracího seznamu OEF";
+
+"Punches With Errors "= "Označení příchodu a odchodu s chybami";
+"The following punches were not \n saved to replicon due to reasons  \n specified below:"="Následující označení příchodu a odchodu nebyla \n uložena do aplikace Replicon z \n důvodů uvedených níže:";
+"with" = "s";
+
+"Select From Bookmarks" = "Vybrat ze záložek";
+"Create Bookmark" = "Vytvořit záložku";
+"You don't have any bookmarks.\nTap on the + button to add new bookmarks" = "Nemáte žádné záložky.\nKlepněte na tlačítko + pro přidání nových záložek";
+"No Bookmarks Created" = "Žádné záložky nebyly vytvořeny";
+"Please select a client, project & task." = "Vyberte prosím klienta, projekt & úlohu.";
+"Please select a project & task." = "Vyberte prosím projekt & úlohu.";
+"Select from previous projects" = "Vyberte z předchozích projektů";
+
+"Please select an activity." = "Vyberte prosím činnost.";
+"Please change your camera settings to \"Allow Camera\"." = "Změňte prosím nastavení fotoaparátu na \"Povolit fotoaparát\".";
+"Please change your location settings to \"Allow Location\"." = "Změňte prosím nastavení vaší lokace na \"Povolit lokaci\".";
+"Image Capture is Required" = "Nahrání obrázku je požadováno";
+"Location is Required" = "Lokace je požadována";
+
+"Any Client" = "Jakýkoli klient";
+"No Client" = "Žádný klient";
+
+"Enter Number" = "Zadat číslo";
+"Enter Text" = "Zadat text";
+
+"Please enter a value between %@ to %@." = "Zadejte prosím hodnotu od -%@ do %@.";
+"You have reached the maximum character limit of %@." = "Dosáhli jste omezení maximálních znaků %@.";
+//MI-2067
+"Comments" = "Poznámky";
+"Enter %@ comments" = "Zadat %@ poznámky";
+"Resubmit" = "Znovu odeslat";
+"Reopen" = "Znovu otevřít";
+
+//MT-45
+"Invalid Project or Task" = "Neplatný projekt nebo úloha";
+"Punches were not saved to Replicon server. Tap to retry." = "Označení příchodu a odchodu nebyla uložena na server Replicon. Klepněte a zkuste znovu.";
+"A punch policy has to be assigned to your account. Please contact your Admin."="A punch policy has to be assigned to your account. Please contact your Admin.";
+
+"It looks like you have no time punches recorded for this day" = "It looks like you have no time punches recorded for this day";
+"Missing Punch" = "Missing Punch";
+
+//MultiDay Timeoff
+
+"Start Date"="Start Date";
+"End Date"="End Date";
+"Requested"="Requested";
+"Balance"="Balance";
+
+
+"Expand Days"="Expand Days";
+"Collapse Days"="Collapse Days";
+"Scheduled Hours"="Scheduled Hours";
+"Scheduled Days"="Scheduled Days";
+"Book Hours"="Book Hours";
+"Book Days"="Book Days";
+"Starting At"="Starting At";
+"Returning At"="Returning At";
+"Ok"="Ok";
+"Unknown" = "Unknown";
+
+
+//TimeOff Times
+"Start Time"="Start Time";
+"End Time"="End Time";
+
+// Shift Summary and Shift Details
+"holiday"="holiday";
+"Notes from Shift Manager"="Notes from Shift Manager";
+"Attestation"="Attestation";
+"Notice"="Notice";
+"I Accept"="I Accept";
+"I don't Accept"="I don't Accept";

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimesheetSummaryController">
+            <connections>
+                <outlet property="currentPeriodLabel" destination="5av-SN-uDf" id="kd2-ss-YVc"/>
+                <outlet property="dateRangeLabel" destination="hVw-Dz-8p4" id="c9d-7L-p9c"/>
+                <outlet property="nextTimesheetButton" destination="KHA-ua-iwH" id="TKq-lV-mae"/>
+                <outlet property="previousTimesheetButton" destination="vTs-NA-P5S" id="xMx-RP-xeX"/>
+                <outlet property="scrollView" destination="4eK-vy-CIJ" id="lxw-4b-L0a"/>
+                <outlet property="view" destination="zWl-FP-Y52" id="fRM-5h-xUC"/>
+                <outlet property="violationsAndStatusButtonContainerView" destination="E2o-xC-1cp" id="VOT-Z9-6rY"/>
+                <outlet property="widthConstraint" destination="pvQ-Ix-LWc" id="goc-y2-0Sj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zWl-FP-Y52">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4eK-vy-CIJ">
+                    <rect key="frame" x="0.0" y="10" width="375" height="657"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2S-aM-xqO">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTs-NA-P5S">
+                                    <rect key="frame" x="4" y="32" width="31" height="22"/>
+                                    <color key="backgroundColor" red="0.72336632010000002" green="0.2490003978" blue="0.2215808604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" image="left-arrow-active">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="previousTimesheetButtonTapped:" destination="-1" eventType="touchUpInside" id="DZR-XR-ZSp"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Range Placeholder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVw-Dz-8p4" userLabel="Date Range">
+                                    <rect key="frame" x="35" y="32" width="250" height="22"/>
+                                    <color key="backgroundColor" red="1" green="0.1810730992" blue="0.38877689970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="250" id="VPc-OR-f5J"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="current period" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5av-SN-uDf">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
+                                    <color key="backgroundColor" red="0.72336632010000002" green="0.2490003978" blue="0.2215808604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="6Pm-7d-wPD"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2o-xC-1cp">
+                                    <rect key="frame" x="0.0" y="64" width="320" height="30"/>
+                                    <color key="backgroundColor" red="1" green="0.52782827990000003" blue="0.55032849250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="7OW-Hy-xuf"/>
+                                        <constraint firstAttribute="width" constant="320" id="pvQ-Ix-LWc"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHA-ua-iwH">
+                                    <rect key="frame" x="285" y="32" width="31" height="22"/>
+                                    <color key="backgroundColor" red="1" green="0.52782827990000003" blue="0.55032849250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" image="right-arrow-active">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="nextTimesheetButtonTapped:" destination="-1" eventType="touchUpInside" id="lQn-yh-YzE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="E2o-xC-1cp" secondAttribute="trailing" id="5oQ-bS-mYs"/>
+                                <constraint firstAttribute="bottom" secondItem="E2o-xC-1cp" secondAttribute="bottom" constant="20" id="A6p-8i-Ox2"/>
+                                <constraint firstItem="hVw-Dz-8p4" firstAttribute="leading" secondItem="vTs-NA-P5S" secondAttribute="trailing" id="Gfs-BV-BxS"/>
+                                <constraint firstItem="vTs-NA-P5S" firstAttribute="height" secondItem="KHA-ua-iwH" secondAttribute="height" id="MUR-It-9ou"/>
+                                <constraint firstItem="KHA-ua-iwH" firstAttribute="height" secondItem="hVw-Dz-8p4" secondAttribute="height" id="VK5-hK-UQt"/>
+                                <constraint firstItem="hVw-Dz-8p4" firstAttribute="centerX" secondItem="J2S-aM-xqO" secondAttribute="centerX" id="XYK-NQ-uNT"/>
+                                <constraint firstItem="hVw-Dz-8p4" firstAttribute="top" secondItem="5av-SN-uDf" secondAttribute="bottom" constant="7" id="d3o-sD-KRt"/>
+                                <constraint firstItem="E2o-xC-1cp" firstAttribute="leading" secondItem="J2S-aM-xqO" secondAttribute="leading" id="gg2-2t-PeC"/>
+                                <constraint firstItem="E2o-xC-1cp" firstAttribute="top" secondItem="hVw-Dz-8p4" secondAttribute="bottom" constant="10" id="h5i-17-jB0"/>
+                                <constraint firstAttribute="trailing" secondItem="5av-SN-uDf" secondAttribute="trailing" id="iUS-Pr-3bQ"/>
+                                <constraint firstItem="5av-SN-uDf" firstAttribute="top" secondItem="J2S-aM-xqO" secondAttribute="top" id="lKR-1a-VU2"/>
+                                <constraint firstItem="KHA-ua-iwH" firstAttribute="leading" secondItem="hVw-Dz-8p4" secondAttribute="trailing" id="lhe-KB-jqA"/>
+                                <constraint firstItem="hVw-Dz-8p4" firstAttribute="top" secondItem="J2S-aM-xqO" secondAttribute="top" priority="750" constant="7" id="mEq-gM-Wqc"/>
+                                <constraint firstItem="KHA-ua-iwH" firstAttribute="top" secondItem="hVw-Dz-8p4" secondAttribute="top" id="vdc-Ha-wlP"/>
+                                <constraint firstItem="vTs-NA-P5S" firstAttribute="top" secondItem="KHA-ua-iwH" secondAttribute="top" id="y4F-sk-qUV"/>
+                                <constraint firstItem="5av-SN-uDf" firstAttribute="leading" secondItem="J2S-aM-xqO" secondAttribute="leading" id="ziX-cK-Br1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="J2S-aM-xqO" firstAttribute="leading" secondItem="4eK-vy-CIJ" secondAttribute="leading" id="9hR-wy-2ug"/>
+                        <constraint firstAttribute="trailing" secondItem="J2S-aM-xqO" secondAttribute="trailing" id="Mqy-id-O2X"/>
+                        <constraint firstItem="J2S-aM-xqO" firstAttribute="top" secondItem="4eK-vy-CIJ" secondAttribute="top" id="V40-0L-hXq"/>
+                        <constraint firstAttribute="bottom" secondItem="J2S-aM-xqO" secondAttribute="bottom" id="bgG-ci-EFG"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4eK-vy-CIJ" firstAttribute="top" secondItem="zWl-FP-Y52" secondAttribute="top" constant="10" id="229-23-kbW"/>
+                <constraint firstItem="4eK-vy-CIJ" firstAttribute="leading" secondItem="zWl-FP-Y52" secondAttribute="leading" id="HLr-Qq-jcp"/>
+                <constraint firstAttribute="trailing" secondItem="4eK-vy-CIJ" secondAttribute="trailing" id="LQy-UK-mei"/>
+                <constraint firstAttribute="bottom" secondItem="4eK-vy-CIJ" secondAttribute="bottom" id="WlB-Xu-jNG"/>
+            </constraints>
+            <point key="canvasLocation" x="204" y="-116"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="left-arrow-active" width="11" height="19"/>
+        <image name="right-arrow-active" width="11" height="19"/>
+    </resources>
+</document>
