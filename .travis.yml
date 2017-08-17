@@ -1,7 +1,11 @@
-sudo: false
-language: node_js
-node_js:
-  - 'node'
-  - '6'
-  - '5'
-  - '4'
+language: objective-c  #1
+osx_image: xcode8.3.3 #2
+xcode_project: iPhone_TNG/NextGenRepliconTimeSheet.xcodeproj #3
+xcode_scheme: NextGenRepliconTimeSheet #4
+xcode_sdk: iphonesimulator10.3 #5
+
+language: objective-c
+script:
+  - xctool -project {{path_to_xcodeproj}} -scheme {{your_testing_scheme}} build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
